@@ -91,6 +91,13 @@
    "title": "Test vocabulaire",
    "body": "As-tu retenu tes mots de la semaine ? Le test est prêt.",
    "view": "toeic"
+  },
+  {
+   "id": "culture",
+   "time": "12:30",
+   "title": "L'essentiel du jour",
+   "body": "Avant TikTok : 10 min de culture G. Géopolitique, finance, histoire.",
+   "view": "culture"
   }
  ]
 }

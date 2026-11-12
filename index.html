@@ -144,12 +144,31 @@ section.block{display:flex;flex-direction:column;gap:12px}
 textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:var(--r-md);padding:10px}
 
 /* --- Barre d'onglets --- */
-.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:8px max(10px,env(safe-area-inset-left,0px)) calc(env(safe-area-inset-bottom,0px) + 6px) max(10px,env(safe-area-inset-right,0px))}
-.tabs button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;font-weight:700;color:var(--soft);padding:4px 0;cursor:pointer}
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--card) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:8px max(10px,env(safe-area-inset-left,0px)) calc(env(safe-area-inset-bottom,0px) + 6px) max(10px,env(safe-area-inset-right,0px))}
+.tabs button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.68rem;font-weight:700;color:var(--soft);padding:4px 0;cursor:pointer}
 .tabs svg{width:24px;height:24px}
 .tabs button[aria-selected="true"]{color:var(--ink)}
 .tabs button[aria-selected="true"] svg{color:var(--gold)}
 
+
+/* --- Culture G --- */
+.news{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px;display:flex;flex-direction:column;gap:8px}
+.news .cat{align-self:flex-start;font-size:.75rem;font-weight:800;padding:3px 10px;border-radius:99px;background:var(--navy);color:#fff}
+.news h3{font-size:1.08rem;line-height:1.3}
+.news p{margin:0;line-height:1.55;font-size:.95rem}
+.news .why{background:var(--card-2);border-radius:var(--r-md);padding:10px 12px;font-size:.9rem}
+.news .why b{color:var(--gold)}
+.news a{font-size:.8rem;color:var(--soft)}
+.teaser{display:flex;flex-direction:column;gap:8px;background:var(--navy);color:#fff;border-radius:var(--r-lg);padding:16px;border:0;text-align:left;cursor:pointer;width:100%}
+.teaser .tl{font-family:var(--display);font-weight:800;font-size:1.1rem}
+.teaser li{margin:2px 0;line-height:1.35;font-size:.92rem}
+.teaser ul{margin:0;padding-left:18px}
+.teaser .go{font-weight:700;color:var(--gold-2);font-size:.88rem}
+.agenda{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px}
+.agenda b{font-family:var(--display);color:var(--gold);white-space:nowrap}
+.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.filters button{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:7px 14px;font-weight:700;font-size:.85rem;white-space:nowrap;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:30}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:370px){.hero{grid-template-columns:1fr}.gauge{width:130px;height:130px}}
@@ -179,6 +198,8 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
       <div class="cards" id="todayWords"></div>
     </section>
 
+    <button class="teaser" id="teaser" type="button" hidden></button>
+
     <div id="groups" class="view" style="gap:14px"></div>
 
     <div class="tiktok">
@@ -205,6 +226,32 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
     <section class="block">
       <div class="head-row"><h2>Carnet d'erreurs</h2><span class="soft" id="carnetCount"></span></div>
       <div id="carnet" class="list"></div>
+    </section>
+  </div>
+
+  <!-- CULTURE G -->
+  <div id="v-culture" class="view" hidden>
+    <section class="block">
+      <div class="head-row"><h2 id="cgTitle">L'essentiel du jour</h2><span class="soft num" id="cgDate"></span></div>
+      <div class="filters" id="cgFilters"></div>
+      <div class="list" id="cgItems"></div>
+    </section>
+    <section class="block">
+      <h2>Retiens-tu l'essentiel ?</h2>
+      <div class="row"><div class="grow"><div class="ttl">Quiz culture G du jour</div><div class="meta" id="cgQuizMeta"></div></div><button class="btn gold" id="cgQuizBtn" type="button">Faire le quiz</button></div>
+      <div id="cgPlayer" hidden></div>
+    </section>
+    <section class="block">
+      <h2>À venir</h2>
+      <div class="agenda" id="cgAgenda"></div>
+    </section>
+    <section class="block">
+      <h2>Un peu d'histoire</h2>
+      <div class="list" id="cgHistory"></div>
+    </section>
+    <section class="block" id="cgArchiveBlock" hidden>
+      <h2>Les jours précédents</h2>
+      <div class="list" id="cgArchive"></div>
     </section>
   </div>
 
@@ -251,6 +298,7 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
 <nav class="tabs" role="tablist" aria-label="Sections">
   <button role="tab" id="tab-jour" data-v="jour" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>Aujourd'hui</button>
   <button role="tab" id="tab-toeic" data-v="toeic" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 5h11a3 3 0 013 3v11H7a3 3 0 01-3-3z"/><path d="M8 9h6M8 13h4"/></svg>TOEIC</button>
+  <button role="tab" id="tab-culture" data-v="culture" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>Culture G</button>
   <button role="tab" id="tab-semaine" data-v="semaine" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 20V11M12 20V5M18 20v-6"/></svg>Semaine</button>
   <button role="tab" id="tab-objectifs" data-v="objectifs" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg>Cap HEC</button>
 </nav>

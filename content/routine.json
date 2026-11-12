@@ -75,6 +75,21 @@
    "t": "QCM Partie 5 du matin"
   },
   {
+   "id": "culture",
+   "moment": "Journée",
+   "t": "Culture G : l'essentiel du jour",
+   "d": "10 min dans l'onglet Culture G, au lieu de TikTok",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
    "d": "",
    "days": [
     1,

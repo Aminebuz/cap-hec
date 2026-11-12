@@ -3,6 +3,7 @@
 var VAPID_PUBLIC="BCL9kLoKGl43fB798Ozk4FTjNwr1KaqARF_nr1_976bkXFPlTCd3eIvskwQOVTb7ElFHamDDHnLPzAVorEreZEg";
 var DAYS=["D","L","M","M","J","V","S"];
 var DAYNAMES=["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"];
+var culture={days:[]}, cgFilter="Tout", cgDayIdx=0;
 var routine={limits:{tiktok:30},tasks:[],deadlines:[]}, qcms=[], carnet=null, vocab={start:"2026-11-13",perDay:2,words:[]};
 var today=new Date(), todayKey=key(today), firstPaint=true, wasFull=false;
 
@@ -22,7 +23,7 @@ function coreIds(d){return tasksFor(d).filter(function(t){return!t.optional}).ma
 function showStatus(m){var s=$("status");s.hidden=!m;if(m)s.textContent=m}
 
 /* ---------- Onglets ---------- */
-var views=["jour","toeic","semaine","objectifs"];
+var views=["jour","toeic","culture","semaine","objectifs"];
 function setView(v){views.forEach(function(x){$("v-"+x).hidden=x!==v;$("tab-"+x).setAttribute("aria-selected",x===v?"true":"false")});lsSet("caphec.view",v);window.scrollTo(0,0)}
 document.querySelectorAll(".tabs button").forEach(function(b){b.addEventListener("click",function(){setView(b.dataset.v)})});
 var hv=(location.hash||"").slice(1);setView(views.indexOf(hv)>=0?hv:"jour");
@@ -184,9 +185,9 @@ function renderQcmList(){
     h.appendChild(el("div",{cls:"row"},[el("div",{cls:"grow"},[el("div",{cls:"ttl",text:q.title||"QCM"}),el("div",{cls:"meta",text:(q.theme?q.theme+", ":"")+n+" questions"})]),tag,b]));
   });
 }
-function startQuiz(q){
-  var P=$("quizPlayer"),i=0,score=0,wrong=[],qs=q.questions||[];
-  $("qcmList").hidden=true;P.hidden=false;
+function startQuiz(q,playerId,listId){
+  var P=$(playerId||"quizPlayer"),LST=$(listId||"qcmList"),i=0,score=0,wrong=[],qs=q.questions||[];
+  LST.hidden=true;P.hidden=false;
   setTimeout(function(){P.scrollIntoView({behavior:"smooth",block:"start"})},50);
   function show(){
     P.innerHTML="";if(i>=qs.length)return finish();
@@ -217,9 +218,45 @@ function startQuiz(q){
     if(perfect)confetti();
     renderWords();
   }
-  function close(){P.hidden=true;P.innerHTML="";$("qcmList").hidden=false;renderQcmList();renderWords()}
+  function close(){P.hidden=true;P.innerHTML="";LST.hidden=false;renderQcmList();renderWords();renderCulture()}
   show();
 }
+
+
+/* ---------- Culture G ---------- */
+function cgDays(){return ((culture&&culture.days)||[]).slice().sort(function(a,b){return a.date<b.date?1:-1})}
+function renderTeaser(){
+  var t=$("teaser"),d=cgDays()[0];if(!d||!d.items||!d.items.length){t.hidden=true;return}
+  t.hidden=false;t.innerHTML="";
+  t.appendChild(el("span",{cls:"tl",text:"L'essentiel du jour, au lieu de TikTok"}));
+  t.appendChild(el("ul",{},d.items.slice(0,3).map(function(x){return el("li",{text:x.title})})));
+  t.appendChild(el("span",{cls:"go",text:"Lire en 10 minutes"}));
+}
+$("teaser").addEventListener("click",function(){setView("culture")});
+function renderCulture(){
+  renderTeaser();
+  var ds=cgDays();if(!ds.length){$("cgItems").innerHTML="";$("cgItems").appendChild(el("div",{cls:"empty",text:"Ton premier résumé d'actualité arrive demain matin."}));return}
+  if(cgDayIdx>=ds.length)cgDayIdx=0;
+  var d=ds[cgDayIdx];
+  $("cgTitle").textContent=cgDayIdx===0?"L'essentiel du jour":"L'essentiel du "+parseKey(d.date).toLocaleDateString("fr-FR",{day:"numeric",month:"long"});
+  $("cgDate").textContent=parseKey(d.date).toLocaleDateString("fr-FR",{day:"numeric",month:"short"});
+  var cats=["Tout"];(d.items||[]).forEach(function(x){if(cats.indexOf(x.cat)<0)cats.push(x.cat)});
+  if(cats.indexOf(cgFilter)<0)cgFilter="Tout";
+  var f=$("cgFilters");f.innerHTML="";
+  cats.forEach(function(c){var b=el("button",{type:"button","aria-pressed":c===cgFilter?"true":"false",text:c});b.addEventListener("click",function(){cgFilter=c;renderCulture()});f.appendChild(b)});
+  var h=$("cgItems");h.innerHTML="";
+  (d.items||[]).filter(function(x){return cgFilter==="Tout"||x.cat===cgFilter}).forEach(function(x){
+    h.appendChild(el("article",{cls:"news"},[el("span",{cls:"cat",text:x.cat}),el("h3",{text:x.title}),el("p",{text:x.text}),x.why?el("div",{cls:"why"},[el("b",{text:"Pourquoi c'est important : "}),x.why]):null,x.url?el("a",{href:x.url,target:"_blank",rel:"noopener",text:"Source : "+(x.source||"lien")}):null]));
+  });
+  var ag=$("cgAgenda");ag.innerHTML="";(d.agenda||[]).forEach(function(x){ag.appendChild(el("b",{text:x.date}));ag.appendChild(el("span",{text:x.t}))});
+  var hs=$("cgHistory");hs.innerHTML="";(d.history||[]).forEach(function(x){hs.appendChild(el("div",{cls:"news"},[el("h3",{text:x.title}),el("p",{text:x.text})]))});
+  var qid="cg-"+d.date,s=scores[qid],n=(d.quiz||[]).length;
+  $("cgQuizMeta").textContent=n?(n+" questions sur l'actualité"+(s?". Ton score : "+s.last+"/"+n:"")):"Pas de quiz ce jour-là";
+  $("cgQuizBtn").disabled=!n;
+  var ab=$("cgArchiveBlock"),ar=$("cgArchive");ar.innerHTML="";ab.hidden=ds.length<2;
+  ds.forEach(function(x,i){if(i===cgDayIdx)return;var b=el("button",{cls:"btn",type:"button",text:"Lire"});b.addEventListener("click",function(){cgDayIdx=i;renderCulture();window.scrollTo(0,0)});ar.appendChild(el("div",{cls:"row"},[el("div",{cls:"grow"},[el("div",{cls:"ttl",text:parseKey(x.date).toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})}),el("div",{cls:"meta",text:(x.items||[]).length+" sujets"})]),b]))});
+}
+$("cgQuizBtn").addEventListener("click",function(){var d=cgDays()[cgDayIdx];if(!d)return;startQuiz({id:"cg-"+d.date,title:"Quiz culture G du "+d.date,questions:d.quiz||[]},"cgPlayer","cgItems")});
 
 /* ---------- Carnet ---------- */
 function renderCarnet(){
@@ -257,14 +294,14 @@ $("testNotif").addEventListener("click",async function(){try{if(Notification.per
 /* ---------- Contenu ---------- */
 async function getJSON(p){var r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p);return r.json()}
 async function loadAll(){
-  var c0=lsGet("caphec.content2",null);if(c0)apply(c0);
-  try{var c={routine:await getJSON("content/routine.json"),qcm:await getJSON("content/qcm.json"),carnet:await getJSON("content/carnet.json"),vocab:await getJSON("content/vocab.json")};lsSet("caphec.content2",c);apply(c);showStatus(null)}
+  var c0=lsGet("caphec.content3",null);if(c0)apply(c0);
+  try{var c={routine:await getJSON("content/routine.json"),qcm:await getJSON("content/qcm.json"),carnet:await getJSON("content/carnet.json"),vocab:await getJSON("content/vocab.json"),culture:await getJSON("content/culture.json")};lsSet("caphec.content3",c);apply(c);showStatus(null)}
   catch(e){if(!c0)showStatus("Pas de connexion : ton contenu n'a pas pu se charger. Réessaie avec du réseau.")}
 }
 function apply(c){
-  routine=c.routine||routine;carnet=c.carnet||null;vocab=c.vocab||vocab;
+  routine=c.routine||routine;carnet=c.carnet||null;vocab=c.vocab||vocab;culture=c.culture||culture;
   qcms=((c.qcm&&c.qcm.items)||[]).slice().sort(function(a,b){return a.created<b.created?1:-1});
-  renderDay();renderWords();renderWeek();renderDeadlines();renderQcmList();renderCarnet();firstLoad=false;
+  renderDay();renderWords();renderWeek();renderDeadlines();renderQcmList();renderCarnet();renderCulture();firstLoad=false;
 }
 document.addEventListener("visibilitychange",function(){if(!document.hidden)loadAll()});
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").then(renderNotif,renderNotif);else renderNotif();
