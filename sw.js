@@ -1,11 +1,12 @@
-var CACHE="caphec-v8";
+var CACHE="caphec-v9";
 var SHELL=["./","index.html","app.js","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/icon-180.png"];
 self.addEventListener("install",function(e){e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(SHELL)}));self.skipWaiting()});
 self.addEventListener("activate",function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k!==CACHE}).map(function(k){return caches.delete(k)}))}).then(function(){return self.clients.claim()}))});
 self.addEventListener("fetch",function(e){
   if(e.request.method!=="GET")return;
   // Réseau d'abord (contenu toujours à jour), cache si hors ligne
-  e.respondWith(fetch(e.request).then(function(r){var copy=r.clone();if(r.ok&&new URL(e.request.url).origin===location.origin){caches.open(CACHE).then(function(c){c.put(e.request.url.split("?")[0],copy)})}return r}).catch(function(){return caches.match(e.request.url.split("?")[0])}));
+  var same=new URL(e.request.url).origin===location.origin;
+  e.respondWith((same?fetch(e.request,{cache:"no-store"}):fetch(e.request)).then(function(r){var copy=r.clone();if(r.ok&&new URL(e.request.url).origin===location.origin){caches.open(CACHE).then(function(c){c.put(e.request.url.split("?")[0],copy)})}return r}).catch(function(){return caches.match(e.request.url.split("?")[0])}));
 });
 self.addEventListener("push",function(e){
   var d={title:"Cap HEC",body:"Un rappel t'attend.",view:"jour"};
