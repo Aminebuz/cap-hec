@@ -414,7 +414,7 @@ function apply(c){
   renderDay();renderWords();renderWeek();renderDeadlines();renderQcmList();renderCarnet();renderCulture();renderSurah();loadTimes();firstLoad=false;
 }
 document.addEventListener("visibilitychange",function(){if(!document.hidden)loadAll()});
-if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").then(renderNotif,renderNotif);else renderNotif();
+if("serviceWorker" in navigator){var _hadCtl=!!navigator.serviceWorker.controller,_rl=false;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_hadCtl&&!_rl){_rl=true;location.reload()}});navigator.serviceWorker.register("sw.js").then(function(r){renderNotif();try{r.update()}catch(e){}},renderNotif)}else renderNotif();
 if(window.Notification&&Notification.permission==="granted"&&"serviceWorker" in navigator)navigator.serviceWorker.ready.then(function(r){return r.pushManager&&r.pushManager.getSubscription()}).then(function(s){if(s){$("copyArea").value=JSON.stringify(s)}}).catch(function(){});
 renderDay();loadAll();
 })();
