@@ -316,9 +316,9 @@ function renderSurah(){
     var g=el("div",{cls:"verses"});
     for(var v=1;v<=s.verses;v++)(function(v){var on=L.indexOf(v)>=0;var b=el("button",{type:"button",cls:(v>=wr[0]&&v<=wr[1])?"wk":"","aria-pressed":on?"true":"false","aria-label":"Verset "+v+(on?" retenu":""),text:String(v)});b.addEventListener("click",function(){var arr=sstate.learned[s.n]=sstate.learned[s.n]||[];var i=arr.indexOf(v);if(i>=0)arr.splice(i,1);else arr.push(v);saveS();renderSurah();renderPrayers()});g.appendChild(b)})(v);
     c.appendChild(g);
-    c.appendChild(el("p",{cls:"soft",style:"margin:0;font-size:.85rem",text:"Méthode : écoute le verset 5 fois, répète-le 10 fois en lisant, puis récite-le sans regarder. Coche un verset quand tu le récites sans erreur le lendemain matin."}));
+    c.appendChild(el("p",{cls:"soft",style:"margin:0;font-size:.85rem",text:"Méthode : lis la phonétique du verset 10 fois à voix haute, écoute-le si besoin, puis récite-le en mode récitation. Coche un verset quand tu le récites sans erreur le lendemain matin."}));
     var row=el("div",{style:"display:flex;gap:10px;flex-wrap:wrap"});
-    row.appendChild(el("a",{cls:"btn main",href:"https://quran.com/"+s.n,target:"_blank",rel:"noopener",text:"Écouter et lire sur Quran.com"}));
+    row.appendChild(el("a",{cls:"btn main",href:"https://quran.com/"+s.n,target:"_blank",rel:"noopener",text:"Ouvrir sur Quran.com"}));
     var fin=el("button",{cls:"btn gold",type:"button",text:"Je la récite en entier"});fin.disabled=L.length<s.verses;
     fin.addEventListener("click",function(){sstate.done.push({n:s.n,month:monthKey(today)});sstate.current=null;saveS();confetti();renderSurah();renderPrayers()});
     var kn=el("button",{cls:"btn",type:"button",text:"Je la connais déjà"});kn.addEventListener("click",function(){sstate.known.push(s.n);sstate.current=null;saveS();renderSurah();renderPrayers()});
@@ -332,6 +332,41 @@ function renderSurah(){
   if(cur){var Ln=(sstate.learned[cur.n]||[]).length;sm.appendChild(el("span",{},["Sourate du mois : ",el("b",{text:cur.name}),", "+Ln+"/"+cur.verses+" versets"]));sm.appendChild(el("span",{text:"Ouvrir"}))}
 }
 $("smini").addEventListener("click",function(){setView("objectifs")});
+var _rs=renderSurah;renderSurah=function(){_rs();renderAyahs()};
+
+
+/* ---------- Texte de la sourate (phonétique + arabe + audio) ---------- */
+var qcache={}, showAll=lsGet("caphec.showAll",false), showAr=lsGet("caphec.showAr",true), testMode=false, audioEl=null;
+async function loadSurahText(n){
+  if(qcache[n])return qcache[n];
+  var c=lsGet("caphec.q."+n,null);if(c){qcache[n]=c;return c}
+  var r=await fetch("https://api.alquran.cloud/v1/surah/"+n+"/editions/quran-uthmani,en.transliteration,ar.alafasy");
+  var j=await r.json();if(!j||j.code!==200)throw new Error("indisponible");
+  var ar=j.data[0].ayahs,tr=j.data[1].ayahs,au=j.data[2].ayahs;
+  var out=ar.map(function(x,i){var t=x.text;if(i===0&&n!==1&&n!==9){t=t.replace(/^\S+\s+\S+\s+\S+\s+\S+\s*/,"")}return {v:x.numberInSurah,ar:t,ph:tr[i]?tr[i].text:"",audio:au[i]?au[i].audio:""}});
+  qcache[n]=out;lsSet("caphec.q."+n,out);return out;
+}
+async function renderAyahs(){
+  var host=$("ayahs"),s=currentSurah();host.innerHTML="";
+  $("tgAll").setAttribute("aria-pressed",showAll?"true":"false");$("tgAr").setAttribute("aria-pressed",showAr?"true":"false");$("tgTest").setAttribute("aria-pressed",testMode?"true":"false");
+  if(!s)return;
+  host.appendChild(el("div",{cls:"empty",text:"Chargement du texte…"}));
+  var data;try{data=await loadSurahText(s.n)}catch(e){host.innerHTML="";host.appendChild(el("div",{cls:"empty",text:"Le texte n'a pas pu se charger. Vérifie ta connexion, puis rouvre cet onglet."}));return}
+  host.innerHTML="";
+  var wr=weekRange(s),L=sstate.learned[s.n]||[];
+  data.filter(function(x){return showAll||(x.v>=wr[0]&&x.v<=wr[1])||(L.indexOf(x.v)<0&&x.v<wr[0])}).forEach(function(x){
+    var inWk=x.v>=wr[0]&&x.v<=wr[1];
+    var ph=el("div",{cls:"ph",text:x.ph});
+    var card=el("div",{cls:"ayah"+(inWk?" wk":"")+(testMode?" masked":"")},[el("div",{cls:"top"},[el("span",{cls:"no",text:"Verset "+x.v+(L.indexOf(x.v)>=0?", retenu":inWk?", cette semaine":"")}),x.audio?(function(){var b=el("button",{cls:"play",type:"button",text:"Écouter"});b.addEventListener("click",function(){try{if(audioEl)audioEl.pause();audioEl=new Audio(x.audio);audioEl.play()}catch(e){}});return b})():null]),ph,showAr?el("div",{cls:"ar",lang:"ar",text:x.ar}):null]);
+    if(testMode)ph.addEventListener("click",function(){card.classList.remove("masked")});
+    host.appendChild(card);
+  });
+  if(!showAll)host.appendChild(el("p",{cls:"soft",style:"margin:0;font-size:.85rem",text:"Tu vois les versets de la semaine et ceux qui restent en retard. Touche « Toute la sourate » pour tout afficher."}));
+  if(testMode)host.insertBefore(el("p",{cls:"soft",style:"margin:0;font-size:.85rem",text:"Mode récitation : récite chaque verset de mémoire, puis touche le texte flouté pour vérifier."}),host.firstChild);
+}
+$("tgAll").addEventListener("click",function(){showAll=!showAll;lsSet("caphec.showAll",showAll);renderAyahs()});
+$("tgAr").addEventListener("click",function(){showAr=!showAr;lsSet("caphec.showAr",showAr);renderAyahs()});
+$("tgTest").addEventListener("click",function(){testMode=!testMode;renderAyahs()});
 
 /* ---------- Carnet ---------- */
 function renderCarnet(){

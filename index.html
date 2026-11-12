@@ -195,6 +195,19 @@ details.known summary{cursor:pointer;font-weight:700;color:var(--soft)}
 .known-list button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .cityrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.85rem}
 .cityrow input{padding:7px 10px;border-radius:var(--r-sm);border:1px solid var(--line);background:var(--card-2);color:var(--ink);font:600 .9rem var(--body);width:150px}
+
+.ayahs{display:flex;flex-direction:column;gap:10px}
+.ayah{border:1px solid var(--line);border-radius:var(--r-md);padding:12px 14px;display:flex;flex-direction:column;gap:6px;background:var(--card)}
+.ayah.wk{border-color:var(--gold)}
+.ayah .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ayah .no{font-family:var(--display);font-weight:800;color:var(--gold)}
+.ayah .ph{font-size:1.15rem;font-weight:700;line-height:1.5}
+.ayah .ar{font-size:1.35rem;line-height:1.9;direction:rtl;text-align:right;color:var(--soft);font-family:"Geeza Pro","Amiri","Noto Naskh Arabic",serif}
+.ayah.masked .ph{filter:blur(7px);cursor:pointer}
+.ayah .play{border:1px solid var(--line);background:var(--card-2);border-radius:99px;padding:5px 12px;font-weight:700;font-size:.8rem;cursor:pointer}
+.toggles{display:flex;gap:8px;flex-wrap:wrap}
+.toggles button{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:7px 14px;font-weight:700;font-size:.85rem;cursor:pointer}
+.toggles button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:30}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:370px){.hero{grid-template-columns:1fr}.gauge{width:130px;height:130px}}
@@ -301,6 +314,12 @@ details.known summary{cursor:pointer;font-weight:700;color:var(--soft)}
     <section class="block">
       <div class="head-row"><h2>Sourate du mois</h2><span class="soft" id="sMonth"></span></div>
       <div class="surah" id="surahCard"></div>
+      <div class="toggles" id="ayahToggles">
+        <button type="button" id="tgAll" aria-pressed="false">Toute la sourate</button>
+        <button type="button" id="tgAr" aria-pressed="true">Arabe</button>
+        <button type="button" id="tgTest" aria-pressed="false">Mode récitation</button>
+      </div>
+      <div class="ayahs" id="ayahs"></div>
       <details class="known"><summary>Sourates que je connais déjà</summary><p class="soft" style="font-size:.85rem;margin:8px 0 0">Touche celles que tu sais déjà réciter : elles seront sautées dans ton programme.</p><div class="known-list" id="knownList"></div></details>
       <div class="list" id="surahDone"></div>
     </section>
