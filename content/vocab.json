@@ -1,0 +1,356 @@
+{
+ "start": "2026-11-13",
+ "perDay": 2,
+ "words": [
+  {
+   "en": "comply with",
+   "fr": "se conformer à",
+   "ex": "All suppliers must comply with the new safety rules."
+  },
+  {
+   "en": "outline",
+   "fr": "présenter dans les grandes lignes",
+   "ex": "The report outlines next year's strategy."
+  },
+  {
+   "en": "stranded",
+   "fr": "bloqué (sans pouvoir partir)",
+   "ex": "Passengers were stranded after the strike."
+  },
+  {
+   "en": "appoint",
+   "fr": "nommer (à un poste)",
+   "ex": "She was appointed head of sales."
+  },
+  {
+   "en": "enclosed",
+   "fr": "ci-joint",
+   "ex": "Please sign the enclosed contract."
+  },
+  {
+   "en": "bankruptcy",
+   "fr": "faillite",
+   "ex": "The retailer declared bankruptcy in May."
+  },
+  {
+   "en": "waive",
+   "fr": "renoncer à, annuler (des frais)",
+   "ex": "We will waive the delivery fee."
+  },
+  {
+   "en": "reimburse",
+   "fr": "rembourser (des frais)",
+   "ex": "Travel expenses will be reimbursed within 30 days."
+  },
+  {
+   "en": "itinerary",
+   "fr": "programme de voyage",
+   "ex": "Your itinerary includes two stops in Asia."
+  },
+  {
+   "en": "invoice",
+   "fr": "facture",
+   "ex": "Please pay the invoice by Friday."
+  },
+  {
+   "en": "receipt",
+   "fr": "reçu, ticket de caisse",
+   "ex": "Keep your receipt for any return."
+  },
+  {
+   "en": "deadline",
+   "fr": "date limite",
+   "ex": "The deadline for applications is June 1."
+  },
+  {
+   "en": "postpone",
+   "fr": "reporter (à plus tard)",
+   "ex": "The meeting was postponed until Monday."
+  },
+  {
+   "en": "in advance",
+   "fr": "à l'avance",
+   "ex": "Please register three days in advance."
+  },
+  {
+   "en": "eligible for",
+   "fr": "qui a droit à",
+   "ex": "Full-time staff are eligible for a bonus."
+  },
+  {
+   "en": "mandatory",
+   "fr": "obligatoire",
+   "ex": "Safety training is mandatory for all workers."
+  },
+  {
+   "en": "prior to",
+   "fr": "avant (formel)",
+   "ex": "Arrive 20 minutes prior to departure."
+  },
+  {
+   "en": "subsidiary",
+   "fr": "filiale",
+   "ex": "The bank opened a subsidiary in Dubai."
+  },
+  {
+   "en": "merger",
+   "fr": "fusion (d'entreprises)",
+   "ex": "The merger was approved last week."
+  },
+  {
+   "en": "revenue",
+   "fr": "chiffre d'affaires",
+   "ex": "Revenue rose by 12% this quarter."
+  },
+  {
+   "en": "shareholder",
+   "fr": "actionnaire",
+   "ex": "Shareholders will vote on the proposal."
+  },
+  {
+   "en": "quarterly",
+   "fr": "trimestriel",
+   "ex": "The quarterly report is due next week."
+  },
+  {
+   "en": "budget constraints",
+   "fr": "contraintes budgétaires",
+   "ex": "The project was cut due to budget constraints."
+  },
+  {
+   "en": "expenditure",
+   "fr": "dépenses",
+   "ex": "Capital expenditure increased sharply."
+  },
+  {
+   "en": "procurement",
+   "fr": "achats, approvisionnement",
+   "ex": "The procurement team selects suppliers."
+  },
+  {
+   "en": "vendor",
+   "fr": "fournisseur, vendeur",
+   "ex": "We compared three vendors before signing."
+  },
+  {
+   "en": "warehouse",
+   "fr": "entrepôt",
+   "ex": "The goods are stored in our warehouse."
+  },
+  {
+   "en": "shipment",
+   "fr": "envoi, livraison",
+   "ex": "The shipment arrived two days late."
+  },
+  {
+   "en": "out of stock",
+   "fr": "en rupture de stock",
+   "ex": "That model is currently out of stock."
+  },
+  {
+   "en": "backorder",
+   "fr": "commande en attente de stock",
+   "ex": "Your item is on backorder until May."
+  },
+  {
+   "en": "refund",
+   "fr": "remboursement",
+   "ex": "Customers can request a full refund."
+  },
+  {
+   "en": "warranty",
+   "fr": "garantie",
+   "ex": "The laptop comes with a two-year warranty."
+  },
+  {
+   "en": "defective",
+   "fr": "défectueux",
+   "ex": "We will replace any defective product."
+  },
+  {
+   "en": "inquiry",
+   "fr": "demande de renseignements",
+   "ex": "Thank you for your inquiry about our rates."
+  },
+  {
+   "en": "brochure",
+   "fr": "brochure, dépliant",
+   "ex": "Download the brochure from our website."
+  },
+  {
+   "en": "venue",
+   "fr": "lieu (d'un événement)",
+   "ex": "The venue can host 300 guests."
+  },
+  {
+   "en": "attendee",
+   "fr": "participant",
+   "ex": "Each attendee receives a badge."
+  },
+  {
+   "en": "keynote speaker",
+   "fr": "intervenant principal",
+   "ex": "The keynote speaker arrived late."
+  },
+  {
+   "en": "agenda",
+   "fr": "ordre du jour",
+   "ex": "Three items were left on the agenda."
+  },
+  {
+   "en": "minutes",
+   "fr": "compte rendu (de réunion)",
+   "ex": "Ms. Lee will take the minutes."
+  },
+  {
+   "en": "adjourn",
+   "fr": "lever la séance",
+   "ex": "The meeting adjourned at 5 p.m."
+  },
+  {
+   "en": "candidate",
+   "fr": "candidat",
+   "ex": "Only three candidates were shortlisted."
+  },
+  {
+   "en": "résumé",
+   "fr": "CV",
+   "ex": "Please attach your résumé to the e-mail."
+  },
+  {
+   "en": "reference",
+   "fr": "référence, recommandation",
+   "ex": "Two references are required."
+  },
+  {
+   "en": "probation",
+   "fr": "période d'essai",
+   "ex": "New hires have a three-month probation."
+  },
+  {
+   "en": "promote",
+   "fr": "promouvoir, donner une promotion",
+   "ex": "He was promoted to manager."
+  },
+  {
+   "en": "resign",
+   "fr": "démissionner",
+   "ex": "She resigned to start her own company."
+  },
+  {
+   "en": "retire",
+   "fr": "prendre sa retraite",
+   "ex": "Mr. Park will retire next spring."
+  },
+  {
+   "en": "payroll",
+   "fr": "service paie, masse salariale",
+   "ex": "Payroll processes salaries on the 25th."
+  },
+  {
+   "en": "benefits",
+   "fr": "avantages sociaux",
+   "ex": "The job offers excellent benefits."
+  },
+  {
+   "en": "commute",
+   "fr": "trajet domicile-travail",
+   "ex": "My commute takes 40 minutes."
+  },
+  {
+   "en": "telecommute",
+   "fr": "télétravailler",
+   "ex": "Staff may telecommute twice a week."
+  },
+  {
+   "en": "lease",
+   "fr": "bail, louer",
+   "ex": "The company signed a five-year lease."
+  },
+  {
+   "en": "tenant",
+   "fr": "locataire",
+   "ex": "Tenants must report repairs promptly."
+  },
+  {
+   "en": "landlord",
+   "fr": "propriétaire (bailleur)",
+   "ex": "The landlord raised the rent."
+  },
+  {
+   "en": "renovation",
+   "fr": "rénovation",
+   "ex": "The lobby is closed for renovation."
+  },
+  {
+   "en": "contractor",
+   "fr": "entrepreneur, prestataire",
+   "ex": "A contractor will repair the roof."
+  },
+  {
+   "en": "estimate",
+   "fr": "devis, estimation",
+   "ex": "Ask for a written estimate first."
+  },
+  {
+   "en": "on behalf of",
+   "fr": "au nom de",
+   "ex": "I am writing on behalf of my manager."
+  },
+  {
+   "en": "at your earliest convenience",
+   "fr": "dès que possible (poli)",
+   "ex": "Please reply at your earliest convenience."
+  },
+  {
+   "en": "look forward to",
+   "fr": "avoir hâte de (+ -ing)",
+   "ex": "We look forward to meeting you."
+  },
+  {
+   "en": "feasible",
+   "fr": "réalisable",
+   "ex": "The plan is not financially feasible."
+  },
+  {
+   "en": "implement",
+   "fr": "mettre en œuvre",
+   "ex": "We will implement the new system in June."
+  },
+  {
+   "en": "streamline",
+   "fr": "simplifier, rationaliser",
+   "ex": "The software streamlines the ordering process."
+  },
+  {
+   "en": "assess",
+   "fr": "évaluer",
+   "ex": "Experts will assess the damage."
+  },
+  {
+   "en": "consecutive",
+   "fr": "consécutif",
+   "ex": "Sales grew for three consecutive years."
+  },
+  {
+   "en": "tentative",
+   "fr": "provisoire",
+   "ex": "The schedule is still tentative."
+  },
+  {
+   "en": "tentatively",
+   "fr": "provisoirement",
+   "ex": "The launch is tentatively set for May."
+  },
+  {
+   "en": "notify",
+   "fr": "informer, avertir",
+   "ex": "Please notify us of any change."
+  },
+  {
+   "en": "patron",
+   "fr": "client (habitué), usager",
+   "ex": "Library patrons may borrow six books."
+  }
+ ]
+}

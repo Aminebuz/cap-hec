@@ -45,6 +45,21 @@
    "t": "50 pompes + 50 abdos"
   },
   {
+   "id": "mots",
+   "moment": "Matin",
+   "t": "Tes 2 mots du jour",
+   "d": "Lis-les, retourne les cartes, répète-les à voix haute",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
    "d": "15 questions, objectif 15/15",
    "days": [
     0,
@@ -101,7 +116,7 @@
    "t": "Cardio 10-15 min en fin de séance"
   },
   {
-   "d": "À la salle ou dans le bus (onglet TOEIC)",
+   "d": "Un test de Partie 2, 3 ou 4",
    "days": [
     0,
     1,
@@ -113,7 +128,7 @@
    ],
    "id": "ecoute",
    "moment": "Journée",
-   "t": "Écoute TOEIC 15-20 min"
+   "t": "Écoute TOEIC sur estudyme 15 min"
   },
   {
    "d": "15 questions",
@@ -131,14 +146,14 @@
    "t": "QCM Partie 5 de l'après-midi"
   },
   {
-   "d": "Après la salle",
+   "d": "Finance d'entreprise et finance de marché : lire le cours, noter les formules",
    "days": [
     6,
     0
    ],
    "id": "revisions",
    "moment": "Journée",
-   "t": "Révisions des cours 2 h"
+   "t": "Révisions partiels 1 h – 1 h 30"
   },
   {
    "d": "Fin visée le 23 novembre",
@@ -178,6 +193,25 @@
    "id": "bilan",
    "moment": "Soir",
    "t": "Bilan du soir avec Claude"
+  },
+  {
+   "id": "test_vocab",
+   "moment": "Soir",
+   "t": "Test vocabulaire de la semaine",
+   "d": "Les mots appris depuis lundi",
+   "days": [
+    6,
+    0
+   ]
+  },
+  {
+   "id": "cours_claude",
+   "moment": "Soir",
+   "t": "Envoyer tes cours à Claude",
+   "d": "Pour les fiches de révision et les exercices",
+   "days": [
+    6
+   ]
   }
  ]
 }
