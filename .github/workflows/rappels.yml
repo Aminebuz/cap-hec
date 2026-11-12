@@ -1,0 +1,23 @@
+name: Rappels Cap HEC
+on:
+  schedule:
+    - cron: "*/15 5-21 * * *"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Créneau à envoyer pour tester (ex. reveil)"
+        required: false
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci --omit=dev
+      - run: node scripts/send-push.js
+        env:
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
+          PUSH_SUBSCRIPTIONS: ${{ secrets.PUSH_SUBSCRIPTIONS }}
+          SLOT: ${{ github.event.inputs.slot }}

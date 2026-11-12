@@ -1,0 +1,183 @@
+{
+ "deadlines": [
+  {
+   "date": "2026-11-19",
+   "t": "Relancer les profs pour les lettres de recommandation"
+  },
+  {
+   "date": "2026-11-23",
+   "t": "Finir la certification HEC × AXA IM"
+  },
+  {
+   "date": "2026-12-15",
+   "t": "S'inscrire à une session TOEIC"
+  },
+  {
+   "date": "2026-12-16",
+   "t": "Créer le dossier Sciences Po"
+  },
+  {
+   "date": "2027-01-08",
+   "t": "Valider le dossier Sciences Po"
+  },
+  {
+   "date": "2027-01-31",
+   "t": "Passer le TOEIC L&R (900+)"
+  }
+ ],
+ "limits": {
+  "tiktok": 30
+ },
+ "tasks": [
+  {
+   "d": "Dès le réveil, avant le téléphone",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "pompes",
+   "moment": "Matin",
+   "t": "50 pompes + 50 abdos"
+  },
+  {
+   "d": "15 questions, objectif 15/15",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "qcm_matin",
+   "moment": "Matin",
+   "t": "QCM Partie 5 du matin"
+  },
+  {
+   "d": "",
+   "days": [
+    1,
+    3,
+    5,
+    0
+   ],
+   "detail": {
+    "0": "Le matin",
+    "1": "Vers 16 h après les cours",
+    "3": "8 h si pas cours, sinon 16 h",
+    "5": "Le matin si pas cours"
+   },
+   "id": "sport",
+   "moment": "Journée",
+   "t": "Séance haut du corps"
+  },
+  {
+   "d": "",
+   "days": [
+    6
+   ],
+   "id": "sport_lower",
+   "moment": "Journée",
+   "t": "Séance bas du corps"
+  },
+  {
+   "d": "Objectif 2 fois par semaine",
+   "days": [
+    1,
+    3,
+    5,
+    6,
+    0
+   ],
+   "id": "cardio",
+   "moment": "Journée",
+   "optional": true,
+   "t": "Cardio 10-15 min en fin de séance"
+  },
+  {
+   "d": "À la salle ou dans le bus (onglet TOEIC)",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "ecoute",
+   "moment": "Journée",
+   "t": "Écoute TOEIC 15-20 min"
+  },
+  {
+   "d": "15 questions",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "qcm_aprem",
+   "moment": "Journée",
+   "t": "QCM Partie 5 de l'après-midi"
+  },
+  {
+   "d": "Après la salle",
+   "days": [
+    6,
+    0
+   ],
+   "id": "revisions",
+   "moment": "Journée",
+   "t": "Révisions des cours 2 h"
+  },
+  {
+   "d": "Fin visée le 23 novembre",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "id": "hec_certif",
+   "moment": "Soir",
+   "t": "Certification HEC × AXA IM : 1 module"
+  },
+  {
+   "d": "1 à 2 h par semaine",
+   "days": [
+    6,
+    0
+   ],
+   "id": "benevolat",
+   "moment": "Soir",
+   "optional": true,
+   "t": "Bénévolat Oikocredit / Afev"
+  },
+  {
+   "d": "21 h 30",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "id": "bilan",
+   "moment": "Soir",
+   "t": "Bilan du soir avec Claude"
+  }
+ ]
+}

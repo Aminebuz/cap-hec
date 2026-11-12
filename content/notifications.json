@@ -1,0 +1,12 @@
+{
+  "note": "Heures de Paris. Le workflow tourne toutes les 15 minutes et envoie les créneaux dus.",
+  "slots": [
+    {"id": "reveil", "time": "08:00", "title": "Debout, champion", "body": "50 pompes + 50 abdos avant d'ouvrir TikTok.", "byDay": {"1": "50 pompes + 50 abdos. Salle aujourd'hui vers 16 h (haut du corps).", "3": "50 pompes + 50 abdos. Salle ce matin à 8 h si tu n'as pas cours.", "5": "50 pompes + 50 abdos. Salle ce matin si tu n'as pas cours.", "6": "50 pompes + 50 abdos. Séance bas du corps aujourd'hui.", "0": "50 pompes + 50 abdos. Séance haut du corps ce matin."}, "view": "jour"},
+    {"id": "qcm_matin", "time": "08:45", "title": "QCM du matin", "body": "15 questions de Partie 5. Objectif 15/15.", "view": "toeic"},
+    {"id": "salle_lundi", "time": "15:45", "days": [1], "title": "Salle dans 15 min", "body": "Haut du corps + 10 min de cardio. Lance le mode salle pour l'écoute TOEIC.", "view": "toeic"},
+    {"id": "qcm_aprem", "time": "14:15", "title": "QCM de l'après-midi", "body": "15 questions. Applique le réflexe : mot avant, mot après.", "view": "toeic"},
+    {"id": "revisions", "time": "13:30", "days": [6, 0], "title": "Révisions", "body": "2 h de révisions des cours maintenant. Coche-les une fois finies.", "view": "jour"},
+    {"id": "certif", "time": "19:00", "days": [1, 2, 3, 4, 5], "title": "Certification HEC", "body": "Un module de la certification HEC × AXA IM ce soir.", "view": "jour"},
+    {"id": "bilan", "time": "21:30", "title": "Bilan du soir", "body": "Coche ce que tu as fait, note ton temps TikTok, puis copie ton bilan pour Claude.", "view": "objectifs"}
+  ]
+}

@@ -1,0 +1,284 @@
+{
+ "updated": "2026-11-12",
+ "items": [
+  {
+   "created": "2026-11-12T16:30:01",
+   "lines": [
+    {
+     "text": "Hi Mark, did you get the email about tomorrow's budget meeting?",
+     "v": "A"
+    },
+    {
+     "text": "I did. It's been moved to Thursday afternoon because the finance director is traveling.",
+     "v": "B"
+    },
+    {
+     "text": "Thursday works for me, but I'll need the updated sales figures before then.",
+     "v": "A"
+    },
+    {
+     "text": "No problem. I'll send them to you by the end of the day on Wednesday.",
+     "v": "B"
+    }
+   ],
+   "part": "Partie 3 · conversation",
+   "questions": [
+    {
+     "answer": 1,
+     "explanation": "Il dit : the finance director is traveling.",
+     "options": [
+      "The room is unavailable",
+      "The finance director is traveling",
+      "The sales figures are late",
+      "Mark is sick"
+     ],
+     "q": "Why was the meeting moved?"
+    },
+    {
+     "answer": 2,
+     "explanation": "La femme a besoin des updated sales figures, et Mark les enverra.",
+     "options": [
+      "A meeting agenda",
+      "Travel plans",
+      "Updated sales figures",
+      "A new budget"
+     ],
+     "q": "What will Mark send?"
+    },
+    {
+     "answer": 1,
+     "explanation": "By the end of the day on Wednesday.",
+     "options": [
+      "Today",
+      "Wednesday",
+      "Thursday morning",
+      "Friday"
+     ],
+     "q": "When will Mark send them?"
+    }
+   ],
+   "title": "Réunion reportée",
+   "id": "l01"
+  },
+  {
+   "created": "2026-11-12T16:30:02",
+   "lines": [
+    {
+     "text": "Where should I put these boxes of brochures?",
+     "v": "A"
+    },
+    {
+     "text": "In the storage room next to the elevator.",
+     "v": "B"
+    },
+    {
+     "text": "Who's leading the training session on Monday?",
+     "v": "A"
+    },
+    {
+     "text": "Ms. Patel from human resources.",
+     "v": "B"
+    },
+    {
+     "text": "Haven't you finished the quarterly report yet?",
+     "v": "A"
+    },
+    {
+     "text": "I'm just adding the final charts.",
+     "v": "B"
+    }
+   ],
+   "part": "Partie 2 · questions-réponses",
+   "questions": [
+    {
+     "answer": 1,
+     "explanation": "Question en Where → un lieu : the storage room next to the elevator.",
+     "options": [
+      "In the lobby",
+      "In the storage room",
+      "In the elevator",
+      "On the desk"
+     ],
+     "q": "Where should the boxes go?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Question en Who → une personne : Ms. Patel from human resources.",
+     "options": [
+      "The manager",
+      "Ms. Patel",
+      "A new trainee",
+      "Nobody yet"
+     ],
+     "q": "Who is leading the training?"
+    },
+    {
+     "answer": 2,
+     "explanation": "Piège classique de Partie 2 : la réponse ne dit ni yes ni no, mais « I'm just adding the final charts ».",
+     "options": [
+      "Yes, completely",
+      "No, it was cancelled",
+      "Almost, the charts are being added",
+      "It hasn't been started"
+     ],
+     "q": "Is the report finished?"
+    }
+   ],
+   "title": "Questions-réponses express",
+   "id": "l02"
+  },
+  {
+   "created": "2026-11-12T16:30:03",
+   "lines": [
+    {
+     "text": "Attention, passengers on flight 482 to Montreal. Due to heavy snow at our destination, departure has been delayed by approximately two hours. Passengers may collect a meal voucher at the service desk near gate 12. We apologize for the inconvenience and will provide another update at 3 p.m.",
+     "v": "C"
+    }
+   ],
+   "part": "Partie 4 · annonce",
+   "questions": [
+    {
+     "answer": 1,
+     "explanation": "Heavy snow = weather conditions. Le TOEIC reformule toujours.",
+     "options": [
+      "A technical problem",
+      "Weather conditions",
+      "A missing crew member",
+      "Heavy traffic"
+     ],
+     "q": "What is the reason for the delay?"
+    },
+    {
+     "answer": 2,
+     "explanation": "Collect a meal voucher at the service desk near gate 12.",
+     "options": [
+      "A new ticket",
+      "A hotel room",
+      "A meal voucher",
+      "A refund"
+     ],
+     "q": "What can passengers get at the service desk?"
+    },
+    {
+     "answer": 2,
+     "explanation": "We will provide another update at 3 p.m.",
+     "options": [
+      "The flight will leave",
+      "Boarding will start",
+      "Another update will be given",
+      "The gate will change"
+     ],
+     "q": "What will happen at 3 p.m.?"
+    }
+   ],
+   "title": "Annonce à l'aéroport",
+   "id": "l03"
+  },
+  {
+   "created": "2026-11-12T16:30:04",
+   "lines": [
+    {
+     "text": "Hello, I'm calling about the printers we ordered last week. They were supposed to arrive on Monday.",
+     "v": "A"
+    },
+    {
+     "text": "I'm sorry about that. Our warehouse had a shipping error. I can see your order is now on its way.",
+     "v": "B"
+    },
+    {
+     "text": "When should we expect it? Our new employees start on Thursday.",
+     "v": "A"
+    },
+    {
+     "text": "It should arrive tomorrow morning, and I'll waive the delivery fee for the inconvenience.",
+     "v": "B"
+    }
+   ],
+   "part": "Partie 3 · conversation",
+   "questions": [
+    {
+     "answer": 1,
+     "explanation": "They were supposed to arrive on Monday : la commande est en retard.",
+     "options": [
+      "The printers are broken",
+      "The order is late",
+      "The price is wrong",
+      "The order was cancelled"
+     ],
+     "q": "What is the problem?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Our warehouse had a shipping error.",
+     "options": [
+      "Bad weather",
+      "A shipping error",
+      "A payment issue",
+      "A strike"
+     ],
+     "q": "What caused the problem?"
+    },
+    {
+     "answer": 2,
+     "explanation": "I'll waive the delivery fee : waive = annuler des frais.",
+     "options": [
+      "A discount on the next order",
+      "A free printer",
+      "To waive the delivery fee",
+      "A full refund"
+     ],
+     "q": "What does the man offer?"
+    }
+   ],
+   "title": "Commande d'imprimantes",
+   "id": "l04"
+  },
+  {
+   "created": "2026-11-12T16:30:05",
+   "lines": [
+    {
+     "text": "Hello, this message is for Ms. Laurent. This is Daniel calling from Riverside Dental Clinic. Unfortunately, Dr. Chen will be away next Tuesday, so we need to reschedule your appointment. We have openings on Wednesday at 10 a.m. or Friday at 2 p.m. Please call us back at your earliest convenience to confirm a new time. Thank you.",
+     "v": "C"
+    }
+   ],
+   "part": "Partie 4 · message téléphonique",
+   "questions": [
+    {
+     "answer": 1,
+     "explanation": "We need to reschedule your appointment.",
+     "options": [
+      "To confirm an appointment",
+      "To reschedule an appointment",
+      "To request a payment",
+      "To advertise a service"
+     ],
+     "q": "Why is the speaker calling?"
+    },
+    {
+     "answer": 1,
+     "explanation": "Dr. Chen will be away next Tuesday.",
+     "options": [
+      "The clinic is closing",
+      "The doctor will be away",
+      "The listener cancelled",
+      "The office is being renovated"
+     ],
+     "q": "Why is the change necessary?"
+    },
+    {
+     "answer": 2,
+     "explanation": "Please call us back at your earliest convenience.",
+     "options": [
+      "Send an email",
+      "Visit the clinic",
+      "Call back",
+      "Pay online"
+     ],
+     "q": "What is the listener asked to do?"
+    }
+   ],
+   "title": "Message vocal du dentiste",
+   "id": "l05"
+  }
+ ]
+}

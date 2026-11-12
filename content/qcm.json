@@ -1,0 +1,123 @@
+{
+ "updated": "2026-11-12",
+ "items": [
+  {
+   "created": "2026-11-12T16:30:00",
+   "questions": [
+    {
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the volunteer's dedication.",
+     "options": [
+      "dedicated",
+      "dedicate",
+      "dedication",
+      "dedicatedly"
+     ],
+     "prompt": "The committee praised the volunteer's ___ during the crisis."
+    },
+    {
+     "answer": 1,
+     "explanation": "Verbe + nom complément : declare insolvency (comme declare bankruptcy).",
+     "options": [
+      "insolvent",
+      "insolvency",
+      "insolvently",
+      "insolve"
+     ],
+     "prompt": "Several small firms had to declare ___ after the recession."
+    },
+    {
+     "answer": 2,
+     "explanation": "suggest / recommend / consider / avoid + -ING.",
+     "options": [
+      "simplify",
+      "to simplify",
+      "simplifying",
+      "simplified"
+     ],
+     "prompt": "The auditor suggested ___ the inventory process."
+    },
+    {
+     "answer": 0,
+     "explanation": "It appears that → action en cours maintenant : présent continu.",
+     "options": [
+      "are approaching",
+      "will have approached",
+      "are approached",
+      "approach"
+     ],
+     "prompt": "It appears that the merger talks ___ a final agreement."
+    },
+    {
+     "answer": 1,
+     "explanation": "Préposition + which. Jamais « in that » ni « in where ».",
+     "options": [
+      "that",
+      "which",
+      "where",
+      "what"
+     ],
+     "prompt": "This is the office in ___ the contract was signed."
+    },
+    {
+     "answer": 1,
+     "explanation": "Il faut le verbe conjugué actif : the company specializes in.",
+     "options": [
+      "specializing",
+      "specializes",
+      "is specialized",
+      "to specialize"
+     ],
+     "prompt": "Delmar Logistics ___ in cold-chain transportation."
+    },
+    {
+     "answer": 0,
+     "explanation": "stranded = bloqué.",
+     "options": [
+      "stranded",
+      "boarded",
+      "waited",
+      "departed"
+     ],
+     "prompt": "Dozens of tourists were ___ on the island when the ferry service stopped."
+    },
+    {
+     "answer": 1,
+     "explanation": "Possessif + NOM : Ms. Ortiz's responsiveness.",
+     "options": [
+      "responsive",
+      "responsiveness",
+      "responsively",
+      "respond"
+     ],
+     "prompt": "Ms. Ortiz's ___ to customer feedback has improved our ratings."
+    },
+    {
+     "answer": 2,
+     "explanation": "recommend + -ING.",
+     "options": [
+      "change",
+      "to change",
+      "changing",
+      "changed"
+     ],
+     "prompt": "We recommend ___ your password every three months."
+    },
+    {
+     "answer": 0,
+     "explanation": "It seems that + situation actuelle → présent continu.",
+     "options": [
+      "is performing",
+      "will have performed",
+      "performing",
+      "is performed"
+     ],
+     "prompt": "It seems that the new branch ___ well this quarter."
+    }
+   ],
+   "theme": "Carnet d'erreurs du 12/11",
+   "title": "Tes 7 règles prioritaires",
+   "id": "2026-11-12-priorites"
+  }
+ ]
+}

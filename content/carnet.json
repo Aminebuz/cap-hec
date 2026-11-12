@@ -1,0 +1,129 @@
+{
+ "rules": [
+  {
+   "example": "the supplier's reliability, Mr. Albrecht's promptness",
+   "rule": "Possessif ('s, his, their) + NOM",
+   "status": "priorité"
+  },
+  {
+   "example": "declare bankruptcy, supporting advances in",
+   "rule": "Verbe + NOM complément",
+   "status": "priorité"
+  },
+  {
+   "example": "consider modifying, recommended extending",
+   "rule": "recommend / consider / avoid + -ING",
+   "status": "priorité"
+  },
+  {
+   "example": "the negotiations are nearing completion",
+   "rule": "It seems / appears that → présent continu",
+   "status": "priorité"
+  },
+  {
+   "example": "a sale in which it offered…",
+   "rule": "Préposition + which / whom (jamais that)",
+   "status": "priorité"
+  },
+  {
+   "example": "the agency specializes in tours",
+   "rule": "Sujet + verbe actif conjugué",
+   "status": "priorité"
+  },
+  {
+   "example": "passengers were stranded at the airport",
+   "rule": "stranded = bloqué",
+   "status": "priorité"
+  },
+  {
+   "example": "should be relevant, more cautious",
+   "rule": "be + ADJECTIF",
+   "status": "à revoir"
+  },
+  {
+   "example": "the estimated costs, the most impressive buildings",
+   "rule": "the + adjectif / participe + NOM",
+   "status": "à revoir"
+  },
+  {
+   "example": "make the terms agreeable",
+   "rule": "make + objet + ADJECTIF",
+   "status": "à revoir"
+  },
+  {
+   "example": "conveniently located, variously colored",
+   "rule": "ADVERBE + adjectif / participe",
+   "status": "à revoir"
+  },
+  {
+   "example": "comply with the regulations",
+   "rule": "comply WITH",
+   "status": "à revoir"
+  },
+  {
+   "example": "the materials outline the schedule",
+   "rule": "outline = présenter les grandes lignes",
+   "status": "à revoir"
+  },
+  {
+   "example": "so that its surface doesn't get scratched",
+   "rule": "so that + phrase / in order to + verbe",
+   "status": "à revoir"
+  },
+  {
+   "example": "postponed until next week",
+   "rule": "until (durée) / by (au plus tard)",
+   "status": "à revoir"
+  },
+  {
+   "example": "For more details, visit…",
+   "rule": "For additional information = pour obtenir",
+   "status": "à revoir"
+  },
+  {
+   "example": "before agreeing, for the purpose of accommodating",
+   "rule": "Préposition + -ING (+ complément)",
+   "status": "à revoir"
+  },
+  {
+   "example": "Having joined the gym, …",
+   "rule": "Having + participe = après avoir",
+   "status": "à revoir"
+  },
+  {
+   "example": "will have demolished",
+   "rule": "By the time + futur → will have + pp",
+   "status": "à revoir"
+  },
+  {
+   "example": "the judges will choose",
+   "rule": "After / once + present perfect → will",
+   "status": "à revoir"
+  },
+  {
+   "example": "None of the attendees was aware",
+   "rule": "None of (≠ nobody)",
+   "status": "à revoir"
+  },
+  {
+   "example": "has fallen by 24%",
+   "rule": "fall / drop / rise BY X %",
+   "status": "à revoir"
+  },
+  {
+   "example": "a new manager was appointed",
+   "rule": "appoint = nommer",
+   "status": "à revoir"
+  },
+  {
+   "example": "the enclosed contract",
+   "rule": "enclosed = ci-joint",
+   "status": "à revoir"
+  },
+  {
+   "example": "a test drive",
+   "rule": "test drive, conveniently located (expressions)",
+   "status": "à revoir"
+  }
+ ]
+}
