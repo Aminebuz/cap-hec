@@ -274,6 +274,7 @@ $("copyCode").addEventListener("click",function(){
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){btn.textContent="Code copié ✓"},function(){btn.textContent=ok?"Code copié ✓":"Sélectionne le texte et copie-le"})}
   else btn.textContent=ok?"Code copié ✓":"Sélectionne le texte et copie-le";
 });
+$("testNotif").addEventListener("click",async function(){try{if(!window.Notification){$("notifState").textContent="Notifications indisponibles ici : ouvre l'app depuis son icône.";return}if(Notification.permission!=="granted"){await Notification.requestPermission()}var reg=await navigator.serviceWorker.ready;await reg.showNotification("Test Cap HEC",{body:"Si tu vois ce message, l'affichage des notifications marche.",icon:"icons/icon-192.png"});$("notifState").textContent="Notification de test envoyée par le téléphone (permission : "+Notification.permission+")."}catch(e){$("notifState").textContent="Échec du test : "+(e&&e.name||"")+" "+(e&&e.message||"")}});
 // Si les notifications sont déjà autorisées, réaffiche le code au chargement
 if("serviceWorker" in navigator&&"PushManager" in window&&window.Notification&&Notification.permission==="granted"){navigator.serviceWorker.ready.then(function(r){return r.pushManager.getSubscription()}).then(function(s){if(s)showCode(JSON.stringify(s))}).catch(function(){})}
 
