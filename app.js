@@ -248,7 +248,7 @@ function renderNotif(){
     btn.disabled=true;return;
   }
   btn.disabled=false;
-  if(Notification.permission==="granted"){st.textContent="Notifications autorisées. Si ce n'est pas déjà fait, copie le code et envoie-le à Claude.";btn.textContent="Copier le code des notifications"}
+  if(Notification.permission==="granted"){st.textContent="Notifications autorisées.";btn.textContent="Afficher le code des notifications"}
   else if(Notification.permission==="denied"){st.textContent="Notifications refusées. Réactive-les dans Réglages → Notifications → Cap HEC.";btn.disabled=true}
   else{st.textContent="Active les notifications pour recevoir tes rappels (abdos, salle, QCM, bilan).";btn.textContent="Activer les notifications"}
 }
@@ -260,10 +260,22 @@ $("notifBtn").addEventListener("click",async function(){
     var reg=await navigator.serviceWorker.ready;
     var sub=await reg.pushManager.getSubscription();
     if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64ToU8(VAPID_PUBLIC)});
-    copyText(JSON.stringify(sub),btn);
-    $("notifState").textContent="Code copié. Colle-le dans ta conversation avec Claude pour activer les rappels.";
-  }catch(e){$("notifState").textContent="Impossible d'activer les notifications ("+(e&&e.message||"erreur")+")."}
+    showCode(JSON.stringify(sub));
+  }catch(e){$("notifState").textContent="Impossible d'activer les notifications ("+(e&&e.name||"")+" "+(e&&e.message||"erreur")+")."}
 });
+function showCode(code){
+  var ta=$("copyArea");ta.hidden=false;ta.value=code;ta.readOnly=true;
+  $("notifState").textContent="Notifications autorisées. Touche « Copier le code » ci-dessous, puis colle-le dans le secret PUSH_SUBSCRIPTIONS sur GitHub.";
+  var cb=$("copyCode");cb.hidden=false;
+}
+$("copyCode").addEventListener("click",function(){
+  var ta=$("copyArea"),btn=this;ta.focus();ta.select();ta.setSelectionRange(0,ta.value.length);
+  var ok=false;try{ok=document.execCommand("copy")}catch(e){}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){btn.textContent="Code copié ✓"},function(){btn.textContent=ok?"Code copié ✓":"Sélectionne le texte et copie-le"})}
+  else btn.textContent=ok?"Code copié ✓":"Sélectionne le texte et copie-le";
+});
+// Si les notifications sont déjà autorisées, réaffiche le code au chargement
+if("serviceWorker" in navigator&&"PushManager" in window&&window.Notification&&Notification.permission==="granted"){navigator.serviceWorker.ready.then(function(r){return r.pushManager.getSubscription()}).then(function(s){if(s)showCode(JSON.stringify(s))}).catch(function(){})}
 
 /* ---------- Chargement du contenu ---------- */
 async function getJSON(p){var r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p);return r.json()}
