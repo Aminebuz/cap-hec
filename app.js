@@ -125,9 +125,10 @@ function confetti(){
 
 /* ---------- Semaine ---------- */
 function weekData(){
-  var m=monday(today),r={sport:0,cardio:0,rev:0,ben:0,tk:[],qcm:0,days:[]};
+  var m=monday(today),r={sport:0,cardio:0,rev:0,ben:0,tk:[],qcm:0,pr:0,days:[]};
   for(var i=0;i<7;i++){var d=new Date(m);d.setDate(m.getDate()+i);var k=key(d),doc=days[k];r.days.push({d:d,k:k,p:dayPct(k,d)});
     if(doc&&doc.done){if(doc.done.sport||doc.done.sport_lower)r.sport++;if(doc.done.cardio)r.cardio++;if(doc.done.revisions)r.rev+=1.5;if(doc.done.benevolat)r.ben++;if(doc.done.qcm_matin)r.qcm++;if(doc.done.qcm_aprem)r.qcm++}
+    if(doc&&doc.prayers){for(var pk in doc.prayers)if(doc.prayers[pk])r.pr++}
     if(doc&&doc.tiktok!=null)r.tk.push(doc.tiktok)}
   r.start=m;return r;
 }
@@ -138,6 +139,7 @@ function renderWeek(){
   w.days.forEach(function(x){g.appendChild(el("div",{cls:"wd"+(x.k===todayKey?" today":"")},[el("b",{text:DAYS[x.d.getDay()]}),el("div",{cls:"col"},[el("i",{style:"height:"+(x.p||0)+"%"})]),el("span",{cls:"num",text:x.p==null?"–":x.p+"%"})]))});
   var s=$("weekStats");s.innerHTML="";var lim=(routine.limits&&routine.limits.tiktok)||30;
   function st(v,l,ok){s.appendChild(el("div",{cls:"stat"},[el("span",{cls:"v num",text:v}),el("span",{cls:"l",text:l}),el("span",{cls:"tag "+(ok?"ok":"warn"),style:"align-self:flex-start",text:ok?"Objectif atteint":"En cours"})]))}
+  st(w.pr+"/35","prières cette semaine",w.pr>=35);
   st(w.sport+"/5","séances de sport",w.sport>=4);
   st(w.cardio+"/2","cardio",w.cardio>=2);
   st(w.qcm+"/14","QCM faits",w.qcm>=12);
@@ -152,6 +154,8 @@ function bilanText(){
   var doc=dayDoc(todayKey),w=weekData(),L=["Bilan Cap HEC du "+todayKey+" :"];
   tasksFor(today).forEach(function(t){L.push((doc.done[t.id]?"[x] ":"[ ] ")+t.t)});
   L.push("TikTok : "+(doc.tiktok==null?"non renseigné":doc.tiktok+" min"));
+  var pr=doc.prayers||{};L.push("Prières : "+PRAYERS.filter(function(p){return pr[p[0]]}).length+"/5");
+  var cs=currentSurah();if(cs)L.push("Sourate du mois : "+cs.name+", "+((sstate.learned[cs.n]||[]).length)+"/"+cs.verses+" versets");
   var q=Object.keys(scores).filter(function(k){var s=scores[k];return s.attempts&&s.attempts.length&&s.attempts[s.attempts.length-1].at.slice(0,10)===new Date().toISOString().slice(0,10)});
   if(q.length){L.push("Scores du jour :");q.forEach(function(k){var a=scores[k].attempts[scores[k].attempts.length-1];L.push("- "+(scores[k].title||k)+" : "+a.score+"/"+a.total+(a.wrong.length?" (ratées : "+a.wrong.join(", ")+")":""))})}
   L.push("Semaine : sport "+w.sport+"/5, cardio "+w.cardio+"/2, QCM "+w.qcm+"/14, révisions "+w.rev+" h, bénévolat "+(w.ben?"fait":"pas encore"));
@@ -258,6 +262,77 @@ function renderCulture(){
 }
 $("cgQuizBtn").addEventListener("click",function(){var d=cgDays()[cgDayIdx];if(!d)return;startQuiz({id:"cg-"+d.date,title:"Quiz culture G du "+d.date,questions:d.quiz||[]},"cgPlayer","cgItems")});
 
+
+/* ---------- Prières ---------- */
+var PRAYERS=[["fajr","Fajr","Fajr"],["dhuhr","Dhuhr","Dhuhr"],["asr","Asr","Asr"],["maghrib","Maghrib","Maghrib"],["isha","Isha","Isha"]];
+var spirit={city:"Marseille",country:"France",method:12,surahs:[]};
+var city=lsGet("caphec.city",null), ptimes=lsGet("caphec.ptimes",{});
+function cityName(){return city||spirit.city||"Marseille"}
+async function loadTimes(){
+  var k=todayKey+"|"+cityName();if(ptimes[k]){renderPrayers();return}
+  try{var d=today,ds=(d.getDate()<10?"0":"")+d.getDate()+"-"+(d.getMonth()<9?"0":"")+(d.getMonth()+1)+"-"+d.getFullYear();
+    var r=await fetch("https://api.aladhan.com/v1/timingsByCity/"+ds+"?city="+encodeURIComponent(cityName())+"&country="+encodeURIComponent(spirit.country||"France")+"&method="+(spirit.method||12));
+    var j=await r.json();if(j&&j.data&&j.data.timings){ptimes={};ptimes[k]=j.data.timings;lsSet("caphec.ptimes",ptimes)}}catch(e){}
+  renderPrayers();
+}
+function renderPrayers(){
+  var doc=dayDoc(todayKey);doc.prayers=doc.prayers||{};
+  var t=ptimes[todayKey+"|"+cityName()]||null,h=$("pchips");h.innerHTML="";
+  PRAYERS.forEach(function(p){
+    var on=!!doc.prayers[p[0]];
+    var b=el("button",{cls:"pchip",type:"button","aria-pressed":on?"true":"false","aria-label":p[1]+(on?" faite":" à faire")},[p[1],el("small",{cls:"num",text:t&&t[p[2]]?t[p[2]].slice(0,5):"–"})]);
+    b.addEventListener("click",function(){doc.prayers[p[0]]=!doc.prayers[p[0]];saveDays();renderPrayers();renderWeek()});
+    h.appendChild(b);
+  });
+  var n=PRAYERS.filter(function(p){return doc.prayers[p[0]]}).length;$("prCount").textContent=n+"/5";
+  $("ptSource").textContent=t?"Horaires du jour pour "+cityName()+" (calcul UOIF, source aladhan.com).":"Horaires indisponibles hors connexion.";
+  var ci=$("cityIn");if(document.activeElement!==ci)ci.value=cityName();
+}
+$("citySave").addEventListener("click",function(){var v=$("cityIn").value.trim();if(!v)return;city=v;lsSet("caphec.city",v);loadTimes()});
+
+/* ---------- Sourate du mois ---------- */
+var sstate=lsGet("caphec.surah",{known:[],done:[],learned:{},current:null});
+function saveS(){lsSet("caphec.surah",sstate)}
+function monthKey(d){return d.getFullYear()+"-"+(d.getMonth()<9?"0":"")+(d.getMonth()+1)}
+function surahByN(n){return (spirit.surahs||[]).filter(function(s){return s.n===n})[0]}
+function currentSurah(){
+  var list=spirit.surahs||[];if(!list.length)return null;
+  var doneN=sstate.done.map(function(x){return x.n});
+  if(sstate.current&&sstate.known.indexOf(sstate.current.n)<0&&doneN.indexOf(sstate.current.n)<0)return surahByN(sstate.current.n);
+  var next=list.filter(function(s){return sstate.known.indexOf(s.n)<0&&doneN.indexOf(s.n)<0})[0];
+  if(!next)return null;
+  sstate.current={n:next.n,month:monthKey(today)};saveS();return next;
+}
+function weekRange(s){var per=Math.ceil(s.verses/4),w=Math.min(3,Math.floor((today.getDate()-1)/7)),a=w*per+1,b=Math.min(s.verses,a+per-1);if(a>s.verses){a=s.verses;b=s.verses}return[a,b]}
+function renderSurah(){
+  var s=currentSurah(),c=$("surahCard");c.innerHTML="";
+  $("sMonth").textContent=today.toLocaleDateString("fr-FR",{month:"long",year:"numeric"});
+  if(!s){c.appendChild(el("div",{text:"Programme terminé, bravo. Dis à Claude d'ajouter de nouvelles sourates."}))}
+  else{
+    var L=sstate.learned[s.n]||[],pct=Math.round(100*L.length/s.verses),wr=weekRange(s);
+    c.appendChild(el("div",{},[el("div",{cls:"nm",text:s.name}),el("div",{cls:"soft",text:"Sourate "+s.n+", « "+s.fr+" », "+s.verses+" versets"})]));
+    c.appendChild(el("div",{cls:"pbar"},[el("i",{style:"width:"+pct+"%"})]));
+    c.appendChild(el("div",{text:L.length+" verset"+(L.length>1?"s":"")+" sur "+s.verses+" retenus. Cette semaine : versets "+wr[0]+(wr[1]>wr[0]?" à "+wr[1]:"")+"."}));
+    var g=el("div",{cls:"verses"});
+    for(var v=1;v<=s.verses;v++)(function(v){var on=L.indexOf(v)>=0;var b=el("button",{type:"button",cls:(v>=wr[0]&&v<=wr[1])?"wk":"","aria-pressed":on?"true":"false","aria-label":"Verset "+v+(on?" retenu":""),text:String(v)});b.addEventListener("click",function(){var arr=sstate.learned[s.n]=sstate.learned[s.n]||[];var i=arr.indexOf(v);if(i>=0)arr.splice(i,1);else arr.push(v);saveS();renderSurah();renderPrayers()});g.appendChild(b)})(v);
+    c.appendChild(g);
+    c.appendChild(el("p",{cls:"soft",style:"margin:0;font-size:.85rem",text:"Méthode : écoute le verset 5 fois, répète-le 10 fois en lisant, puis récite-le sans regarder. Coche un verset quand tu le récites sans erreur le lendemain matin."}));
+    var row=el("div",{style:"display:flex;gap:10px;flex-wrap:wrap"});
+    row.appendChild(el("a",{cls:"btn main",href:"https://quran.com/"+s.n,target:"_blank",rel:"noopener",text:"Écouter et lire sur Quran.com"}));
+    var fin=el("button",{cls:"btn gold",type:"button",text:"Je la récite en entier"});fin.disabled=L.length<s.verses;
+    fin.addEventListener("click",function(){sstate.done.push({n:s.n,month:monthKey(today)});sstate.current=null;saveS();confetti();renderSurah();renderPrayers()});
+    var kn=el("button",{cls:"btn",type:"button",text:"Je la connais déjà"});kn.addEventListener("click",function(){sstate.known.push(s.n);sstate.current=null;saveS();renderSurah();renderPrayers()});
+    row.appendChild(fin);row.appendChild(kn);c.appendChild(row);
+  }
+  var kl=$("knownList");kl.innerHTML="";
+  (spirit.surahs||[]).forEach(function(x){var on=sstate.known.indexOf(x.n)>=0;var b=el("button",{type:"button","aria-pressed":on?"true":"false",text:x.name});b.addEventListener("click",function(){var i=sstate.known.indexOf(x.n);if(i>=0)sstate.known.splice(i,1);else sstate.known.push(x.n);if(sstate.current&&sstate.current.n===x.n)sstate.current=null;saveS();renderSurah();renderPrayers()});kl.appendChild(b)});
+  var dl=$("surahDone");dl.innerHTML="";
+  sstate.done.slice().reverse().forEach(function(d){var x=surahByN(d.n);if(!x)return;dl.appendChild(el("div",{cls:"row"},[el("div",{cls:"grow"},[el("div",{cls:"ttl",text:x.name+" apprise"}),el("div",{cls:"meta",text:"En "+d.month+". Récite-la une fois par semaine pour la garder."})]),el("a",{cls:"btn",href:"https://quran.com/"+x.n,target:"_blank",rel:"noopener",text:"Réviser"})]))});
+  var sm=$("smini"),cur=s;sm.innerHTML="";
+  if(cur){var Ln=(sstate.learned[cur.n]||[]).length;sm.appendChild(el("span",{},["Sourate du mois : ",el("b",{text:cur.name}),", "+Ln+"/"+cur.verses+" versets"]));sm.appendChild(el("span",{text:"Ouvrir"}))}
+}
+$("smini").addEventListener("click",function(){setView("objectifs")});
+
 /* ---------- Carnet ---------- */
 function renderCarnet(){
   var h=$("carnet"),r=(carnet&&carnet.rules)||[];h.innerHTML="";
@@ -294,14 +369,14 @@ $("testNotif").addEventListener("click",async function(){try{if(Notification.per
 /* ---------- Contenu ---------- */
 async function getJSON(p){var r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p);return r.json()}
 async function loadAll(){
-  var c0=lsGet("caphec.content3",null);if(c0)apply(c0);
-  try{var c={routine:await getJSON("content/routine.json"),qcm:await getJSON("content/qcm.json"),carnet:await getJSON("content/carnet.json"),vocab:await getJSON("content/vocab.json"),culture:await getJSON("content/culture.json")};lsSet("caphec.content3",c);apply(c);showStatus(null)}
+  var c0=lsGet("caphec.content4",null);if(c0)apply(c0);
+  try{var c={routine:await getJSON("content/routine.json"),qcm:await getJSON("content/qcm.json"),carnet:await getJSON("content/carnet.json"),vocab:await getJSON("content/vocab.json"),culture:await getJSON("content/culture.json"),spirit:await getJSON("content/spirituel.json")};lsSet("caphec.content4",c);apply(c);showStatus(null)}
   catch(e){if(!c0)showStatus("Pas de connexion : ton contenu n'a pas pu se charger. Réessaie avec du réseau.")}
 }
 function apply(c){
-  routine=c.routine||routine;carnet=c.carnet||null;vocab=c.vocab||vocab;culture=c.culture||culture;
+  routine=c.routine||routine;carnet=c.carnet||null;vocab=c.vocab||vocab;culture=c.culture||culture;spirit=c.spirit||spirit;
   qcms=((c.qcm&&c.qcm.items)||[]).slice().sort(function(a,b){return a.created<b.created?1:-1});
-  renderDay();renderWords();renderWeek();renderDeadlines();renderQcmList();renderCarnet();renderCulture();firstLoad=false;
+  renderDay();renderWords();renderWeek();renderDeadlines();renderQcmList();renderCarnet();renderCulture();renderSurah();loadTimes();firstLoad=false;
 }
 document.addEventListener("visibilitychange",function(){if(!document.hidden)loadAll()});
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").then(renderNotif,renderNotif);else renderNotif();

@@ -1,0 +1,169 @@
+{
+ "city": "Marseille",
+ "country": "France",
+ "method": 12,
+ "surahs": [
+  {
+   "n": 93,
+   "name": "Ad-Duha",
+   "fr": "Le jour montant",
+   "verses": 11
+  },
+  {
+   "n": 94,
+   "name": "Ash-Sharh",
+   "fr": "L'ouverture",
+   "verses": 8
+  },
+  {
+   "n": 95,
+   "name": "At-Tin",
+   "fr": "Le figuier",
+   "verses": 8
+  },
+  {
+   "n": 97,
+   "name": "Al-Qadr",
+   "fr": "La destinée",
+   "verses": 5
+  },
+  {
+   "n": 99,
+   "name": "Az-Zalzalah",
+   "fr": "La secousse",
+   "verses": 8
+  },
+  {
+   "n": 100,
+   "name": "Al-Adiyat",
+   "fr": "Les coursiers",
+   "verses": 11
+  },
+  {
+   "n": 101,
+   "name": "Al-Qari'ah",
+   "fr": "Le fracas",
+   "verses": 11
+  },
+  {
+   "n": 102,
+   "name": "At-Takathur",
+   "fr": "La course aux richesses",
+   "verses": 8
+  },
+  {
+   "n": 103,
+   "name": "Al-Asr",
+   "fr": "Le temps",
+   "verses": 3
+  },
+  {
+   "n": 104,
+   "name": "Al-Humazah",
+   "fr": "Les calomniateurs",
+   "verses": 9
+  },
+  {
+   "n": 105,
+   "name": "Al-Fil",
+   "fr": "L'éléphant",
+   "verses": 5
+  },
+  {
+   "n": 106,
+   "name": "Quraysh",
+   "fr": "Quraysh",
+   "verses": 4
+  },
+  {
+   "n": 107,
+   "name": "Al-Ma'un",
+   "fr": "L'ustensile",
+   "verses": 7
+  },
+  {
+   "n": 108,
+   "name": "Al-Kawthar",
+   "fr": "L'abondance",
+   "verses": 3
+  },
+  {
+   "n": 109,
+   "name": "Al-Kafirun",
+   "fr": "Les infidèles",
+   "verses": 6
+  },
+  {
+   "n": 110,
+   "name": "An-Nasr",
+   "fr": "Le secours",
+   "verses": 3
+  },
+  {
+   "n": 111,
+   "name": "Al-Masad",
+   "fr": "Les fibres",
+   "verses": 5
+  },
+  {
+   "n": 112,
+   "name": "Al-Ikhlas",
+   "fr": "Le monothéisme pur",
+   "verses": 4
+  },
+  {
+   "n": 113,
+   "name": "Al-Falaq",
+   "fr": "L'aube naissante",
+   "verses": 5
+  },
+  {
+   "n": 114,
+   "name": "An-Nas",
+   "fr": "Les hommes",
+   "verses": 6
+  },
+  {
+   "n": 98,
+   "name": "Al-Bayyinah",
+   "fr": "La preuve",
+   "verses": 8
+  },
+  {
+   "n": 96,
+   "name": "Al-Alaq",
+   "fr": "L'adhérence",
+   "verses": 19
+  },
+  {
+   "n": 91,
+   "name": "Ash-Shams",
+   "fr": "Le soleil",
+   "verses": 15
+  },
+  {
+   "n": 87,
+   "name": "Al-A'la",
+   "fr": "Le Très-Haut",
+   "verses": 19
+  },
+  {
+   "n": 92,
+   "name": "Al-Layl",
+   "fr": "La nuit",
+   "verses": 21
+  },
+  {
+   "n": 90,
+   "name": "Al-Balad",
+   "fr": "La cité",
+   "verses": 20
+  },
+  {
+   "n": 88,
+   "name": "Al-Ghashiyah",
+   "fr": "L'enveloppante",
+   "verses": 26
+  }
+ ]
+}

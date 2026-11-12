@@ -102,7 +102,7 @@ section.block{display:flex;flex-direction:column;gap:12px}
 .row .grow{flex:1;min-width:0}
 .row .ttl{font-weight:700;line-height:1.3}
 .row .meta{font-size:.84rem;color:var(--soft)}
-.btn{border:1px solid var(--line);background:var(--card);border-radius:var(--r-sm);padding:10px 14px;font-weight:700;font-size:.9rem;cursor:pointer;white-space:nowrap}
+.btn{text-decoration:none;display:inline-block;border:1px solid var(--line);background:var(--card);border-radius:var(--r-sm);padding:10px 14px;font-weight:700;font-size:.9rem;cursor:pointer;white-space:nowrap}
 .btn.main{background:var(--navy);border-color:var(--navy);color:#fff}
 .btn.gold{background:var(--gold);border-color:var(--gold);color:#111a35}
 .btn:focus-visible,.tabs button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
@@ -169,6 +169,32 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
 .filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
 .filters button{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:7px 14px;font-weight:700;font-size:.85rem;white-space:nowrap;cursor:pointer}
 .filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* --- Prières & sourate --- */
+.prayers{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+.pchips{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.pchip{border:1.5px solid var(--line);background:var(--card-2);border-radius:var(--r-md);padding:8px 2px;display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;font-weight:700;font-size:.8rem;transition:background .2s,border-color .2s,transform .15s}
+.pchip small{font-weight:600;font-size:.72rem;color:var(--soft)}
+.pchip[aria-pressed="true"]{background:var(--mint-soft);border-color:var(--mint);color:var(--mint)}
+.pchip[aria-pressed="true"] small{color:var(--mint)}
+.pchip:active{transform:scale(.96)}
+.pchip:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.smini{display:flex;justify-content:space-between;align-items:center;gap:10px;border:0;background:none;padding:0;cursor:pointer;text-align:left;width:100%;font-size:.9rem;color:var(--soft)}
+.smini b{color:var(--ink)}
+.surah{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:16px;display:flex;flex-direction:column;gap:12px}
+.surah .nm{font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1.1}
+.pbar{height:8px;background:var(--card-2);border-radius:99px;overflow:hidden}
+.pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--mint));border-radius:99px;transition:width .4s}
+.verses{display:grid;grid-template-columns:repeat(auto-fill,minmax(42px,1fr));gap:6px}
+.verses button{border:1.5px solid var(--line);background:var(--card-2);border-radius:var(--r-sm);padding:8px 0;font-weight:800;cursor:pointer}
+.verses button.wk{border-color:var(--gold)}
+.verses button[aria-pressed="true"]{background:var(--mint);border-color:var(--mint);color:var(--paper)}
+details.known summary{cursor:pointer;font-weight:700;color:var(--soft)}
+.known-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.known-list button{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 12px;font-weight:600;font-size:.82rem;cursor:pointer}
+.known-list button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.cityrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.85rem}
+.cityrow input{padding:7px 10px;border-radius:var(--r-sm);border:1px solid var(--line);background:var(--card-2);color:var(--ink);font:600 .9rem var(--body);width:150px}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:30}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:370px){.hero{grid-template-columns:1fr}.gauge{width:130px;height:130px}}
@@ -196,6 +222,12 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
     <section class="block">
       <div class="head-row"><h2>Tes 2 mots du jour</h2><span class="soft" style="font-size:.85rem">Touche pour retourner</span></div>
       <div class="cards" id="todayWords"></div>
+    </section>
+
+    <section class="prayers" aria-label="Prières du jour">
+      <div class="head-row"><h3>Prières du jour</h3><span class="count num" id="prCount">0/5</span></div>
+      <div class="pchips" id="pchips"></div>
+      <button class="smini" id="smini" type="button"></button>
     </section>
 
     <button class="teaser" id="teaser" type="button" hidden></button>
@@ -266,6 +298,17 @@ textarea{width:100%;font:13px/1.4 ui-monospace,monospace;background:var(--card-2
 
   <!-- CAP -->
   <div id="v-objectifs" class="view" hidden>
+    <section class="block">
+      <div class="head-row"><h2>Sourate du mois</h2><span class="soft" id="sMonth"></span></div>
+      <div class="surah" id="surahCard"></div>
+      <details class="known"><summary>Sourates que je connais déjà</summary><p class="soft" style="font-size:.85rem;margin:8px 0 0">Touche celles que tu sais déjà réciter : elles seront sautées dans ton programme.</p><div class="known-list" id="knownList"></div></details>
+      <div class="list" id="surahDone"></div>
+    </section>
+    <section class="block">
+      <h2>Horaires des prières</h2>
+      <div class="cityrow"><label for="cityIn" class="soft">Ville</label><input id="cityIn" type="text" autocomplete="address-level2"><button class="btn" id="citySave" type="button">Mettre à jour</button></div>
+      <p class="soft" id="ptSource" style="margin:0;font-size:.8rem"></p>
+    </section>
     <section class="block">
       <h2>Prochaines échéances</h2>
       <div id="deadlines" class="list"></div>

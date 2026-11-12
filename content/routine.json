@@ -227,6 +227,21 @@
    "days": [
     6
    ]
+  },
+  {
+   "id": "sourate",
+   "moment": "Soir",
+   "t": "Sourate du mois : 10 min",
+   "d": "Écoute, répète les versets de la semaine, récite sans regarder",
+   "days": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
   }
  ]
 }
