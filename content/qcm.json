@@ -291,6 +291,179 @@
      "explanation": "Verbe (worked) + ADVERBE : worked efficiently."
     }
    ]
+  },
+  {
+   "id": "2026-11-13-aprem",
+   "created": "2026-11-13T14:15:00",
+   "title": "QCM de l'après-midi, vendredi 13 novembre",
+   "theme": "Rappel des règles prioritaires + temps des verbes",
+   "questions": [
+    {
+     "prompt": "The manager's ___ to the proposal surprised everyone.",
+     "options": [
+      "object",
+      "objection",
+      "objected",
+      "objecting"
+     ],
+     "answer": 1,
+     "explanation": "Possessif + NOM : the manager's objection."
+    },
+    {
+     "prompt": "The committee will announce its ___ next week.",
+     "options": [
+      "decide",
+      "decided",
+      "decision",
+      "decisive"
+     ],
+     "answer": 2,
+     "explanation": "Possessif (its) + NOM : its decision."
+    },
+    {
+     "prompt": "We suggest ___ your tickets online to avoid queues.",
+     "options": [
+      "book",
+      "to book",
+      "booking",
+      "booked"
+     ],
+     "answer": 2,
+     "explanation": "suggest + -ING : suggest booking."
+    },
+    {
+     "prompt": "It appears that the merger ___ final approval.",
+     "options": [
+      "is awaiting",
+      "will have awaited",
+      "awaiting",
+      "is awaited"
+     ],
+     "answer": 0,
+     "explanation": "It appears that + situation en cours → présent continu."
+    },
+    {
+     "prompt": "The hotel at ___ the conference took place has 400 rooms.",
+     "options": [
+      "that",
+      "which",
+      "where",
+      "whom"
+     ],
+     "answer": 1,
+     "explanation": "Préposition + WHICH : at which."
+    },
+    {
+     "prompt": "The new catalogue is ___ designed and easy to read.",
+     "options": [
+      "beautiful",
+      "beautifully",
+      "beauty",
+      "beautify"
+     ],
+     "answer": 1,
+     "explanation": "ADVERBE devant un participe (designed) : beautifully designed."
+    },
+    {
+     "prompt": "Several firms filed for ___ after the crisis.",
+     "options": [
+      "bankrupt",
+      "bankruptcy",
+      "bankrupted",
+      "bankrupting"
+     ],
+     "answer": 1,
+     "explanation": "Préposition (for) + NOM : filed for bankruptcy."
+    },
+    {
+     "prompt": "Ms. Park ___ for the company since 2019.",
+     "options": [
+      "works",
+      "worked",
+      "has worked",
+      "is working"
+     ],
+     "answer": 2,
+     "explanation": "since + date → present perfect : has worked."
+    },
+    {
+     "prompt": "Last year, the firm ___ two new offices in Asia.",
+     "options": [
+      "opens",
+      "opened",
+      "has opened",
+      "will open"
+     ],
+     "answer": 1,
+     "explanation": "Last year → prétérit (action terminée, date précise) : opened."
+    },
+    {
+     "prompt": "By the end of next month, we ___ the new system.",
+     "options": [
+      "install",
+      "installed",
+      "will have installed",
+      "have installed"
+     ],
+     "answer": 2,
+     "explanation": "By + moment futur → futur antérieur : will have installed."
+    },
+    {
+     "prompt": "The shipment ___ yet, so please wait before calling.",
+     "options": [
+      "didn't arrive",
+      "hasn't arrived",
+      "doesn't arrive",
+      "won't arrive"
+     ],
+     "answer": 1,
+     "explanation": "yet → present perfect (négatif) : hasn't arrived yet."
+    },
+    {
+     "prompt": "When the CEO arrived, the meeting ___ already ___.",
+     "options": [
+      "has / started",
+      "had / started",
+      "was / start",
+      "will / start"
+     ],
+     "answer": 1,
+     "explanation": "Action antérieure à une autre action passée → past perfect : had already started."
+    },
+    {
+     "prompt": "The team ___ on the report right now.",
+     "options": [
+      "works",
+      "worked",
+      "is working",
+      "has worked"
+     ],
+     "answer": 2,
+     "explanation": "right now → présent continu : is working."
+    },
+    {
+     "prompt": "If sales increase, we ___ more staff next year.",
+     "options": [
+      "hire",
+      "hired",
+      "will hire",
+      "would hire"
+     ],
+     "answer": 2,
+     "explanation": "If + présent → futur (will) : will hire."
+    },
+    {
+     "prompt": "Mr. Lee usually ___ the bus to work.",
+     "options": [
+      "takes",
+      "is taking",
+      "took",
+      "has taken"
+     ],
+     "answer": 0,
+     "explanation": "usually (habitude) → présent simple : takes."
+    }
+   ]
   }
  ]
 }
