@@ -118,6 +118,179 @@
    "theme": "Carnet d'erreurs du 12/11",
    "title": "Tes 7 règles prioritaires",
    "id": "2026-11-12-priorites"
+  },
+  {
+   "id": "2026-11-13-matin",
+   "created": "2026-11-13T08:45:00",
+   "title": "QCM du matin, vendredi 13 novembre",
+   "theme": "Tes 5 règles prioritaires + nature des mots",
+   "questions": [
+    {
+     "prompt": "The firm's ___ to sustainability has attracted new investors.",
+     "options": [
+      "commit",
+      "committed",
+      "commitment",
+      "commits"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the firm's commitment."
+    },
+    {
+     "prompt": "The CEO's ___ was announced yesterday afternoon.",
+     "options": [
+      "resign",
+      "resigned",
+      "resignation",
+      "resigning"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the CEO's resignation."
+    },
+    {
+     "prompt": "Analysts expect strong ___ in the renewable energy sector.",
+     "options": [
+      "grow",
+      "growth",
+      "grown",
+      "grew"
+     ],
+     "answer": 1,
+     "explanation": "Verbe (expect) + adjectif + NOM : strong growth."
+    },
+    {
+     "prompt": "The agency provides ___ to small businesses that export.",
+     "options": [
+      "assist",
+      "assistance",
+      "assisted",
+      "assistive"
+     ],
+     "answer": 1,
+     "explanation": "Verbe (provide) + NOM complément : provides assistance."
+    },
+    {
+     "prompt": "The consultant recommended ___ the meeting to Friday.",
+     "options": [
+      "move",
+      "to move",
+      "moving",
+      "moved"
+     ],
+     "answer": 2,
+     "explanation": "recommend + -ING : recommended moving."
+    },
+    {
+     "prompt": "Have you considered ___ for the manager position?",
+     "options": [
+      "apply",
+      "to apply",
+      "applying",
+      "applied"
+     ],
+     "answer": 2,
+     "explanation": "consider + -ING : considered applying."
+    },
+    {
+     "prompt": "It appears that sales ___ steadily this quarter.",
+     "options": [
+      "are rising",
+      "will have risen",
+      "rise up",
+      "are risen"
+     ],
+     "answer": 0,
+     "explanation": "It appears that + situation en cours → présent continu : are rising."
+    },
+    {
+     "prompt": "It seems that the store ___ extra staff for the holiday season.",
+     "options": [
+      "is hiring",
+      "will have hired",
+      "hiring",
+      "is hired"
+     ],
+     "answer": 0,
+     "explanation": "It seems that + action en cours → présent continu : is hiring."
+    },
+    {
+     "prompt": "The report, in ___ the results are summarized, is attached.",
+     "options": [
+      "that",
+      "which",
+      "what",
+      "where"
+     ],
+     "answer": 1,
+     "explanation": "Préposition + WHICH (chose) : in which. Jamais « in that »."
+    },
+    {
+     "prompt": "The manager to ___ you should send the invoice is Mr. Ross.",
+     "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 1,
+     "explanation": "Préposition + WHOM (personne) : to whom."
+    },
+    {
+     "prompt": "The new software is ___ easy to install.",
+     "options": [
+      "remark",
+      "remarkable",
+      "remarkably",
+      "remarked"
+     ],
+     "answer": 2,
+     "explanation": "ADVERBE devant un adjectif (easy) : remarkably easy."
+    },
+    {
+     "prompt": "Ms. Tan gave a very ___ presentation on market trends.",
+     "options": [
+      "inform",
+      "informative",
+      "information",
+      "informatively"
+     ],
+     "answer": 1,
+     "explanation": "very + ADJECTIF + nom (presentation) : very informative."
+    },
+    {
+     "prompt": "Please read the instructions ___ before using the device.",
+     "options": [
+      "careful",
+      "carefully",
+      "care",
+      "careless"
+     ],
+     "answer": 1,
+     "explanation": "ADVERBE pour décrire comment on fait l'action (read) : carefully."
+    },
+    {
+     "prompt": "The ___ of the new branch is scheduled for May.",
+     "options": [
+      "open",
+      "opened",
+      "opening",
+      "openly"
+     ],
+     "answer": 2,
+     "explanation": "the + NOM + of : the opening of."
+    },
+    {
+     "prompt": "Our team worked ___ to meet the tight deadline.",
+     "options": [
+      "efficient",
+      "efficiently",
+      "efficiency",
+      "efficiencies"
+     ],
+     "answer": 1,
+     "explanation": "Verbe (worked) + ADVERBE : worked efficiently."
+    }
+   ]
   }
  ]
 }
