@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-14",
+   "items": [
+    {
+     "cat": "Tech",
+     "title": "Nvidia sans Jensen Huang",
+     "text": "Jensen Huang a démissionné de la direction de Nvidia ; Colette Kress, la directrice financière, assure l'intérim. Il doit témoigner à huis clos devant la Chambre des représentants, et le président de la commission bancaire du Sénat veut l'entendre aussi. Nvidia a perdu près de 2 000 milliards de dollars de valeur boursière depuis début octobre.",
+     "why": "Le risque « homme-clé » : quand un dirigeant incarne l'entreprise, son départ pèse directement sur le cours.",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Wall Street recule, les puces IA plongent",
+     "text": "Vendredi, le S&P 500 a cédé 0,40 % et le Nasdaq 0,91 %. AMD a chuté de 8,75 % dans une vague de prises de bénéfices sur les fabricants de puces IA (Nvidia -2 %, Intel -2,5 %), alors que l'action avait bondi de 30 % plus tôt dans la semaine après de bons résultats.",
+     "why": "Exemple de contagion sectorielle : une incertitude sur le leader fait baisser tout le secteur.",
+     "source": "The Motley Fool",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Iran : escalade dans le Golfe",
+     "text": "Les Gardiens de la révolution disent avoir détruit un radar américain à Bahreïn, en riposte à une frappe américaine. Quatre attaques contre des pétroliers ont eu lieu jeudi et un méthanier a sauté sur une mine dans le détroit d'Ormuz. Un rapport confidentiel de l'AIEA s'inquiète du site d'enrichissement d'Ispahan, inaccessible aux inspecteurs.",
+     "why": "Ormuz voit passer environ un cinquième du pétrole mondial : chaque incident fait réagir le prix du baril.",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : diplomatie et échange de prisonniers",
+     "text": "Les émissaires américains Witkoff et Kushner ont rencontré Vladimir Poutine à Moscou puis Volodymyr Zelensky à Dublin. Zelensky annonce le plus grand échange de prisonniers depuis l'invasion à grande échelle, mais les attaques de drones et de missiles continuent.",
+     "why": "Montre la diplomatie « parallèle » : on négocie tout en continuant à combattre.",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Gaza : appel de 49 pays avant l'hiver",
+     "text": "49 pays, menés par le Royaume-Uni, le Qatar et la Jordanie, demandent à Israël de laisser entrer l'aide d'hiver ; les États-Unis n'ont pas signé. Selon l'ONU, 150 000 tentes sont bloquées aux frontières et 350 000 déplacés sont exposés aux inondations et au froid.",
+     "why": "Illustre le poids et les limites de la pression diplomatique multilatérale.",
+     "source": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-13-2026/"
+    },
+    {
+     "cat": "France",
+     "title": "Israël refuse l'entrée à Jean-Luc Mélenchon",
+     "text": "Israël a interdit l'entrée de son territoire au leader de La France insoumise ; le gouvernement français a qualifié la décision de « démagogique ».",
+     "why": "Un dossier où politique intérieure et relations diplomatiques se croisent.",
+     "source": "Presse Évasion",
+     "url": "https://www.presse-evasion.fr/article/revue-presse-13-11-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Panne Microsoft mondiale",
+     "text": "Outlook, Teams et Copilot ont été perturbés dans au moins 74 pays.",
+     "why": "Rappelle la dépendance des entreprises à quelques fournisseurs de cloud (risque de concentration).",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
+    }
+   ],
+   "history": [
+    {
+     "title": "14 novembre 1940 : Coventry bombardée",
+     "text": "La Luftwaffe rase le centre de Coventry en une nuit. Le verbe allemand « coventrieren » désignera ensuite la destruction totale d'une ville."
+    },
+    {
+     "title": "14 novembre 1889 : le tour du monde de Nellie Bly",
+     "text": "La journaliste américaine part pour battre le record fictif du « Tour du monde en 80 jours » de Jules Verne. Elle boucle le voyage en 72 jours."
+    },
+    {
+     "title": "14 novembre 1969 : Apollo 12",
+     "text": "La fusée est frappée deux fois par la foudre au décollage, mais la mission atteint la Lune : deuxième alunissage habité de l'histoire."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "Semaine prochaine",
+     "t": "Résultats trimestriels de Nvidia, très attendus après le départ de Huang"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "Décembre",
+     "t": "Dernière réunion de l'année de la Fed sur les taux"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qui assure l'intérim à la tête de Nvidia après la démission de Jensen Huang ?",
+     "options": [
+      "Lisa Su",
+      "Colette Kress",
+      "Satya Nadella",
+      "Pat Gelsinger"
+     ],
+     "answer": 1,
+     "explanation": "Colette Kress, directrice financière de Nvidia, est PDG par intérim. (Lisa Su dirige AMD.)"
+    },
+    {
+     "prompt": "Pourquoi le détroit d'Ormuz compte autant pour les marchés ?",
+     "options": [
+      "C'est le principal passage du gaz russe",
+      "Environ un cinquième du pétrole mondial y transite",
+      "Il relie la mer Rouge à la Méditerranée",
+      "Il abrite les plus grandes réserves d'or"
+     ],
+     "answer": 1,
+     "explanation": "Ormuz relie le golfe Persique à l'océan Indien ; une grande part du pétrole exporté par le Golfe y passe."
+    },
+    {
+     "prompt": "Une baisse de tout un secteur après une mauvaise nouvelle sur son leader s'appelle :",
+     "options": [
+      "Un short squeeze",
+      "Une contagion sectorielle",
+      "Un dividende exceptionnel",
+      "Une OPA"
+     ],
+     "answer": 1,
+     "explanation": "Contagion sectorielle : l'incertitude sur Nvidia a entraîné AMD et Intel."
+    }
+   ]
+  },
+  {
    "date": "2026-11-13",
    "items": [
     {

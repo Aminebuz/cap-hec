@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-14",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -462,6 +462,179 @@
      ],
      "answer": 0,
      "explanation": "usually (habitude) → présent simple : takes."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-matin",
+   "created": "2026-11-14T08:45:00+01:00",
+   "title": "Samedi matin : suggest + -ing et temps du passé",
+   "theme": "Règles prioritaires + prétérit / present perfect",
+   "questions": [
+    {
+     "prompt": "The consultant suggested ------- the launch until the spring.",
+     "options": [
+      "postpone",
+      "to postpone",
+      "postponing",
+      "postponed"
+     ],
+     "answer": 2,
+     "explanation": "suggest + -ING : suggest postponing. Jamais suggest to + verbe."
+    },
+    {
+     "prompt": "Ms. Tanaka recommends ------- the contract carefully before signing it.",
+     "options": [
+      "review",
+      "reviewing",
+      "to review",
+      "reviewed"
+     ],
+     "answer": 1,
+     "explanation": "recommend + -ING (recommend reviewing). Même famille : suggest, consider, avoid, mind, finish."
+    },
+    {
+     "prompt": "To reduce costs, the board is considering ------- two regional offices.",
+     "options": [
+      "merge",
+      "to merge",
+      "merged",
+      "merging"
+     ],
+     "answer": 3,
+     "explanation": "consider + -ING : considering merging."
+    },
+    {
+     "prompt": "Customers praised the hotel's ------- during the busy holiday season.",
+     "options": [
+      "efficient",
+      "efficiently",
+      "efficiency",
+      "efficiencies of"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the hotel's efficiency."
+    },
+    {
+     "prompt": "After months of losses, the retailer was forced to declare -------.",
+     "options": [
+      "bankrupt",
+      "bankruptcy",
+      "bankrupted",
+      "bankruptly"
+     ],
+     "answer": 1,
+     "explanation": "Verbe + NOM complément : declare bankruptcy."
+    },
+    {
+     "prompt": "It appears that the construction of the new terminal ------- completion.",
+     "options": [
+      "nearing",
+      "is nearing",
+      "has neared to",
+      "near"
+     ],
+     "answer": 1,
+     "explanation": "It appears/seems that + action en cours → présent continu : is nearing."
+    },
+    {
+     "prompt": "The committee will review the process ------- new staff are selected.",
+     "options": [
+      "by that",
+      "in that",
+      "by which",
+      "which"
+     ],
+     "answer": 2,
+     "explanation": "Préposition + WHICH (by which), jamais préposition + that."
+    },
+    {
+     "prompt": "The new branch is ------- located near the central station.",
+     "options": [
+      "convenience",
+      "convenient",
+      "conveniently",
+      "convenienced"
+     ],
+     "answer": 2,
+     "explanation": "Adverbe + participe/adjectif : conveniently located."
+    },
+    {
+     "prompt": "By the time the auditors arrive, we ------- all the reports.",
+     "options": [
+      "finish",
+      "will have finished",
+      "have finished",
+      "finished"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL : by the time + présent → will have + participe passé."
+    },
+    {
+     "prompt": "The company ------- its first store in Lyon in 2019.",
+     "options": [
+      "has opened",
+      "opens",
+      "opened",
+      "has been opening"
+     ],
+     "answer": 2,
+     "explanation": "Date passée précise (in 2019) → prétérit : opened."
+    },
+    {
+     "prompt": "Mr. Diallo ------- for the firm since 2021.",
+     "options": [
+      "works",
+      "worked",
+      "has worked",
+      "is working"
+     ],
+     "answer": 2,
+     "explanation": "since/for + jusqu'à maintenant → present perfect : has worked."
+    },
+    {
+     "prompt": "The shipment arrived two days -------, so the client received a discount.",
+     "options": [
+      "ago",
+      "late",
+      "since",
+      "yet"
+     ],
+     "answer": 1,
+     "explanation": "Piège de sens : arrived two days late (en retard). « ago » s'emploie avec un moment : two days ago."
+    },
+    {
+     "prompt": "We ------- the new software yet, but training starts next week.",
+     "options": [
+      "didn't install",
+      "haven't installed",
+      "don't install",
+      "weren't installing"
+     ],
+     "answer": 1,
+     "explanation": "yet en phrase négative → present perfect : haven't installed."
+    },
+    {
+     "prompt": "The CEO usually ------- the quarterly results in person.",
+     "options": [
+      "present",
+      "is presenting",
+      "presents",
+      "has presented"
+     ],
+     "answer": 2,
+     "explanation": "usually (habitude) → présent simple, 3e personne : presents."
+    },
+    {
+     "prompt": "Last month, sales ------- by 12 percent compared with October.",
+     "options": [
+      "have risen",
+      "rose",
+      "rise",
+      "are rising"
+     ],
+     "answer": 1,
+     "explanation": "Last month (période terminée) → prétérit : rose. Et rise BY X %."
     }
    ]
   }
