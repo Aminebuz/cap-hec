@@ -637,6 +637,179 @@
      "explanation": "Last month (période terminée) → prétérit : rose. Et rise BY X %."
     }
    ]
+  },
+  {
+   "id": "2026-11-14-aprem",
+   "created": "2026-11-14T14:15:00+01:00",
+   "title": "Samedi après-midi : -ing et tous les temps",
+   "theme": "Règles prioritaires + temps (prétérit, present perfect, continu, futur antérieur)",
+   "questions": [
+    {
+     "prompt": "The manager avoided ------- any promises about the delivery date.",
+     "options": [
+      "make",
+      "to make",
+      "making",
+      "made"
+     ],
+     "answer": 2,
+     "explanation": "avoid + -ING : avoided making."
+    },
+    {
+     "prompt": "Several employees have suggested ------- a shuttle service to the new office.",
+     "options": [
+      "offering",
+      "to offer",
+      "offer",
+      "offered"
+     ],
+     "answer": 0,
+     "explanation": "suggest + -ING : suggested offering."
+    },
+    {
+     "prompt": "We strongly recommend ------- your password every three months.",
+     "options": [
+      "to change",
+      "changing",
+      "change",
+      "changed"
+     ],
+     "answer": 1,
+     "explanation": "recommend + -ING : recommend changing."
+    },
+    {
+     "prompt": "The supplier's ------- to deliver on time has impressed our buyers.",
+     "options": [
+      "able",
+      "ably",
+      "ability",
+      "abled"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the supplier's ability."
+    },
+    {
+     "prompt": "The marketing team is ------- a new campaign for the spring collection.",
+     "options": [
+      "prepared",
+      "preparing",
+      "preparation",
+      "prepare"
+     ],
+     "answer": 1,
+     "explanation": "be + -ING pour une action en cours (is preparing) : ici le sujet fait l'action."
+    },
+    {
+     "prompt": "It seems that the two firms ------- the terms of the merger this week.",
+     "options": [
+      "are negotiating",
+      "negotiating",
+      "has negotiated",
+      "negotiate to"
+     ],
+     "answer": 0,
+     "explanation": "It seems that + action en cours (this week) → présent continu : are negotiating."
+    },
+    {
+     "prompt": "The office ------- the meeting was held has been renovated.",
+     "options": [
+      "in that",
+      "which",
+      "in which",
+      "what"
+     ],
+     "answer": 2,
+     "explanation": "Préposition + WHICH : the office in which… (= where)."
+    },
+    {
+     "prompt": "The board ------- a new chief financial officer last Tuesday.",
+     "options": [
+      "has appointed",
+      "appointed",
+      "appoints",
+      "is appointing"
+     ],
+     "answer": 1,
+     "explanation": "last Tuesday → prétérit : appointed."
+    },
+    {
+     "prompt": "Ms. Rossi has already ------- the agenda to all participants.",
+     "options": [
+      "send",
+      "sending",
+      "sent",
+      "sends"
+     ],
+     "answer": 2,
+     "explanation": "have/has + PARTICIPE PASSÉ : has already sent (already → present perfect)."
+    },
+    {
+     "prompt": "Our team ------- three new clients so far this quarter.",
+     "options": [
+      "signed",
+      "has signed",
+      "signs",
+      "is signing"
+     ],
+     "answer": 1,
+     "explanation": "so far / this quarter (période pas terminée) → present perfect : has signed."
+    },
+    {
+     "prompt": "The factory ------- production two years ago because of low demand.",
+     "options": [
+      "has stopped",
+      "stops",
+      "stopped",
+      "had been stopping"
+     ],
+     "answer": 2,
+     "explanation": "two years ago → prétérit : stopped."
+    },
+    {
+     "prompt": "The cafeteria ------- at 7:30 every weekday morning.",
+     "options": [
+      "opens",
+      "is opening",
+      "has opened",
+      "opened"
+     ],
+     "answer": 0,
+     "explanation": "every weekday morning (habitude, horaire) → présent simple : opens."
+    },
+    {
+     "prompt": "Currently, the IT department ------- the company's servers.",
+     "options": [
+      "upgrades",
+      "is upgrading",
+      "upgraded",
+      "has upgraded"
+     ],
+     "answer": 1,
+     "explanation": "Currently / right now / at the moment → présent continu : is upgrading."
+    },
+    {
+     "prompt": "When the client called, Mr. Ito ------- a presentation to the board.",
+     "options": [
+      "gives",
+      "has given",
+      "was giving",
+      "will give"
+     ],
+     "answer": 2,
+     "explanation": "Action en cours interrompue dans le passé (when + prétérit) → past continuous : was giving."
+    },
+    {
+     "prompt": "By next June, the company ------- in Marseille for ten years.",
+     "options": [
+      "operates",
+      "will have operated",
+      "has operated",
+      "operated"
+     ],
+     "answer": 1,
+     "explanation": "By + date future + durée → futur antérieur : will have operated."
+    }
+   ]
   }
  ]
 }
