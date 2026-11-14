@@ -1,29 +1,39 @@
 {
  "rules": [
   {
-   "example": "the supplier's reliability, Mr. Albrecht's promptness",
+   "rule": "Habitude (usually, every day, often) → présent simple (+ s à la 3e pers.)",
+   "example": "The CEO usually presents the results",
+   "status": "priorité"
+  },
+  {
+   "rule": "Currently / at the moment / now → présent continu",
+   "example": "Currently, the IT department is upgrading…",
+   "status": "priorité"
+  },
+  {
+   "example": "the supplier's ability, the hotel's efficiency",
    "rule": "Possessif ('s, his, their) + NOM",
    "status": "priorité"
   },
   {
    "example": "declare bankruptcy, supporting advances in",
    "rule": "Verbe + NOM complément",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
-   "example": "consider modifying, recommended extending",
-   "rule": "recommend / consider / avoid + -ING",
+   "example": "suggest booking, avoided making",
+   "rule": "suggest / recommend / consider / avoid + -ING",
    "status": "priorité"
   },
   {
    "example": "the negotiations are nearing completion",
    "rule": "It seems / appears that → présent continu",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "example": "a sale in which it offered…",
    "rule": "Préposition + which / whom (jamais that)",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "example": "the agency specializes in tours",
@@ -53,7 +63,7 @@
   {
    "example": "conveniently located, variously colored",
    "rule": "ADVERBE + adjectif / participe",
-   "status": "à revoir"
+   "status": "maîtrisée"
   },
   {
    "example": "comply with the regulations",
@@ -93,7 +103,7 @@
   {
    "example": "will have demolished",
    "rule": "By the time + futur → will have + pp",
-   "status": "à revoir"
+   "status": "maîtrisée"
   },
   {
    "example": "the judges will choose",
@@ -123,6 +133,11 @@
   {
    "example": "a test drive",
    "rule": "test drive, conveniently located (expressions)",
+   "status": "à revoir"
+  },
+  {
+   "rule": "Date passée (last…, ago, in 2019) → prétérit ; since / for / yet / so far → present perfect",
+   "example": "opened in 2019 / has worked since 2021",
    "status": "à revoir"
   }
  ]
