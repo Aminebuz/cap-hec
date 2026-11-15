@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -808,6 +808,179 @@
      ],
      "answer": 1,
      "explanation": "By + date future + durée → futur antérieur : will have operated."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-matin",
+   "created": "2026-11-15T08:45:00+01:00",
+   "title": "Dimanche matin : erreurs d'hier + voix passive",
+   "theme": "Possessif + nom, présent simple / continu, voix passive vs active",
+   "questions": [
+    {
+     "prompt": "The manager praised her assistant's ------- in organizing the conference.",
+     "options": [
+      "efficient",
+      "efficiently",
+      "efficiency",
+      "efficiencies of"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM. Repère les suffixes de nom : -ity, -ness, -ment, -tion, -ency."
+    },
+    {
+     "prompt": "Thanks to the firm's ------- to innovation, sales doubled in two years.",
+     "options": [
+      "commit",
+      "commitment",
+      "committed",
+      "committing"
+     ],
+     "answer": 1,
+     "explanation": "Possessif ('s) + NOM : the firm's commitment."
+    },
+    {
+     "prompt": "The auditor recommended ------- the expense reports every month.",
+     "options": [
+      "checking",
+      "to check",
+      "check",
+      "checked"
+     ],
+     "answer": 0,
+     "explanation": "recommend + -ING : recommended checking. Encore une réussite et la règle est maîtrisée."
+    },
+    {
+     "prompt": "Ms. Park usually ------- her emails before the morning meeting.",
+     "options": [
+      "answer",
+      "answers",
+      "is answering",
+      "has answered"
+     ],
+     "answer": 1,
+     "explanation": "usually = habitude → présent simple, avec -s à la 3e personne : answers."
+    },
+    {
+     "prompt": "Our technicians ------- the equipment every Friday afternoon.",
+     "options": [
+      "inspect",
+      "are inspecting",
+      "inspected",
+      "have inspected"
+     ],
+     "answer": 0,
+     "explanation": "every Friday = habitude → présent simple (sujet pluriel, pas de -s) : inspect."
+    },
+    {
+     "prompt": "At the moment, the sales team ------- a new pricing strategy.",
+     "options": [
+      "discusses",
+      "discussed",
+      "is discussing",
+      "has discussed"
+     ],
+     "answer": 2,
+     "explanation": "At the moment = action en cours → présent continu : is discussing."
+    },
+    {
+     "prompt": "Please call back later; Mr. Okafor ------- with a client right now.",
+     "options": [
+      "meets",
+      "is meeting",
+      "met",
+      "has met"
+     ],
+     "answer": 1,
+     "explanation": "right now = action en cours → présent continu : is meeting."
+    },
+    {
+     "prompt": "The hotel has a conference room ------- up to 200 guests can be seated.",
+     "options": [
+      "in that",
+      "which",
+      "in which",
+      "what"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : préposition + WHICH (in which)."
+    },
+    {
+     "prompt": "The committee will announce ------- of the design competition next week.",
+     "options": [
+      "win",
+      "the winner",
+      "winning",
+      "won"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL : verbe + NOM complément (announce the winner)."
+    },
+    {
+     "prompt": "The new safety rules ------- by the board last Monday.",
+     "options": [
+      "approved",
+      "were approved",
+      "have approved",
+      "approving"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF : les règles ne s'approuvent pas elles-mêmes → be + participe passé. last Monday → prétérit : were approved."
+    },
+    {
+     "prompt": "All visitors ------- to wear a badge inside the building.",
+     "options": [
+      "require",
+      "are required",
+      "requiring",
+      "have required"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF : les visiteurs SUBISSENT l'obligation → are required to + verbe. Expression très fréquente au TOEIC."
+    },
+    {
+     "prompt": "The marketing director ------- the campaign results tomorrow.",
+     "options": [
+      "will present",
+      "will be presented",
+      "is presented",
+      "presented"
+     ],
+     "answer": 0,
+     "explanation": "ACTIF : le directeur fait l'action, et il y a un complément (the campaign results) → will present. Un COD après le blanc = actif."
+    },
+    {
+     "prompt": "The parcels ------- yet, so the customers are still waiting.",
+     "options": [
+      "haven't delivered",
+      "haven't been delivered",
+      "didn't deliver",
+      "aren't delivering"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF + present perfect : have/has been + participe passé → haven't been delivered (les colis ne livrent pas)."
+    },
+    {
+     "prompt": "Ms. Laurent ------- as head of the Lyon office last year.",
+     "options": [
+      "appointed",
+      "was appointed",
+      "has appointed",
+      "appoints"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF : on l'a nommée → was appointed. appoint = nommer. Pas de COD après le blanc = souvent passif."
+    },
+    {
+     "prompt": "The factory currently ------- by a team of 40 engineers.",
+     "options": [
+      "is managed",
+      "manages",
+      "is managing",
+      "managed"
+     ],
+     "answer": 0,
+     "explanation": "PASSIF au présent : « by a team » donne l'agent → is managed by. Le complément d'agent (by + personne) signale le passif."
     }
    ]
   }

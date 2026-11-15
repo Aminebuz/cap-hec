@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-15",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Trump, Xi et Poutine réunis à Shenzhen le 19 novembre",
+     "text": "Selon la Maison-Blanche, les trois dirigeants se retrouveront en marge du sommet de l'APEC à Shenzhen. La réduction des armes nucléaires est au programme, l'Iran sera abordé, mais pas l'Ukraine selon un responsable américain.",
+     "why": "Une rencontre à trois des puissances nucléaires majeures est rare : à suivre pour l'équilibre mondial.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : accord de principe sur un échange de prisonniers",
+     "text": "Des pourparlers organisés par les États-Unis à Abu Dhabi ont abouti à un accord de principe sur ce qui serait le plus grand échange de prisonniers de la guerre. À Moscou, Vladimir Poutine maintiendrait ses exigences sur quatre régions ukrainiennes. Les Européens doivent rejoindre le prochain cycle de discussions.",
+     "why": "Montre qu'on peut avancer sur l'humanitaire même quand le fond (les territoires) bloque.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Qatar et Turquie signent un pacte de défense mutuelle",
+     "text": "Les deux pays s'engagent à se défendre mutuellement, dans un Golfe sous tension autour du détroit d'Ormuz. L'ONU compte au moins 25 marins morts dans la zone depuis février.",
+     "why": "Les alliances régionales se recomposent quand la sécurité du Golfe est menacée.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Le pétrole recule, Wall Street finit la semaine en hausse",
+     "text": "Le Brent a clôturé vendredi à 95,84 $ (environ -2,5 % sur la semaine, deuxième baisse hebdomadaire d'affilée), le WTI à 88,56 $. L'AIE note que les stocks mondiaux de pétrole ont augmenté de 52 millions de barils en octobre. Le S&P 500 a perdu 0,4 % vendredi mais gagne 2,5 % sur la semaine.",
+     "why": "Des stocks qui montent = plus d'offre disponible, ce qui pèse sur les prix du baril.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Nvidia : semaine historique et résultats mardi",
+     "text": "Nvidia a subi la plus forte perte de capitalisation hebdomadaire jamais enregistrée. Harvey Jones devient le premier président du conseil d'administration, Colette Kress assure l'intérim de la direction, et trois commissions de la Chambre entendront Jensen Huang le 1er décembre. Les résultats trimestriels sont attendus mardi.",
+     "why": "Séparer président du conseil et directeur général est un principe classique de gouvernance d'entreprise.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Économie",
+     "title": "États-Unis : tous les vols au départ cloués au sol",
+     "text": "La FAA a stoppé tous les départs pendant environ cinq heures vendredi après une panne de télécommunications dans les centres de contrôle aérien. Au moins 600 vols ont été déroutés ; les autorités ne voient pas de signe de cyberattaque.",
+     "why": "Une première depuis janvier 2023 : la fragilité des infrastructures critiques a un coût économique direct.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-14-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Microsoft 365 rétabli, une faille dans les extensions de Cursor",
+     "text": "Microsoft 365 est revenu après deux jours de panne. Cursor a publié un rapport sur des extensions piégées introduites dans sa boutique via une clé de fournisseur volée : une attaque de la chaîne d'approvisionnement logicielle.",
+     "why": "La « supply chain » concerne aussi le logiciel : un seul maillon compromis peut toucher des milliers d'utilisateurs.",
+     "source": "Deep Gains",
+     "url": "https://deepgains.substack.com/p/morning-brief-saturday-november-14-aef"
+    }
+   ],
+   "history": [
+    {
+     "title": "15 novembre 1920 : la Société des Nations se réunit",
+     "text": "La première Assemblée de la SDN s'ouvre à Genève avec 41 pays. Elle échouera à empêcher la Seconde Guerre mondiale et l'ONU la remplacera en 1945."
+    },
+    {
+     "title": "15 novembre 1988 : le vol de la navette Bourane",
+     "text": "La navette spatiale soviétique fait deux tours de la Terre et atterrit seule, sans équipage, grâce à son pilote automatique. Ce sera son unique vol."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "Mardi 17 nov.",
+     "t": "Résultats trimestriels de Nvidia"
+    },
+    {
+     "date": "19 nov.",
+     "t": "Rencontre Trump – Xi – Poutine à Shenzhen (APEC)"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang à la Chambre des représentants"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Où doivent se rencontrer Trump, Xi et Poutine le 19 novembre ?",
+     "options": [
+      "Genève",
+      "Shenzhen",
+      "Abu Dhabi",
+      "Moscou"
+     ],
+     "answer": 1,
+     "explanation": "À Shenzhen, en marge du sommet de l'APEC (Coopération économique Asie-Pacifique)."
+    },
+    {
+     "prompt": "Les stocks mondiaux de pétrole augmentent. Effet attendu sur le prix du baril ?",
+     "options": [
+      "Plutôt à la hausse",
+      "Plutôt à la baisse",
+      "Aucun effet",
+      "Il double"
+     ],
+     "answer": 1,
+     "explanation": "Plus d'offre disponible par rapport à la demande → pression à la baisse. Le Brent a d'ailleurs reculé deux semaines d'affilée."
+    },
+    {
+     "prompt": "Qui assure désormais la présidence du conseil d'administration de Nvidia ?",
+     "options": [
+      "Jensen Huang",
+      "Colette Kress",
+      "Harvey Jones",
+      "Lisa Su"
+     ],
+     "answer": 2,
+     "explanation": "Harvey Jones devient le premier président du conseil ; Colette Kress est directrice générale par intérim."
+    }
+   ]
+  },
+  {
    "date": "2026-11-14",
    "items": [
     {
