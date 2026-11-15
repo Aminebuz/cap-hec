@@ -1,6 +1,21 @@
 {
  "rules": [
   {
+   "rule": "Concession : even if / even though / even as (= alors que) ≠ as though, as a result of",
+   "example": "shuts off even if it has a fully charged battery ; Even as newspapers reported…",
+   "status": "priorité"
+  },
+  {
+   "rule": "interested (personne) ≠ interesting (chose) : be interested in",
+   "example": "Mr. Hobbes is interested in the loan",
+   "status": "priorité"
+  },
+  {
+   "rule": "assemble = monter, assembler ; properly = correctement ; continue",
+   "example": "homes are fully assembled before being shipped",
+   "status": "à revoir"
+  },
+  {
    "rule": "Partie 6 – phrase à insérer : choisir celle qui se relie à la phrase d'avant / d'après",
    "example": "sign up in advance. There is limited seating at this event.",
    "status": "priorité"
