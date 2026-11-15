@@ -58,10 +58,10 @@
   {
    "rule": "Currently / at the moment / now → présent continu",
    "example": "Currently, the IT department is upgrading…",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
-   "example": "the supplier's ability, the hotel's efficiency",
+   "example": "the CEO's confidence, their knowledge, the supplier's ability",
    "rule": "Possessif ('s, his, their) + NOM",
    "status": "priorité"
   },
@@ -71,7 +71,7 @@
    "status": "maîtrisée"
   },
   {
-   "example": "suggest booking, avoided making",
+   "example": "suggested moving, recommend checking",
    "rule": "suggest / recommend / consider / avoid + -ING",
    "status": "priorité"
   },
