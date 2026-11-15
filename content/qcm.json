@@ -983,6 +983,179 @@
      "explanation": "PASSIF au présent : « by a team » donne l'agent → is managed by. Le complément d'agent (by + personne) signale le passif."
     }
    ]
+  },
+  {
+   "id": "2026-11-15-aprem",
+   "created": "2026-11-15T14:15:00+01:00",
+   "title": "Dimanche après-midi : priorités + voix passive",
+   "theme": "Possessif + nom, présent simple / continu, -ing, voix passive",
+   "questions": [
+    {
+     "prompt": "Investors were reassured by the CEO's ------- about future growth.",
+     "options": [
+      "confident",
+      "confidently",
+      "confidence",
+      "confide"
+     ],
+     "answer": 2,
+     "explanation": "Possessif ('s) + NOM : the CEO's confidence (-ence = nom)."
+    },
+    {
+     "prompt": "Their ------- of the new software made the transition easy.",
+     "options": [
+      "knew",
+      "knowledge",
+      "knowing",
+      "knowledgeable"
+     ],
+     "answer": 1,
+     "explanation": "Adjectif possessif (their) + NOM : their knowledge."
+    },
+    {
+     "prompt": "The bakery ------- fresh bread to local restaurants every morning.",
+     "options": [
+      "deliver",
+      "delivers",
+      "is delivering",
+      "has delivered"
+     ],
+     "answer": 1,
+     "explanation": "every morning = habitude → présent simple, 3e personne : delivers."
+    },
+    {
+     "prompt": "Mr. Haddad can't take your call because he ------- a training session now.",
+     "options": [
+      "leads",
+      "led",
+      "is leading",
+      "has led"
+     ],
+     "answer": 2,
+     "explanation": "now = action en cours → présent continu : is leading."
+    },
+    {
+     "prompt": "The engineers are currently ------- the bridge for safety issues.",
+     "options": [
+      "inspect",
+      "inspected",
+      "inspecting",
+      "inspection"
+     ],
+     "answer": 2,
+     "explanation": "currently + be + -ING : are currently inspecting."
+    },
+    {
+     "prompt": "The consultant suggested ------- the meeting to Thursday.",
+     "options": [
+      "move",
+      "to move",
+      "moving",
+      "moved"
+     ],
+     "answer": 2,
+     "explanation": "suggest + -ING : suggested moving."
+    },
+    {
+     "prompt": "The client has asked us to avoid ------- the deadline again.",
+     "options": [
+      "miss",
+      "to miss",
+      "missing",
+      "missed"
+     ],
+     "answer": 2,
+     "explanation": "avoid + -ING : avoid missing."
+    },
+    {
+     "prompt": "The annual report ------- to all shareholders next week.",
+     "options": [
+      "will send",
+      "will be sent",
+      "sends",
+      "is sending"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF futur : le rapport est envoyé → will be + participe passé : will be sent."
+    },
+    {
+     "prompt": "Our head office ------- in 1998 by the founder's father.",
+     "options": [
+      "built",
+      "was built",
+      "has built",
+      "is building"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF + date passée (in 1998) + by + agent → prétérit passif : was built."
+    },
+    {
+     "prompt": "The sales manager ------- the new targets to the team yesterday.",
+     "options": [
+      "was explained",
+      "explained",
+      "has been explained",
+      "is explained"
+     ],
+     "answer": 1,
+     "explanation": "ACTIF : le manager fait l'action et un COD suit (the new targets) → explained."
+    },
+    {
+     "prompt": "Several candidates ------- for the position so far.",
+     "options": [
+      "have interviewed",
+      "have been interviewed",
+      "were interviewing",
+      "interview"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF + so far → present perfect passif : have been interviewed (les candidats sont interviewés)."
+    },
+    {
+     "prompt": "Employees ------- to submit their timesheets by Friday.",
+     "options": [
+      "expect",
+      "are expected",
+      "expecting",
+      "have expected"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF : be expected to + verbe = être censé faire. Très fréquent au TOEIC."
+    },
+    {
+     "prompt": "The conference room is ------- for the board meeting this afternoon.",
+     "options": [
+      "reserve",
+      "reserving",
+      "reserved",
+      "reservation"
+     ],
+     "answer": 2,
+     "explanation": "PASSIF : be + participe passé → is reserved (la salle est réservée)."
+    },
+    {
+     "prompt": "The defective products must ------- before Monday.",
+     "options": [
+      "replace",
+      "be replaced",
+      "replacing",
+      "have replace"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF après un modal : must + be + participe passé → must be replaced."
+    },
+    {
+     "prompt": "The new policy ------- by most employees since it was introduced.",
+     "options": [
+      "has welcomed",
+      "has been welcomed",
+      "welcomed",
+      "welcomes"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF + since → present perfect passif : has been welcomed by most employees (agent avec by)."
+    }
+   ]
   }
  ]
 }
