@@ -1,6 +1,41 @@
 {
  "rules": [
   {
+   "rule": "Partie 6 – phrase à insérer : choisir celle qui se relie à la phrase d'avant / d'après",
+   "example": "sign up in advance. There is limited seating at this event.",
+   "status": "priorité"
+  },
+  {
+   "rule": "more THAN + nombre (≠ more to)",
+   "example": "late by more than ninety minutes",
+   "status": "priorité"
+  },
+  {
+   "rule": "strive / plan / aim / decide + TO + verbe",
+   "example": "we strive to provide",
+   "status": "priorité"
+  },
+  {
+   "rule": "Discours rapporté : will → would (revealed that he would not be teaching)",
+   "example": "would not be teaching for the upcoming semester",
+   "status": "priorité"
+  },
+  {
+   "rule": "take over = reprendre (un poste, un rôle)",
+   "example": "take over the role of head chef",
+   "status": "priorité"
+  },
+  {
+   "rule": "conduct = mener, réaliser (a survey, a study, an inspection)",
+   "example": "conducting a survey",
+   "status": "priorité"
+  },
+  {
+   "rule": "discard = jeter ; in cooperation with ; regarding = about",
+   "example": "discarded bulbs",
+   "status": "à revoir"
+  },
+  {
    "rule": "Habitude (usually, every day, often) → présent simple (+ s à la 3e pers.)",
    "example": "The CEO usually presents the results",
    "status": "priorité"
