@@ -1329,6 +1329,179 @@
      "explanation": "ACCORD : THE number of → singulier (has risen). Mais A number of customers → pluriel (have)."
     }
    ]
+  },
+  {
+   "id": "2026-11-16-aprem",
+   "created": "2026-11-16T14:15:00+01:00",
+   "title": "Lundi après-midi : priorités, mini-texte Partie 6 et accord sujet-verbe",
+   "theme": "Priorités + Partie 6 + accord sujet-verbe",
+   "questions": [
+    {
+     "prompt": "The company's ------- to sustainability has attracted new investors.",
+     "options": [
+      "dedicated",
+      "dedicate",
+      "dedication",
+      "dedicating"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : dedication (-tion). Famille : dedicate → dedication."
+    },
+    {
+     "prompt": "Customers appreciated the staff's ------- during the busy season.",
+     "options": [
+      "friendly",
+      "friendliness",
+      "friend",
+      "friendlier"
+     ],
+     "answer": 1,
+     "explanation": "Possessif + NOM : friendliness (-ness). « friendly » est un adjectif, piège classique."
+    },
+    {
+     "prompt": "Our accountant suggested ------- a separate account for business expenses.",
+     "options": [
+      "open",
+      "to open",
+      "opening",
+      "opened"
+     ],
+     "answer": 2,
+     "explanation": "SUGGEST + -ING : suggested opening."
+    },
+    {
+     "prompt": "The two branches usually ------- their results on the same day.",
+     "options": [
+      "publishes",
+      "publish",
+      "is publishing",
+      "published"
+     ],
+     "answer": 1,
+     "explanation": "usually = habitude ; sujet PLURIEL (the two branches) → publish, sans -s."
+    },
+    {
+     "prompt": "The board members were ------- by the new market research.",
+     "options": [
+      "surprising",
+      "surprised",
+      "surprise",
+      "surprisingly"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : surprised. La recherche est surprising."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: The cafeteria will be closed next week while new kitchen equipment is (1) ___. During this time, sandwiches will be (2) ___ in the main lobby. (3) ___ We apologize for any inconvenience and thank you for your (4) ___. » — (1)",
+     "options": [
+      "install",
+      "installing",
+      "being installed",
+      "installer"
+     ],
+     "answer": 2,
+     "explanation": "Le matériel ne s'installe pas lui-même → passif continu : is being installed."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: The cafeteria will be closed next week while new kitchen equipment is (1) ___. During this time, sandwiches will be (2) ___ in the main lobby. (3) ___ We apologize for any inconvenience and thank you for your (4) ___. » — (2)",
+     "options": [
+      "available",
+      "availability",
+      "availably",
+      "avail"
+     ],
+     "answer": 0,
+     "explanation": "be + ADJECTIF : will be available."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: The cafeteria will be closed next week while new kitchen equipment is (1) ___. During this time, sandwiches will be (2) ___ in the main lobby. (3) ___ We apologize for any inconvenience and thank you for your (4) ___. » — (3)",
+     "options": [
+      "The new equipment will be more energy-efficient.",
+      "Please submit your timesheet by Friday.",
+      "Our sales increased last quarter.",
+      "The parking lot is now open."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle doit se relier au thème (les travaux en cuisine). Seule (A) parle du nouvel équipement."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: The cafeteria will be closed next week while new kitchen equipment is (1) ___. During this time, sandwiches will be (2) ___ in the main lobby. (3) ___ We apologize for any inconvenience and thank you for your (4) ___. » — (4)",
+     "options": [
+      "patient",
+      "patiently",
+      "patience",
+      "patients"
+     ],
+     "answer": 2,
+     "explanation": "Possessif (your) + NOM : your patience. Formule de fin de lettre très fréquente."
+    },
+    {
+     "prompt": "Each of the reports ------- reviewed by two managers.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Each of + pluriel → singulier : is reviewed."
+    },
+    {
+     "prompt": "A number of clients ------- asked for a discount this month.",
+     "options": [
+      "has",
+      "have",
+      "is",
+      "was"
+     ],
+     "answer": 1,
+     "explanation": "A number of = plusieurs → PLURIEL : have asked. (THE number of → singulier.)"
+    },
+    {
+     "prompt": "Either the CEO or her assistants ------- the visitors tomorrow.",
+     "options": [
+      "greets",
+      "is greeting",
+      "will greet",
+      "has greeted"
+     ],
+     "answer": 2,
+     "explanation": "Either… or : accord avec le sujet le plus proche (assistants, pluriel) ; tomorrow → futur : will greet (même forme pour singulier et pluriel)."
+    },
+    {
+     "prompt": "The quality of our products ------- improved since the new process was introduced.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "Le sujet est « The quality » (singulier) → has improved. Ignore « of our products »."
+    },
+    {
+     "prompt": "None of the information ------- confidential.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "None of + nom INDÉNOMBRABLE (information) → singulier : is."
+    },
+    {
+     "prompt": "Every manager and supervisor ------- required to attend the meeting.",
+     "options": [
+      "are",
+      "were",
+      "is",
+      "have been"
+     ],
+     "answer": 2,
+     "explanation": "Every + nom, même coordonné (every manager and supervisor) → singulier : is required."
+    }
+   ]
   }
  ]
 }
