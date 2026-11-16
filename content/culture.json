@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-16",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : l'OTAN contre le Donbass ?",
+     "text": "Selon Volodymyr Zelensky, la délégation américaine a proposé à Abu Dhabi une adhésion à l'OTAN en échange d'un retrait ukrainien de tout le Donbass. Il soumettrait de tels termes à un référendum. Un document russe non officiel demande aussi que l'OTAN retire ses forces des pays entrés après 1997.",
+     "why": "Le cœur du conflit : territoires contre garanties de sécurité.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-15-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Sommet Trump – Xi – Poutine cette semaine",
+     "text": "La Maison-Blanche confirme une première rencontre à trois en marge de l'APEC à Shenzhen. L'Ukraine ne devrait pas y être discutée.",
+     "why": "Les trois premières puissances militaires réunies : un événement rare pour l'équilibre mondial.",
+     "source": "Deep Gains",
+     "url": "https://deepgains.substack.com/p/morning-brief-sunday-november-15-281"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Taïwan : manœuvres chinoises de grande ampleur",
+     "text": "Selon des responsables taïwanais cités par Reuters, la Chine a rassemblé plus de 100 navires dans le Pacifique occidental et autour de Taïwan début novembre, des exercices plus importants que les précédents. Pékin parle d'activité de routine.",
+     "why": "Taïwan produit l'essentiel des puces les plus avancées du monde : toute tension y touche l'économie mondiale.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-15-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "L'or chute, les taux américains montent",
+     "text": "L'once d'or est tombée à environ 3 852 $ jeudi, un plus bas depuis près d'un an, après environ 6 % de baisse en trois jours. L'inflation américaine des prix à la production atteint 6,5 % sur un an et le taux à 10 ans américain monte vers 5,15 %.",
+     "why": "Quand les taux montent, l'or (qui ne rapporte pas d'intérêts) devient moins attractif : c'est le coût d'opportunité.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-15-november-2026"
+    },
+    {
+     "cat": "Économie",
+     "title": "L'Italie inflige 887 millions de dollars d'amende à Meta",
+     "text": "L'autorité italienne sanctionne Meta pour l'accès aux photos des utilisateurs Android.",
+     "why": "L'Europe reste le régulateur le plus actif face aux géants du numérique.",
+     "source": "Deep Gains",
+     "url": "https://deepgains.substack.com/p/morning-brief-sunday-november-15-281"
+    },
+    {
+     "cat": "Tech",
+     "title": "SpaceX rattrape un Starship revenu de l'orbite",
+     "text": "Pour la première fois, SpaceX a récupéré un Starship de retour d'orbite.",
+     "why": "La réutilisation des fusées fait chuter le coût d'accès à l'espace.",
+     "source": "Deep Gains",
+     "url": "https://deepgains.substack.com/p/morning-brief-sunday-november-15-281"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Yémen : les forces gouvernementales reprennent un carrefour clé",
+     "text": "Appuyées par l'aviation saoudienne, les forces pro-gouvernementales ont repris le carrefour d'al Shatt le 13 novembre, un jour après l'avancée des Houthis. La coalition dit avoir intercepté deux missiles visant Riyad.",
+     "why": "Le Yémen est un front indirect de la rivalité entre l'Arabie saoudite et l'Iran.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-15-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "16 novembre 1945 : naissance de l'UNESCO",
+     "text": "37 pays signent à Londres l'acte constitutif de l'Organisation des Nations unies pour l'éducation, la science et la culture. Son siège est à Paris."
+    },
+    {
+     "title": "16 novembre 1532 : Pizarro capture Atahualpa",
+     "text": "À Cajamarca, le conquistador espagnol capture l'empereur inca avec moins de 200 hommes : le début de la chute de l'Empire inca."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "Mardi 17 nov.",
+     "t": "Résultats trimestriels de Nvidia"
+    },
+    {
+     "date": "18-19 nov.",
+     "t": "Sommet de l'APEC à Shenzhen, rencontre Trump – Xi – Poutine"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang au Congrès"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Pourquoi l'or baisse-t-il quand les taux d'intérêt montent ?",
+     "options": [
+      "L'or devient plus rare",
+      "L'or ne rapporte pas d'intérêts : les obligations deviennent plus attractives",
+      "Les banques centrales interdisent l'or",
+      "Le dollar baisse toujours"
+     ],
+     "answer": 1,
+     "explanation": "C'est le coût d'opportunité : détenir de l'or, c'est renoncer aux intérêts d'une obligation, qui deviennent plus élevés."
+    },
+    {
+     "prompt": "Quel échange aurait été proposé à l'Ukraine à Abu Dhabi, selon Zelensky ?",
+     "options": [
+      "L'adhésion à l'UE contre la Crimée",
+      "L'adhésion à l'OTAN contre un retrait du Donbass",
+      "Un cessez-le-feu contre des sanctions levées",
+      "Des armes contre des élections"
+     ],
+     "answer": 1,
+     "explanation": "Selon Zelensky : OTAN contre retrait de tout le Donbass, qu'il soumettrait à référendum."
+    },
+    {
+     "prompt": "Où se trouve le siège de l'UNESCO ?",
+     "options": [
+      "Genève",
+      "New York",
+      "Paris",
+      "Londres"
+     ],
+     "answer": 2,
+     "explanation": "L'UNESCO, fondée le 16 novembre 1945, a son siège à Paris (place de Fontenoy)."
+    }
+   ]
+  },
+  {
    "date": "2026-11-15",
    "items": [
     {

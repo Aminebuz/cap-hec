@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -1154,6 +1154,179 @@
      ],
      "answer": 1,
      "explanation": "PASSIF + since → present perfect passif : has been welcomed by most employees (agent avec by)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-16-matin",
+   "created": "2026-11-16T08:45:00+01:00",
+   "title": "Lundi matin : familles de mots, suggest + -ing et accord sujet-verbe",
+   "theme": "Priorités + thème 4 accord sujet-verbe",
+   "questions": [
+    {
+     "prompt": "The director thanked the team for its ------- during the merger.",
+     "options": [
+      "patient",
+      "patiently",
+      "patience",
+      "patients'"
+     ],
+     "answer": 2,
+     "explanation": "Possessif (its) + NOM. Famille : patient (adj.) → patience (nom, -ence). Comme confident → confidence."
+    },
+    {
+     "prompt": "Mr. Silva's ------- of local regulations was essential to the project.",
+     "options": [
+      "know",
+      "known",
+      "knowing",
+      "knowledge"
+     ],
+     "answer": 3,
+     "explanation": "Possessif ('s) + NOM : knowledge. Famille : know → knowledge, able → ability, secure → security."
+    },
+    {
+     "prompt": "The travel agent suggested ------- the hotel early to get a better rate.",
+     "options": [
+      "book",
+      "to book",
+      "booking",
+      "booked"
+     ],
+     "answer": 2,
+     "explanation": "SUGGEST + -ING : suggested booking. Phrase réflexe : « I suggest going »."
+    },
+    {
+     "prompt": "Ms. Duval suggests ------- the presentation to fifteen minutes.",
+     "options": [
+      "shortening",
+      "to shorten",
+      "shorten",
+      "shortened"
+     ],
+     "answer": 0,
+     "explanation": "SUGGEST + -ING : suggests shortening."
+    },
+    {
+     "prompt": "The store managers ------- inventory reports every Monday.",
+     "options": [
+      "reviews",
+      "review",
+      "is reviewing",
+      "has reviewed"
+     ],
+     "answer": 1,
+     "explanation": "every Monday = habitude → présent simple. Sujet PLURIEL (managers) → pas de -s : review."
+    },
+    {
+     "prompt": "Many investors are ------- in the company's new electric vehicle.",
+     "options": [
+      "interest",
+      "interesting",
+      "interested",
+      "interestingly"
+     ],
+     "answer": 2,
+     "explanation": "Une PERSONNE ressent → -ED : interested in. Une chose qui provoque l'intérêt → -ING : an interesting car."
+    },
+    {
+     "prompt": "The flight was canceled ------- the weather had improved by noon.",
+     "options": [
+      "even though",
+      "because",
+      "as though",
+      "as a result of"
+     ],
+     "answer": 0,
+     "explanation": "Concession (opposition) + phrase → even though / even if. « as a result of » + nom = à cause de."
+    },
+    {
+     "prompt": "The renovation took more ------- six months to complete.",
+     "options": [
+      "to",
+      "as",
+      "than",
+      "for"
+     ],
+     "answer": 2,
+     "explanation": "more THAN + nombre : more than six months."
+    },
+    {
+     "prompt": "All applications ------- by the hiring committee next week.",
+     "options": [
+      "will review",
+      "will be reviewed",
+      "are reviewing",
+      "reviewed"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL passif : les candidatures sont examinées → will be reviewed."
+    },
+    {
+     "prompt": "Each of the new employees ------- a laptop on the first day.",
+     "options": [
+      "receive",
+      "receives",
+      "are receiving",
+      "have received"
+     ],
+     "answer": 1,
+     "explanation": "ACCORD : Each of + pluriel → verbe au SINGULIER : receives. Le vrai sujet, c'est « each »."
+    },
+    {
+     "prompt": "Every room in the hotel ------- free Wi-Fi.",
+     "options": [
+      "offer",
+      "offers",
+      "are offering",
+      "have offered"
+     ],
+     "answer": 1,
+     "explanation": "ACCORD : Every + nom singulier → verbe singulier : offers."
+    },
+    {
+     "prompt": "One of our suppliers ------- delayed the shipment.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "ACCORD : One of + pluriel → singulier : has. Ne te laisse pas piéger par « suppliers » juste avant le verbe."
+    },
+    {
+     "prompt": "The list of approved vendors ------- updated every quarter.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "ACCORD : le sujet est « The list » (singulier), pas « vendors » → is updated."
+    },
+    {
+     "prompt": "Neither the manager nor the assistants ------- available on Friday.",
+     "options": [
+      "is",
+      "was",
+      "are",
+      "has been"
+     ],
+     "answer": 2,
+     "explanation": "ACCORD : neither… nor → le verbe s'accorde avec le sujet le plus PROCHE (the assistants, pluriel) → are."
+    },
+    {
+     "prompt": "The number of online orders ------- risen sharply this year.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "ACCORD : THE number of → singulier (has risen). Mais A number of customers → pluriel (have)."
     }
    ]
   }
