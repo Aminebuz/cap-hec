@@ -1675,6 +1675,179 @@
      "explanation": "Mathematics, economics, news → noms en -s mais SINGULIERS : is."
     }
    ]
+  },
+  {
+   "id": "2026-11-17-aprem",
+   "created": "2026-11-17T14:15:00+01:00",
+   "title": "Mardi après-midi : priorités, Partie 6 et accord sujet-verbe (3)",
+   "theme": "Priorités + Partie 6 + accord sujet-verbe",
+   "questions": [
+    {
+     "prompt": "We were impressed by the applicant's ------- in three languages.",
+     "options": [
+      "fluent",
+      "fluently",
+      "fluency",
+      "fluents"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : fluency (-ency). Famille : fluent → fluency."
+    },
+    {
+     "prompt": "The consultant suggested ------- two departments to cut costs.",
+     "options": [
+      "merge",
+      "to merge",
+      "merging",
+      "merged"
+     ],
+     "answer": 2,
+     "explanation": "SUGGEST + -ING : suggested merging."
+    },
+    {
+     "prompt": "The interns ------- lunch together every Friday.",
+     "options": [
+      "has",
+      "have",
+      "is having",
+      "had had"
+     ],
+     "answer": 1,
+     "explanation": "Habitude + sujet PLURIEL (the interns) → have."
+    },
+    {
+     "prompt": "The staff were ------- by the CEO's sudden announcement.",
+     "options": [
+      "confusing",
+      "confused",
+      "confuse",
+      "confusion"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : confused. L'annonce est confusing."
+    },
+    {
+     "prompt": "The shop will stay open ------- the power goes out.",
+     "options": [
+      "even if",
+      "as though",
+      "as a result of",
+      "despite"
+     ],
+     "answer": 0,
+     "explanation": "Concession + PHRASE (sujet + verbe) → even if. « despite » + nom."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Laurent, Thank you for your order of 50 office chairs. Unfortunately, the model you selected is (1) ___ out of stock. (2) ___ We can deliver a similar model by March 3 at no extra cost. Please let us know your decision (3) ___ Friday so that we can (4) ___ your order. Sincerely, Paula Reyes » — (1)",
+     "options": [
+      "temporary",
+      "temporarily",
+      "temporariness",
+      "temporaries"
+     ],
+     "answer": 1,
+     "explanation": "be + ADVERBE + adjectif/participe : is temporarily out of stock."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Laurent, Thank you for your order of 50 office chairs. Unfortunately, the model you selected is (1) ___ out of stock. (2) ___ We can deliver a similar model by March 3 at no extra cost. Please let us know your decision (3) ___ Friday so that we can (4) ___ your order. Sincerely, Paula Reyes » — (2)",
+     "options": [
+      "We apologize for this inconvenience.",
+      "Our store opens at 9 A.M.",
+      "The chairs were shipped yesterday.",
+      "Please pay the invoice immediately."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle doit suivre « out of stock » et préparer la solution proposée. Seule (A) fait le lien (excuses)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Laurent, Thank you for your order of 50 office chairs. Unfortunately, the model you selected is (1) ___ out of stock. (2) ___ We can deliver a similar model by March 3 at no extra cost. Please let us know your decision (3) ___ Friday so that we can (4) ___ your order. Sincerely, Paula Reyes » — (3)",
+     "options": [
+      "until",
+      "by",
+      "since",
+      "during"
+     ],
+     "answer": 1,
+     "explanation": "BY + date limite (au plus tard vendredi). « until » = jusqu'à (durée)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Laurent, Thank you for your order of 50 office chairs. Unfortunately, the model you selected is (1) ___ out of stock. (2) ___ We can deliver a similar model by March 3 at no extra cost. Please let us know your decision (3) ___ Friday so that we can (4) ___ your order. Sincerely, Paula Reyes » — (4)",
+     "options": [
+      "process",
+      "processing",
+      "processed",
+      "procession"
+     ],
+     "answer": 0,
+     "explanation": "so that we can + BASE VERBALE : can process."
+    },
+    {
+     "prompt": "Each of the participants ------- a certificate after the training.",
+     "options": [
+      "receive",
+      "receives",
+      "are receiving",
+      "have received"
+     ],
+     "answer": 1,
+     "explanation": "Each of + pluriel → singulier : receives."
+    },
+    {
+     "prompt": "The news about the merger ------- spread quickly.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "News → singulier malgré le -s : has spread."
+    },
+    {
+     "prompt": "Some of the furniture ------- damaged during the move.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Some of + indénombrable (furniture) → singulier : was damaged. (Some of the chairs → were.)"
+    },
+    {
+     "prompt": "The manager, along with her team, ------- the new office next week.",
+     "options": [
+      "visit",
+      "visits",
+      "will visit",
+      "are visiting"
+     ],
+     "answer": 2,
+     "explanation": "« along with » n'ajoute pas au sujet (the manager, singulier) ; next week → will visit."
+    },
+    {
+     "prompt": "There ------- several reasons for the delay.",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "There + be s'accorde avec ce qui SUIT : several reasons (pluriel) → are."
+    },
+    {
+     "prompt": "Both the sales report and the budget ------- approved yesterday.",
+     "options": [
+      "was",
+      "were",
+      "is",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both A and B → PLURIEL ; yesterday → prétérit passif : were approved."
+    }
+   ]
   }
  ]
 }
