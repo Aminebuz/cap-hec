@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -1500,6 +1500,179 @@
      ],
      "answer": 2,
      "explanation": "Every + nom, même coordonné (every manager and supervisor) → singulier : is required."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-17-matin",
+   "created": "2026-11-17T08:45:00+01:00",
+   "title": "Mardi matin : priorités + accord sujet-verbe (2)",
+   "theme": "Priorités + thème 4 accord sujet-verbe",
+   "questions": [
+    {
+     "prompt": "The auditors praised the department's ------- in keeping accurate records.",
+     "options": [
+      "consistent",
+      "consistently",
+      "consistency",
+      "consist"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : consistency (-ency). Famille : consistent → consistency."
+    },
+    {
+     "prompt": "Her ------- to detail makes her an excellent editor.",
+     "options": [
+      "attentive",
+      "attention",
+      "attend",
+      "attentively"
+     ],
+     "answer": 1,
+     "explanation": "Possessif (her) + NOM : attention to detail (expression TOEIC)."
+    },
+    {
+     "prompt": "The IT manager suggested ------- the software before the holidays.",
+     "options": [
+      "update",
+      "to update",
+      "updating",
+      "updated"
+     ],
+     "answer": 2,
+     "explanation": "SUGGEST + -ING : suggested updating."
+    },
+    {
+     "prompt": "Several customers have suggested ------- the store's opening hours.",
+     "options": [
+      "extending",
+      "to extend",
+      "extend",
+      "extension"
+     ],
+     "answer": 0,
+     "explanation": "SUGGEST + -ING : suggested extending."
+    },
+    {
+     "prompt": "Our sales representatives ------- clients at least once a month.",
+     "options": [
+      "visits",
+      "visit",
+      "is visiting",
+      "visiting"
+     ],
+     "answer": 1,
+     "explanation": "Habitude (once a month) + sujet PLURIEL → visit, sans -s."
+    },
+    {
+     "prompt": "The organization strives ------- affordable housing for low-income families.",
+     "options": [
+      "providing",
+      "to provide",
+      "provided",
+      "provision"
+     ],
+     "answer": 1,
+     "explanation": "STRIVE + TO + verbe : strives to provide (erreur du test blanc)."
+    },
+    {
+     "prompt": "The concert will take place outdoors ------- it rains.",
+     "options": [
+      "even if",
+      "as though",
+      "as a result of",
+      "in spite"
+     ],
+     "answer": 0,
+     "explanation": "Concession + phrase : even if it rains (= même s'il pleut). « as a result of » + nom ; « in spite of » + nom."
+    },
+    {
+     "prompt": "The new office furniture ------- next Tuesday.",
+     "options": [
+      "will deliver",
+      "will be delivered",
+      "delivers",
+      "is delivering"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL PASSIF : les meubles sont livrés → will be delivered."
+    },
+    {
+     "prompt": "Every one of the candidates ------- a strong background in finance.",
+     "options": [
+      "have",
+      "has",
+      "are having",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "Every one of + pluriel → singulier : has."
+    },
+    {
+     "prompt": "The results of the survey ------- that customers want faster delivery.",
+     "options": [
+      "shows",
+      "show",
+      "is showing",
+      "has shown"
+     ],
+     "answer": 1,
+     "explanation": "Le sujet est « The results » (PLURIEL) → show. Ne te laisse pas piéger par « survey » juste avant."
+    },
+    {
+     "prompt": "Neither the director nor his assistant ------- available this afternoon.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Neither… nor : accord avec le sujet le plus proche (his assistant, singulier) → is."
+    },
+    {
+     "prompt": "The equipment in both laboratories ------- inspected yearly.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "« Equipment » est indénombrable → singulier : is inspected."
+    },
+    {
+     "prompt": "A number of employees ------- volunteered for the charity event.",
+     "options": [
+      "has",
+      "have",
+      "is",
+      "was"
+     ],
+     "answer": 1,
+     "explanation": "A number of = plusieurs → PLURIEL : have volunteered."
+    },
+    {
+     "prompt": "Everyone in the marketing department ------- invited to the launch party.",
+     "options": [
+      "were",
+      "are",
+      "is",
+      "have been"
+     ],
+     "answer": 2,
+     "explanation": "Everyone / everybody / someone → verbe singulier : is invited."
+    },
+    {
+     "prompt": "Mathematics ------- a required subject for all engineering students.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Mathematics, economics, news → noms en -s mais SINGULIERS : is."
     }
    ]
   }

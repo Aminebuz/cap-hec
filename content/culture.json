@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-17",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Trois porte-avions américains au Moyen-Orient",
+     "text": "Selon le New York Times, l'USS Theodore Roosevelt rejoint deux autres porte-avions américains dans la région. L'Iran a lancé dimanche une attaque de drones contre Bahreïn, la deuxième en trois jours. Le président du Parlement iranien dit Téhéran prêt « à la négociation ou à la guerre ».",
+     "why": "Trois porte-avions dans une même zone, c'est un signal militaire très fort de dissuasion.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "France",
+     "title": "Cyberattaque contre une filiale de La Poste : 22 millions de personnes touchées",
+     "text": "Une cyberattaque contre Maileva, filiale numérique du groupe La Poste, a compromis les données d'environ 22 millions de personnes.",
+     "why": "La cybersécurité est devenue un risque majeur pour les entreprises, et un coût (amendes RGPD, réputation).",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "L'Estonie fermera sa frontière avec la Russie le 1er décembre",
+     "text": "Tous les points de passage seront fermés après une tentative de sabotage déjouée contre une entreprise de défense. Par ailleurs, des forces navales européennes ont découvert qu'un pétrolier suspect de la « flotte fantôme » russe battait un faux pavillon.",
+     "why": "La « flotte fantôme » sert à contourner les sanctions sur le pétrole russe.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "Économie",
+     "title": "Canada et Chine : allègement des droits de douane",
+     "text": "Les deux pays ont conclu un accord d'allègement tarifaire et de nouveaux contrats commerciaux. Au Royaume-Uni, le chômage recule à 4,6 % sur juillet-septembre.",
+     "why": "Quand les relations avec Washington se tendent, ses partenaires diversifient leurs échanges.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "Tech",
+     "title": "Échec d'un lancement pour les satellites d'Amazon",
+     "text": "La fusée Vulcan d'United Launch Alliance n'a pas réussi à placer en orbite 40 satellites Amazon Leo (internet par satellite), à la suite d'une anomalie en vol.",
+     "why": "Amazon court derrière Starlink (SpaceX) : chaque échec retarde son réseau.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "Tech",
+     "title": "Voyager 1 à un « jour-lumière » de la Terre",
+     "text": "Le 18 novembre, la sonde lancée en 1977 sera à environ 25,9 milliards de km : un signal mettra 24 h à l'atteindre, 48 h aller-retour.",
+     "why": "L'objet humain le plus lointain jamais envoyé, toujours en contact après 49 ans.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Gaza : appel à faire entrer 150 000 tentes",
+     "text": "L'Australie, le Canada, l'Italie et le Royaume-Uni demandent à Israël d'ouvrir les points de passage avant l'hiver ; les premières inondations aggravent la situation des déplacés.",
+     "why": "La crise humanitaire reste au cœur de la diplomatie régionale.",
+     "source": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    }
+   ],
+   "history": [
+    {
+     "title": "17 novembre 1869 : inauguration du canal de Suez",
+     "text": "Conçu par Ferdinand de Lesseps, il relie la Méditerranée à la mer Rouge et évite le contournement de l'Afrique : environ 12 % du commerce mondial y passe aujourd'hui."
+    },
+    {
+     "title": "17 novembre 1989 : la « révolution de velours »",
+     "text": "Une manifestation étudiante à Prague lance le mouvement qui fait tomber en quelques semaines le régime communiste tchécoslovaque, sans violence ; Václav Havel devient président."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "Mardi 17 nov.",
+     "t": "Résultats trimestriels de Nvidia"
+    },
+    {
+     "date": "18-19 nov.",
+     "t": "Sommet de l'APEC à Shenzhen (Trump – Xi – Poutine)"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "1er déc.",
+     "t": "L'Estonie ferme sa frontière avec la Russie"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Que relie le canal de Suez ?",
+     "options": [
+      "L'Atlantique et le Pacifique",
+      "La Méditerranée et la mer Rouge",
+      "La mer Noire et la Méditerranée",
+      "Le golfe Persique et l'océan Indien"
+     ],
+     "answer": 1,
+     "explanation": "Inauguré le 17 novembre 1869, il relie la Méditerranée à la mer Rouge."
+    },
+    {
+     "prompt": "À quoi sert la « flotte fantôme » russe ?",
+     "options": [
+      "Patrouiller en Arctique",
+      "Contourner les sanctions sur le pétrole",
+      "Transporter des touristes",
+      "Surveiller l'OTAN"
+     ],
+     "answer": 1,
+     "explanation": "Des pétroliers vieillissants, souvent sous faux pavillon, exportent le pétrole russe malgré les sanctions."
+    },
+    {
+     "prompt": "Combien de personnes sont touchées par la cyberattaque contre la filiale de La Poste ?",
+     "options": [
+      "2,2 millions",
+      "22 millions",
+      "220 000",
+      "220 millions"
+     ],
+     "answer": 1,
+     "explanation": "Environ 22 millions de personnes, via Maileva, filiale numérique du groupe La Poste."
+    }
+   ]
+  },
+  {
    "date": "2026-11-16",
    "items": [
     {
