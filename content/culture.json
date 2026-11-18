@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-18",
+   "items": [
+    {
+     "cat": "Finance",
+     "title": "Nvidia pulvérise les attentes malgré le départ de Huang",
+     "text": "Chiffre d'affaires trimestriel : 115,8 milliards de dollars (+103 % sur un an), dont 107,6 milliards pour les data centers. Prévision du trimestre suivant : 127,4 à 132,6 milliards, au-dessus des attentes, et un rachat d'actions de 150 milliards. Le conseil d'administration confirme qu'il ne réintégrera pas Jensen Huang.",
+     "why": "Un rachat d'actions (buyback) réduit le nombre d'actions en circulation : c'est une façon de rendre de l'argent aux actionnaires, comme un dividende.",
+     "source": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+    },
+    {
+     "cat": "Économie",
+     "title": "États-Unis : série de pannes géantes",
+     "text": "La panne de la FAA vendredi a entraîné plus de 18 000 annulations et 28 000 retards, la plus grosse perturbation aérienne américaine depuis le 11-Septembre. Lundi, une panne chez JPMorgan Chase a bloqué des milliers de clients, sans cyberattaque selon la banque.",
+     "why": "Les infrastructures critiques (transport, banque, cloud) sont de plus en plus interdépendantes : une panne peut se propager vite.",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-tuesday-november-17-2026/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Sommet Xi – Poutine – Trump jeudi à Shenzhen",
+     "text": "Xi et Poutine se voient le 18 novembre, puis Trump rencontre Xi le 19 avant la réunion à trois. Washington cite les armes nucléaires et la guerre avec l'Iran ; Trump dit que l'Ukraine sera aussi abordée.",
+     "why": "Première rencontre à trois de ce type : à suivre pour l'équilibre entre grandes puissances.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-17-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine – Russie : guerre des drones record",
+     "text": "Moscou dit avoir abattu plus de 1 400 drones ukrainiens en une nuit ; l'Ukraine revendique des frappes sur le pont de Crimée (non vérifiées). La Russie a frappé Kyiv, faisant au moins deux morts.",
+     "why": "Les drones à bas coût ont transformé la guerre : la défense coûte souvent plus cher que l'attaque.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-17-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Le pétrole a perdu environ 20 % ce mois-ci",
+     "text": "Le Brent a clôturé lundi à 92,44 $. L'AIE prévoit un excédent au 4e trimestre, et la réserve stratégique américaine est au plus bas depuis 1982. L'OPEP+ se réunit le 29 novembre.",
+     "why": "Quand l'offre dépasse la demande (excédent), les prix baissent : c'est la loi de l'offre et de la demande.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-17-november-2026"
+    },
+    {
+     "cat": "Planète",
+     "title": "Les data centers américains émettent autant que le Danemark",
+     "text": "Selon une étude de Harvard publiée pendant la COP31, les 403 plus grands data centers américains consomment environ 82 TWh d'électricité par an.",
+     "why": "Le boom de l'IA a un coût énergétique et climatique réel.",
+     "source": "Havana Times",
+     "url": "https://havanatimes.org/news/international-news-briefs-for-tuesday-november-17-2026/"
+    },
+    {
+     "cat": "Tech",
+     "title": "Washington restreint l'accès à distance aux puces avancées",
+     "text": "Le département du Commerce a publié une règle limitant l'accès des étrangers, à distance (via le cloud), aux puces d'IA les plus avancées.",
+     "why": "Après les exportations physiques, les contrôles visent maintenant la puissance de calcul louée dans le cloud.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-17-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "18 novembre 1918 : indépendance de la Lettonie",
+     "text": "Au lendemain de la Première Guerre mondiale, la Lettonie proclame son indépendance à Riga. Annexée par l'URSS en 1940, elle la retrouve en 1991."
+    },
+    {
+     "title": "18 novembre 1883 : naissance des fuseaux horaires américains",
+     "text": "Les compagnies de chemin de fer imposent 4 fuseaux horaires standard aux États-Unis pour coordonner leurs horaires : avant, chaque ville avait sa propre heure solaire."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "19 nov.",
+     "t": "Sommet Trump – Xi – Poutine à Shenzhen"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31 (Antalya)"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang au Congrès"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Quelle a été la croissance du chiffre d'affaires de Nvidia sur un an au dernier trimestre ?",
+     "options": [
+      "+23 %",
+      "+53 %",
+      "+103 %",
+      "+203 %"
+     ],
+     "answer": 2,
+     "explanation": "115,8 milliards de dollars, soit +103 % sur un an : le chiffre d'affaires a plus que doublé."
+    },
+    {
+     "prompt": "Qu'est-ce qu'un rachat d'actions (buyback) ?",
+     "options": [
+      "L'entreprise émet de nouvelles actions",
+      "L'entreprise rachète ses propres actions",
+      "Un actionnaire rachète l'entreprise",
+      "L'État nationalise l'entreprise"
+     ],
+     "answer": 1,
+     "explanation": "L'entreprise rachète ses propres actions : moins d'actions en circulation, donc un bénéfice par action plus élevé."
+    },
+    {
+     "prompt": "Pourquoi le prix du pétrole a-t-il baissé ce mois-ci ?",
+     "options": [
+      "Une pénurie mondiale",
+      "Un excédent d'offre prévu par l'AIE",
+      "La fermeture définitive d'Ormuz",
+      "Une hausse de la demande chinoise"
+     ],
+     "answer": 1,
+     "explanation": "Plus d'offre que de demande (excédent) → baisse des prix : environ -20 % pour le Brent sur le mois."
+    }
+   ]
+  },
+  {
    "date": "2026-11-17",
    "items": [
     {

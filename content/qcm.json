@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -1846,6 +1846,179 @@
      ],
      "answer": 1,
      "explanation": "Both A and B → PLURIEL ; yesterday → prétérit passif : were approved."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-18-matin",
+   "created": "2026-11-18T08:45:00+01:00",
+   "title": "Mercredi matin : priorités, fin de l'accord et début des pronoms",
+   "theme": "Priorités + accord sujet-verbe + thème 5 pronoms",
+   "questions": [
+    {
+     "prompt": "The committee recognized the volunteer's ------- to the community.",
+     "options": [
+      "contribute",
+      "contributed",
+      "contribution",
+      "contributing"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : contribution (-tion)."
+    },
+    {
+     "prompt": "Management suggested ------- the training online this year.",
+     "options": [
+      "hold",
+      "to hold",
+      "holding",
+      "held"
+     ],
+     "answer": 2,
+     "explanation": "SUGGEST + -ING : suggested holding."
+    },
+    {
+     "prompt": "Our technicians usually ------- the servers on Sunday nights.",
+     "options": [
+      "upgrades",
+      "upgrade",
+      "is upgrading",
+      "upgrading"
+     ],
+     "answer": 1,
+     "explanation": "usually + sujet PLURIEL → upgrade, sans -s."
+    },
+    {
+     "prompt": "The hotel guests were ------- with the quality of the service.",
+     "options": [
+      "satisfying",
+      "satisfied",
+      "satisfy",
+      "satisfaction"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : satisfied with."
+    },
+    {
+     "prompt": "Ms. Ito will ------- the project while Mr. Grant is on leave.",
+     "options": [
+      "take in",
+      "take over",
+      "take off",
+      "take up with"
+     ],
+     "answer": 1,
+     "explanation": "take over = reprendre (un projet, un poste)."
+    },
+    {
+     "prompt": "The firm will ------- a customer survey next month.",
+     "options": [
+      "conduct",
+      "accompany",
+      "attend",
+      "attach"
+     ],
+     "answer": 0,
+     "explanation": "conduct a survey = mener une enquête."
+    },
+    {
+     "prompt": "Prices rose by more ------- 10 percent last year.",
+     "options": [
+      "to",
+      "as",
+      "than",
+      "of"
+     ],
+     "answer": 2,
+     "explanation": "more THAN + chiffre."
+    },
+    {
+     "prompt": "The contract ------- by both parties last Friday.",
+     "options": [
+      "signed",
+      "was signed",
+      "has signed",
+      "is signing"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL PASSIF + last Friday → was signed."
+    },
+    {
+     "prompt": "Each of the hotel rooms ------- a view of the sea.",
+     "options": [
+      "have",
+      "has",
+      "are having",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "Each of + pluriel → singulier : has."
+    },
+    {
+     "prompt": "Neither the brochures nor the poster ------- ready yet.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Neither… nor : accord avec le plus proche (the poster, singulier) → is."
+    },
+    {
+     "prompt": "The information in these files ------- confidential.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Information = indénombrable → singulier : is."
+    },
+    {
+     "prompt": "Ms. Rossi prepared the presentation by -------.",
+     "options": [
+      "she",
+      "her",
+      "herself",
+      "hers"
+     ],
+     "answer": 2,
+     "explanation": "PRONOMS : by + pronom RÉFLÉCHI = tout(e) seul(e) → by herself."
+    },
+    {
+     "prompt": "The new manager introduced ------- to the team on Monday.",
+     "options": [
+      "him",
+      "his",
+      "himself",
+      "he"
+     ],
+     "answer": 2,
+     "explanation": "Réfléchi quand le sujet et l'objet sont la même personne : introduced himself."
+    },
+    {
+     "prompt": "If you have any questions, please contact Mr. Lee or -------.",
+     "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+     ],
+     "answer": 1,
+     "explanation": "Après un verbe / une préposition → pronom COMPLÉMENT : me."
+    },
+    {
+     "prompt": "The decision was ours, not -------.",
+     "options": [
+      "their",
+      "them",
+      "theirs",
+      "they"
+     ],
+     "answer": 2,
+     "explanation": "Pronom POSSESSIF seul (sans nom après) : theirs (= leur décision)."
     }
    ]
   }
