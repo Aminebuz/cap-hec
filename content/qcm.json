@@ -2021,6 +2021,179 @@
      "explanation": "Pronom POSSESSIF seul (sans nom après) : theirs (= leur décision)."
     }
    ]
+  },
+  {
+   "id": "2026-11-18-aprem",
+   "created": "2026-11-18T14:15:00+01:00",
+   "title": "Mercredi après-midi : priorités, Partie 6 et pronoms",
+   "theme": "Priorités + Partie 6 + thème 5 pronoms",
+   "questions": [
+    {
+     "prompt": "The board admired the CEO's ------- during the crisis.",
+     "options": [
+      "calm",
+      "calmly",
+      "calmness",
+      "calmed"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : calmness (-ness). « calm » peut aussi être un nom, mais la forme TOEIC attendue avec -ness est la plus sûre ici."
+    },
+    {
+     "prompt": "The supervisor suggested ------- the meeting until next week.",
+     "options": [
+      "postpone",
+      "postponing",
+      "to postpone",
+      "postponed"
+     ],
+     "answer": 1,
+     "explanation": "SUGGEST + -ING : suggested postponing."
+    },
+    {
+     "prompt": "Our cleaning staff ------- the offices every evening.",
+     "options": [
+      "cleans",
+      "clean",
+      "is cleaning",
+      "cleaned"
+     ],
+     "answer": 1,
+     "explanation": "Habitude ; « staff » est employé ici au pluriel (le personnel = les employés) → clean. Indice : « Our cleaning staff » désigne plusieurs personnes."
+    },
+    {
+     "prompt": "Ms. Nakamura completed the report -------, without any help.",
+     "options": [
+      "her",
+      "hers",
+      "herself",
+      "she"
+     ],
+     "answer": 2,
+     "explanation": "RÉFLÉCHI : herself (elle-même, toute seule)."
+    },
+    {
+     "prompt": "The laptop on the desk is -------; I left mine at home.",
+     "options": [
+      "her",
+      "hers",
+      "herself",
+      "she"
+     ],
+     "answer": 1,
+     "explanation": "Pronom POSSESSIF seul : hers (= le sien)."
+    },
+    {
+     "prompt": "[Partie 6] « Attention all employees: Starting next Monday, the main parking lot will be (1) ___ for resurfacing. Staff may park in the lot behind Building C (2) ___ the work is completed. (3) ___ Shuttle buses will run every ten minutes between the lot and the main entrance. We thank you for (4) ___ cooperation. » — (1)",
+     "options": [
+      "close",
+      "closing",
+      "closed",
+      "closure"
+     ],
+     "answer": 2,
+     "explanation": "PASSIF : will be closed (le parking est fermé)."
+    },
+    {
+     "prompt": "[Partie 6] « Attention all employees: Starting next Monday, the main parking lot will be (1) ___ for resurfacing. Staff may park in the lot behind Building C (2) ___ the work is completed. (3) ___ Shuttle buses will run every ten minutes between the lot and the main entrance. We thank you for (4) ___ cooperation. » — (2)",
+     "options": [
+      "until",
+      "by",
+      "during",
+      "since"
+     ],
+     "answer": 0,
+     "explanation": "UNTIL = jusqu'à ce que (durée : on se gare là-bas jusqu'à la fin des travaux)."
+    },
+    {
+     "prompt": "[Partie 6] « Attention all employees: Starting next Monday, the main parking lot will be (1) ___ for resurfacing. Staff may park in the lot behind Building C (2) ___ the work is completed. (3) ___ Shuttle buses will run every ten minutes between the lot and the main entrance. We thank you for (4) ___ cooperation. » — (3)",
+     "options": [
+      "The lot behind Building C has 200 spaces.",
+      "Our quarterly sales have increased.",
+      "The cafeteria menu will change in May.",
+      "Please submit your vacation requests early."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle doit parler du parking de remplacement, entre l'annonce et les navettes. Seule (A) fait le lien."
+    },
+    {
+     "prompt": "[Partie 6] « Attention all employees: Starting next Monday, the main parking lot will be (1) ___ for resurfacing. Staff may park in the lot behind Building C (2) ___ the work is completed. (3) ___ Shuttle buses will run every ten minutes between the lot and the main entrance. We thank you for (4) ___ cooperation. » — (4)",
+     "options": [
+      "you",
+      "your",
+      "yours",
+      "yourself"
+     ],
+     "answer": 1,
+     "explanation": "Adjectif possessif + NOM : your cooperation."
+    },
+    {
+     "prompt": "Mr. Diaz and ------- will attend the trade fair in Milan.",
+     "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+     ],
+     "answer": 0,
+     "explanation": "Pronom SUJET (le sujet du verbe will attend) : Mr. Diaz and I."
+    },
+    {
+     "prompt": "The manager gave Ana and ------- the new schedules.",
+     "options": [
+      "I",
+      "me",
+      "my",
+      "myself"
+     ],
+     "answer": 1,
+     "explanation": "Pronom COMPLÉMENT (gave … to me) : Ana and me."
+    },
+    {
+     "prompt": "The company prides ------- on its excellent customer service.",
+     "options": [
+      "it",
+      "its",
+      "itself",
+      "it's"
+     ],
+     "answer": 2,
+     "explanation": "Expression : pride oneself on = être fier de → prides itself on."
+    },
+    {
+     "prompt": "Applicants should bring a copy of ------- résumé to the interview.",
+     "options": [
+      "they",
+      "them",
+      "their",
+      "theirs"
+     ],
+     "answer": 2,
+     "explanation": "Adjectif possessif + NOM : their résumé."
+    },
+    {
+     "prompt": "------- who wish to attend the seminar must register by Friday.",
+     "options": [
+      "Those",
+      "They",
+      "Them",
+      "These"
+     ],
+     "answer": 0,
+     "explanation": "Those who = ceux qui (structure figée)."
+    },
+    {
+     "prompt": "The two companies agreed to share resources with ------- .",
+     "options": [
+      "each other",
+      "itself",
+      "themselves",
+      "theirs"
+     ],
+     "answer": 0,
+     "explanation": "each other = l'un l'autre (réciproque entre deux sujets)."
+    }
+   ]
   }
  ]
 }
