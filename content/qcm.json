@@ -2031,13 +2031,13 @@
     {
      "prompt": "The board admired the CEO's ------- during the crisis.",
      "options": [
-      "calm",
-      "calmly",
-      "calmness",
-      "calmed"
+      "decisive",
+      "decisively",
+      "decisiveness",
+      "decide"
      ],
      "answer": 2,
-     "explanation": "Possessif + NOM : calmness (-ness). « calm » peut aussi être un nom, mais la forme TOEIC attendue avec -ness est la plus sûre ici."
+     "explanation": "Possessif + NOM : decisiveness (-ness). Famille : decide → decisive (adj.) → decisiveness (nom)."
     },
     {
      "prompt": "The supervisor suggested ------- the meeting until next week.",
@@ -2051,7 +2051,7 @@
      "explanation": "SUGGEST + -ING : suggested postponing."
     },
     {
-     "prompt": "Our cleaning staff ------- the offices every evening.",
+     "prompt": "Our cleaners ------- the offices every evening.",
      "options": [
       "cleans",
       "clean",
@@ -2059,7 +2059,7 @@
       "cleaned"
      ],
      "answer": 1,
-     "explanation": "Habitude ; « staff » est employé ici au pluriel (le personnel = les employés) → clean. Indice : « Our cleaning staff » désigne plusieurs personnes."
+     "explanation": "Habitude (every evening) + sujet PLURIEL (cleaners) → clean, sans -s."
     },
     {
      "prompt": "Ms. Nakamura completed the report -------, without any help.",
