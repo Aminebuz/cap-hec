@@ -1,6 +1,26 @@
 {
  "rules": [
   {
+   "rule": "Some of / most of / all of + INDÉNOMBRABLE → singulier ; + pluriel → pluriel",
+   "example": "Some of the furniture was damaged / some of the chairs were",
+   "status": "priorité"
+  },
+  {
+   "rule": "Both A and B → verbe PLURIEL",
+   "example": "Both the report and the budget were approved",
+   "status": "priorité"
+  },
+  {
+   "rule": "each other / one another = l'un l'autre (réciproque)",
+   "example": "The two companies share resources with each other",
+   "status": "priorité"
+  },
+  {
+   "rule": "Passif au prétérit : was/were + participe passé (le sujet subit l'action)",
+   "example": "The contract was signed last Friday",
+   "status": "priorité"
+  },
+  {
    "rule": "Concession : even if / even though / even as (= alors que) ≠ as though, as a result of",
    "example": "shuts off even if it has a fully charged battery ; Even as newspapers reported…",
    "status": "priorité"
@@ -18,7 +38,7 @@
   {
    "rule": "Partie 6 – phrase à insérer : choisir celle qui se relie à la phrase d'avant / d'après",
    "example": "sign up in advance. There is limited seating at this event.",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "rule": "more THAN + nombre (≠ more to)",
@@ -53,7 +73,7 @@
   {
    "rule": "Habitude (usually, every day, often) → présent simple (+ s à la 3e pers.)",
    "example": "The CEO usually presents the results",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "rule": "Currently / at the moment / now → présent continu",
@@ -63,7 +83,7 @@
   {
    "example": "the CEO's confidence, their knowledge, the supplier's ability",
    "rule": "Possessif ('s, his, their) + NOM",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "example": "declare bankruptcy, supporting advances in",
@@ -73,7 +93,7 @@
   {
    "example": "suggested moving, recommend checking",
    "rule": "suggest / recommend / consider / avoid + -ING",
-   "status": "priorité"
+   "status": "maîtrisée"
   },
   {
    "example": "the negotiations are nearing completion",
