@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-19",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Sommet Trump – Xi – Poutine aujourd'hui à Shenzhen",
+     "text": "Trump est arrivé à Shenzhen pour l'APEC après une étape à Manille ; Poutine y est aussi. Au programme de la rencontre à trois : l'Iran, l'Ukraine, le contrôle des armes nucléaires et le commerce. Une rencontre avec Kim Jong-un est évoquée mais pas confirmée.",
+     "why": "Une première rencontre à trois entre les dirigeants des États-Unis, de la Chine et de la Russie.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Iran : frappes américaines et ripostes",
+     "text": "Des avions américains ont frappé un site de lancement de missiles sur l'île de Qeshm. L'armée iranienne dit avoir visé des installations américaines au Koweït ; Bahreïn a intercepté une troisième attaque en une semaine. Trois porte-avions américains sont désormais dans la zone.",
+     "why": "L'escalade dans le Golfe pèse sur le transport maritime et le prix de l'énergie.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole : -20 % en novembre, mais +50 % sur l'année",
+     "text": "Le Brent tournait autour de 92,6 $ mercredi. Les stocks américains de brut ont augmenté de 5,28 millions de barils sur une semaine (API), et l'AIE prévoit un excédent de 1,7 million de barils par jour au 4e trimestre. L'OPEP+ se réunit le 29 novembre.",
+     "why": "Comparer les variations sur différentes périodes (mois / année) évite les conclusions hâtives.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Cybersécurité : alerte sur une faille Java critique",
+     "text": "L'agence américaine CISA demande de corriger d'urgence une faille critique de Java surnommée « Java4Shell ». Le FBI alerte aussi sur un outil de piratage piloté par l'IA, utilisé depuis août, qui obtient parfois des accès privilégiés en moins de trois heures.",
+     "why": "L'IA accélère aussi les attaques : la cybersécurité devient un enjeu stratégique pour toutes les entreprises.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    },
+    {
+     "cat": "Finance",
+     "title": "Visa et JPMorgan visés par un groupe de hackers",
+     "text": "Un groupe se faisant appeler n0n affirme avoir piraté les deux entreprises. Visa dit que l'incident vient d'un prestataire en Asie-Pacifique et que ses systèmes ne sont pas touchés ; JPMorgan attribue sa récente panne à un bug logiciel.",
+     "why": "Le risque fournisseur (« third-party risk ») est l'une des premières failles des grandes banques.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    },
+    {
+     "cat": "Économie",
+     "title": "Norvège : cyberattaque en cours chez Equinor",
+     "text": "Le géant pétrolier et gazier norvégien a détecté une attaque sur une partie de ses systèmes informatiques, sans vol de données ni impact sur la production à ce stade.",
+     "why": "Equinor est un fournisseur clé de gaz pour l'Europe depuis la baisse des livraisons russes.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-18-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "19 novembre 1863 : le discours de Gettysburg",
+     "text": "En pleine guerre de Sécession, Abraham Lincoln prononce en 2 minutes l'un des discours les plus célèbres de l'histoire : « un gouvernement du peuple, par le peuple, pour le peuple »."
+    },
+    {
+     "title": "19 novembre 1977 : Sadate à Jérusalem",
+     "text": "Le président égyptien Anouar el-Sadate devient le premier dirigeant arabe à se rendre officiellement en Israël. Cette visite mène aux accords de Camp David (1978) et à la paix israélo-égyptienne (1979)."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "19 nov.",
+     "t": "Rencontre Trump – Xi – Poutine à Shenzhen"
+    },
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang au Congrès"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Quelle célèbre formule vient du discours de Gettysburg (1863) ?",
+     "options": [
+      "« Je pense donc je suis »",
+      "« Un gouvernement du peuple, par le peuple, pour le peuple »",
+      "« I have a dream »",
+      "« Liberté, égalité, fraternité »"
+     ],
+     "answer": 1,
+     "explanation": "Lincoln, 19 novembre 1863. La formule est reprise dans l'article 2 de la Constitution française de 1958."
+    },
+    {
+     "prompt": "Le Brent a perdu environ 20 % en novembre. Sur l'année, il est :",
+     "options": [
+      "en baisse de 50 %",
+      "stable",
+      "en hausse de plus de 50 %",
+      "en baisse de 20 %"
+     ],
+     "answer": 2,
+     "explanation": "+50 % sur l'année malgré -20 % sur le mois : toujours regarder la période de comparaison."
+    },
+    {
+     "prompt": "Qu'est-ce que le « third-party risk » pour une banque ?",
+     "options": [
+      "Le risque de taux",
+      "Le risque lié à ses prestataires et fournisseurs",
+      "Le risque de change",
+      "Le risque lié à ses actionnaires"
+     ],
+     "answer": 1,
+     "explanation": "Une faille chez un prestataire peut toucher la banque : c'est ce que dit Visa ici."
+    }
+   ]
+  },
+  {
    "date": "2026-11-18",
    "items": [
     {

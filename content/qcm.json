@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -2192,6 +2192,179 @@
      ],
      "answer": 0,
      "explanation": "each other = l'un l'autre (réciproque entre deux sujets)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-matin",
+   "created": "2026-11-19T08:45:00+01:00",
+   "title": "Jeudi matin : tes erreurs d'hier + les relatifs",
+   "theme": "Priorités + thème 6 pronoms relatifs",
+   "questions": [
+    {
+     "prompt": "The research team will ------- a series of tests on the new material.",
+     "options": [
+      "conduct",
+      "accompany",
+      "attend",
+      "assist"
+     ],
+     "answer": 0,
+     "explanation": "conduct tests / a survey / a study = mener, réaliser."
+    },
+    {
+     "prompt": "The new branch ------- by the mayor last Saturday.",
+     "options": [
+      "opened",
+      "was opened",
+      "has opened",
+      "is opening"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit : la succursale est inaugurée par le maire → was opened by."
+    },
+    {
+     "prompt": "Most of the equipment ------- replaced last year.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Most of + INDÉNOMBRABLE (equipment) → singulier : was."
+    },
+    {
+     "prompt": "Both the manager and her assistant ------- on vacation next week.",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → PLURIEL : are."
+    },
+    {
+     "prompt": "The two partners have known ------- for over twenty years.",
+     "options": [
+      "themselves",
+      "each other",
+      "theirs",
+      "them"
+     ],
+     "answer": 1,
+     "explanation": "Réciproque : each other (l'un l'autre)."
+    },
+    {
+     "prompt": "The audience was ------- by the speaker's presentation.",
+     "options": [
+      "inspiring",
+      "inspired",
+      "inspire",
+      "inspiration"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : inspired. La présentation était inspiring."
+    },
+    {
+     "prompt": "The intern suggested ------- a new filing system.",
+     "options": [
+      "create",
+      "to create",
+      "creating",
+      "created"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL (maîtrisée) : suggest + -ING."
+    },
+    {
+     "prompt": "The client praised the firm's ------- in solving the problem.",
+     "options": [
+      "creative",
+      "creatively",
+      "creativity",
+      "create"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL (maîtrisée) : possessif + NOM : creativity."
+    },
+    {
+     "prompt": "The candidate ------- résumé impressed us most will be hired.",
+     "options": [
+      "who",
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 1,
+     "explanation": "RELATIFS : whose + NOM = dont le/la (le candidat DONT le CV…)."
+    },
+    {
+     "prompt": "The supplier ------- we contacted yesterday has not replied.",
+     "options": [
+      "whom",
+      "whose",
+      "which",
+      "what"
+     ],
+     "answer": 0,
+     "explanation": "whom = complément d'une PERSONNE (we contacted him → whom). « who » serait aussi toléré à l'oral, mais au TOEIC whom est la réponse attendue ici."
+    },
+    {
+     "prompt": "The report, ------- was published on Monday, contains several errors.",
+     "options": [
+      "that",
+      "which",
+      "who",
+      "what"
+     ],
+     "answer": 1,
+     "explanation": "Après une VIRGULE, on n'utilise jamais « that » : which pour une chose."
+    },
+    {
+     "prompt": "This is the office ------- the meeting will take place.",
+     "options": [
+      "which",
+      "where",
+      "whose",
+      "what"
+     ],
+     "answer": 1,
+     "explanation": "Lieu + phrase complète → where (= in which)."
+    },
+    {
+     "prompt": "Employees ------- wish to attend the workshop must register online.",
+     "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+     ],
+     "answer": 1,
+     "explanation": "Personne + sujet du verbe (they wish) → who."
+    },
+    {
+     "prompt": "The conference room in ------- the interview was held is being renovated.",
+     "options": [
+      "that",
+      "which",
+      "where",
+      "whom"
+     ],
+     "answer": 1,
+     "explanation": "Préposition + WHICH pour une chose (jamais « in that »)."
+    },
+    {
+     "prompt": "------- you need is a valid passport and a confirmation number.",
+     "options": [
+      "That",
+      "What",
+      "Which",
+      "Who"
+     ],
+     "answer": 1,
+     "explanation": "WHAT = ce que / ce dont (sans antécédent) : What you need is…"
     }
    ]
   }
