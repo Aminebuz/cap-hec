@@ -2367,6 +2367,179 @@
      "explanation": "WHAT = ce que / ce dont (sans antécédent) : What you need is…"
     }
    ]
+  },
+  {
+   "id": "2026-11-19-aprem",
+   "created": "2026-11-19T14:15:00+01:00",
+   "title": "Jeudi après-midi : priorités, Partie 6 et relatifs",
+   "theme": "Priorités + Partie 6 + thème 6 relatifs",
+   "questions": [
+    {
+     "prompt": "The analysts will ------- an audit of the accounts in January.",
+     "options": [
+      "conduct",
+      "accompany",
+      "assist",
+      "attend"
+     ],
+     "answer": 0,
+     "explanation": "conduct an audit = réaliser un audit."
+    },
+    {
+     "prompt": "The new policy ------- to all staff members last week.",
+     "options": [
+      "explained",
+      "was explained",
+      "has explained",
+      "explains"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit (la politique est expliquée ; last week) → was explained."
+    },
+    {
+     "prompt": "All of the information on this page ------- up to date.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "All of + INDÉNOMBRABLE (information) → singulier : is."
+    },
+    {
+     "prompt": "Both the printer and the scanner ------- repaired.",
+     "options": [
+      "needs",
+      "need",
+      "is needing",
+      "has needed"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → PLURIEL : need."
+    },
+    {
+     "prompt": "The investors were ------- by the company's strong results.",
+     "options": [
+      "encouraging",
+      "encouraged",
+      "encourage",
+      "encouragement"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : encouraged."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Park, We are pleased to inform you that your application for the position of financial analyst has been (1) ___. Your interview will take place on December 3 at our head office, (2) ___ is located at 45 Rue de la République. (3) ___ Please bring a copy of your diploma and a valid ID. We look forward to (4) ___ you. Best regards, Human Resources » — (1)",
+     "options": [
+      "accept",
+      "accepting",
+      "accepted",
+      "acceptance"
+     ],
+     "answer": 2,
+     "explanation": "PASSIF present perfect : has been accepted (la candidature est acceptée)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Park, We are pleased to inform you that your application for the position of financial analyst has been (1) ___. Your interview will take place on December 3 at our head office, (2) ___ is located at 45 Rue de la République. (3) ___ Please bring a copy of your diploma and a valid ID. We look forward to (4) ___ you. Best regards, Human Resources » — (2)",
+     "options": [
+      "that",
+      "which",
+      "who",
+      "where"
+     ],
+     "answer": 1,
+     "explanation": "Après une VIRGULE → which (jamais that) pour une chose (our head office)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Park, We are pleased to inform you that your application for the position of financial analyst has been (1) ___. Your interview will take place on December 3 at our head office, (2) ___ is located at 45 Rue de la République. (3) ___ Please bring a copy of your diploma and a valid ID. We look forward to (4) ___ you. Best regards, Human Resources » — (3)",
+     "options": [
+      "The interview will last approximately one hour.",
+      "Our company was founded in 1985.",
+      "The position has been filled.",
+      "Please send us your invoice."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle complète les infos pratiques de l'entretien (date, lieu → durée). (C) contredit la lettre."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Park, We are pleased to inform you that your application for the position of financial analyst has been (1) ___. Your interview will take place on December 3 at our head office, (2) ___ is located at 45 Rue de la République. (3) ___ Please bring a copy of your diploma and a valid ID. We look forward to (4) ___ you. Best regards, Human Resources » — (4)",
+     "options": [
+      "meet",
+      "meeting",
+      "to meet",
+      "met"
+     ],
+     "answer": 1,
+     "explanation": "look forward TO + -ING : look forward to meeting (to est ici une préposition)."
+    },
+    {
+     "prompt": "The employee ------- car was parked in the reserved space has been notified.",
+     "options": [
+      "who",
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 1,
+     "explanation": "whose + NOM : l'employé DONT la voiture…"
+    },
+    {
+     "prompt": "The city ------- the conference was held is famous for its architecture.",
+     "options": [
+      "which",
+      "where",
+      "what",
+      "whose"
+     ],
+     "answer": 1,
+     "explanation": "Lieu + phrase complète (the conference was held) → where."
+    },
+    {
+     "prompt": "The consultant to ------- we spoke yesterday sent us a proposal.",
+     "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 1,
+     "explanation": "Préposition + personne → whom (to whom)."
+    },
+    {
+     "prompt": "The products ------- were returned had minor defects.",
+     "options": [
+      "who",
+      "which",
+      "whose",
+      "what"
+     ],
+     "answer": 1,
+     "explanation": "Chose + sujet du verbe (were returned) → which (ou that, absent des options)."
+    },
+    {
+     "prompt": "The board finally approved ------- the director had proposed.",
+     "options": [
+      "which",
+      "what",
+      "that",
+      "who"
+     ],
+     "answer": 1,
+     "explanation": "WHAT = ce que (sans antécédent : « ce que le directeur avait proposé »)."
+    },
+    {
+     "prompt": "Ms. Chen, ------- has worked here for ten years, will lead the new team.",
+     "options": [
+      "that",
+      "which",
+      "who",
+      "whom"
+     ],
+     "answer": 2,
+     "explanation": "Personne, après une VIRGULE, sujet du verbe (has worked) → who (jamais that après une virgule)."
+    }
+   ]
   }
  ]
 }
