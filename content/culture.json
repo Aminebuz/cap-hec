@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-20",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Shenzhen : déclaration commune États-Unis – Chine – Russie",
+     "text": "Après environ 90 minutes de réunion (Ukraine, armes nucléaires, détroit d'Ormuz selon Reuters), les trois pays appellent à augmenter la production de produits pétroliers raffinés et à dialoguer sur la réduction des risques nucléaires, sans chiffres ni calendrier.",
+     "why": "Une déclaration sans engagements chiffrés reste surtout symbolique : il faudra juger sur les actes.",
+     "source": "The Day Watch",
+     "url": "https://thedaywatch.substack.com/p/the-day-watch-morning-brief-19-november"
+    },
+    {
+     "cat": "Finance",
+     "title": "Introduction en Bourse record pour Anthropic",
+     "text": "Selon CNBC, Anthropic a placé environ 980 millions d'actions à 83 $, soit plus de 81 milliards de dollars levés, la plus grosse introduction en Bourse jamais réalisée, pour une valorisation d'environ 1 500 milliards de dollars. La cotation au Nasdaq était prévue le 19 novembre.",
+     "why": "Une IPO (introduction en Bourse) permet à une entreprise de lever des fonds auprès du public en vendant des actions.",
+     "source": "The Morning Brief (Specterworks)",
+     "url": "https://specterworks.substack.com/p/the-morning-brief-2026-11-19"
+    },
+    {
+     "cat": "Finance",
+     "title": "Fed : vers de nouvelles hausses de taux ?",
+     "text": "Le compte rendu de la dernière réunion montre que presque tous les membres anticipent d'autres hausses de taux. Deux gouverneurs voulaient déjà relever les taux d'un quart de point. Les responsables s'inquiètent aussi de la dette opaque liée à l'IA.",
+     "why": "Des taux plus élevés rendent le crédit plus cher et pèsent sur les actions de croissance.",
+     "source": "The Morning Brief (Specterworks)",
+     "url": "https://specterworks.substack.com/p/the-morning-brief-2026-11-19"
+    },
+    {
+     "cat": "Tech",
+     "title": "Nvidia : jusqu'à 118 milliards de garanties",
+     "text": "Nvidia indique des garanties maximales de 118 milliards de dollars, dont jusqu'à 105 milliards liées à des bâtiments loués par OpenAI. Aucun paiement n'a été effectué à ce stade.",
+     "why": "Les engagements « hors bilan » sont un risque que les analystes surveillent de près.",
+     "source": "The Morning Brief (Specterworks)",
+     "url": "https://specterworks.substack.com/p/the-morning-brief-2026-11-19"
+    },
+    {
+     "cat": "Planète",
+     "title": "L'AIE : l'électricité croît plus vite que le PIB",
+     "text": "Depuis 2019, la demande d'électricité augmente de 3,3 % par an, contre 2,9 % pour le PIB mondial. L'AIE estime qu'il faudra 25 millions de km de nouvelles lignes électriques en dix ans ; cuivre, transformateurs et câbles sont des goulets d'étranglement.",
+     "why": "L'électrification (voitures, data centers, IA) fait du réseau électrique un enjeu industriel majeur.",
+     "source": "The Morning Brief (Specterworks)",
+     "url": "https://specterworks.substack.com/p/the-morning-brief-2026-11-19"
+    },
+    {
+     "cat": "France",
+     "title": "UE : report des règles sur le méthane",
+     "text": "Les négociateurs européens ont provisoirement accepté de repousser à 2029 la surveillance des importations d'énergies fossiles et à 2030 les obligations de déclaration de l'intensité en méthane.",
+     "why": "Le méthane réchauffe environ 80 fois plus que le CO₂ sur 20 ans : son contrôle est un levier climatique clé.",
+     "source": "The Day Watch",
+     "url": "https://thedaywatch.substack.com/p/the-day-watch-morning-brief-19-november"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Danemark : feu vert à deux nouvelles bases américaines au Groenland",
+     "text": "Le Parlement danois a approuvé l'accord de défense, en maintenant la souveraineté danoise et l'autodétermination groenlandaise.",
+     "why": "L'Arctique devient stratégique : routes maritimes, ressources et défense antimissile.",
+     "source": "The Morning Brief (Specterworks)",
+     "url": "https://specterworks.substack.com/p/the-morning-brief-2026-11-19"
+    }
+   ],
+   "history": [
+    {
+     "title": "20 novembre 1945 : ouverture du procès de Nuremberg",
+     "text": "Pour la première fois, des dirigeants nazis sont jugés par un tribunal international pour crimes contre l'humanité. Ce procès fonde le droit pénal international moderne."
+    },
+    {
+     "title": "20 novembre 1989 : la Convention des droits de l'enfant",
+     "text": "L'ONU adopte la Convention internationale des droits de l'enfant, aujourd'hui le traité sur les droits humains le plus ratifié au monde. Le 20 novembre est la Journée internationale des droits de l'enfant."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "20 nov.",
+     "t": "Fin de la COP31"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang au Congrès"
+    },
+    {
+     "date": "Décembre",
+     "t": "Réunion de la Fed (hausse de taux ?)"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qu'est-ce qu'une IPO ?",
+     "options": [
+      "Une fusion entre deux entreprises",
+      "L'introduction d'une entreprise en Bourse",
+      "Un rachat d'actions",
+      "Une faillite"
+     ],
+     "answer": 1,
+     "explanation": "Initial Public Offering : l'entreprise vend pour la première fois ses actions au public et lève des fonds."
+    },
+    {
+     "prompt": "Que s'est-il ouvert le 20 novembre 1945 ?",
+     "options": [
+      "La conférence de Yalta",
+      "Le procès de Nuremberg",
+      "L'ONU",
+      "Le plan Marshall"
+     ],
+     "answer": 1,
+     "explanation": "Le procès des dirigeants nazis à Nuremberg, fondateur du droit pénal international."
+    },
+    {
+     "prompt": "Selon l'AIE, depuis 2019 la demande d'électricité croît…",
+     "options": [
+      "moins vite que le PIB",
+      "au même rythme que le PIB",
+      "plus vite que le PIB",
+      "pas du tout"
+     ],
+     "answer": 2,
+     "explanation": "+3,3 % par an contre +2,9 % pour le PIB : l'économie s'électrifie."
+    }
+   ]
+  },
+  {
    "date": "2026-11-19",
    "items": [
     {

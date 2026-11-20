@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -2538,6 +2538,179 @@
      ],
      "answer": 2,
      "explanation": "Personne, après une VIRGULE, sujet du verbe (has worked) → who (jamais that après une virgule)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-matin",
+   "created": "2026-11-20T08:45:00+01:00",
+   "title": "Vendredi matin : priorités, relatifs et prépositions de temps",
+   "theme": "Priorités + relatifs + thème 7 prépositions",
+   "questions": [
+    {
+     "prompt": "The marketing team ------- an online survey of 2,000 customers last month.",
+     "options": [
+      "conducted",
+      "accompanied",
+      "attended",
+      "assisted"
+     ],
+     "answer": 0,
+     "explanation": "conduct a survey = réaliser une enquête (prétérit : last month)."
+    },
+    {
+     "prompt": "The warehouse ------- by a fire in 2019.",
+     "options": [
+      "destroyed",
+      "was destroyed",
+      "has destroyed",
+      "destroys"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit : l'entrepôt a été détruit → was destroyed by."
+    },
+    {
+     "prompt": "Some of the advice he gave us ------- very useful.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Some of + INDÉNOMBRABLE (advice) → singulier : was."
+    },
+    {
+     "prompt": "Both Ms. Okoro and Mr. Lambert ------- fluent in Spanish.",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → PLURIEL : are."
+    },
+    {
+     "prompt": "The two departments must communicate with ------- more often.",
+     "options": [
+      "themselves",
+      "each other",
+      "them",
+      "theirs"
+     ],
+     "answer": 1,
+     "explanation": "Réciproque : each other."
+    },
+    {
+     "prompt": "Customers were ------- with the long waiting times.",
+     "options": [
+      "frustrating",
+      "frustrated",
+      "frustrate",
+      "frustration"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : frustrated."
+    },
+    {
+     "prompt": "The accountant suggested ------- the receipts in a separate folder.",
+     "options": [
+      "keep",
+      "to keep",
+      "keeping",
+      "kept"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : suggest + -ING."
+    },
+    {
+     "prompt": "The architect ------- designed the new museum will give a talk tonight.",
+     "options": [
+      "which",
+      "who",
+      "whose",
+      "whom"
+     ],
+     "answer": 1,
+     "explanation": "RELATIF : personne + sujet du verbe (designed) → who."
+    },
+    {
+     "prompt": "We visited the factory ------- the components are assembled.",
+     "options": [
+      "which",
+      "where",
+      "whose",
+      "what"
+     ],
+     "answer": 1,
+     "explanation": "Lieu + phrase complète → where."
+    },
+    {
+     "prompt": "The company, ------- headquarters are in Lyon, employs 3,000 people.",
+     "options": [
+      "which",
+      "whose",
+      "that",
+      "who"
+     ],
+     "answer": 1,
+     "explanation": "whose + NOM (headquarters) = dont le siège."
+    },
+    {
+     "prompt": "------- surprised everyone was the speed of the recovery.",
+     "options": [
+      "That",
+      "Which",
+      "What",
+      "Who"
+     ],
+     "answer": 2,
+     "explanation": "WHAT = ce qui / ce que, sans antécédent."
+    },
+    {
+     "prompt": "The store is open ------- Monday ------- Saturday.",
+     "options": [
+      "from / to",
+      "since / until",
+      "between / to",
+      "at / on"
+     ],
+     "answer": 0,
+     "explanation": "PRÉPOSITIONS : from… to (de… à). « between… and » marche aussi, mais pas « between… to »."
+    },
+    {
+     "prompt": "Please submit your report ------- Friday at the latest.",
+     "options": [
+      "until",
+      "by",
+      "since",
+      "during"
+     ],
+     "answer": 1,
+     "explanation": "BY + date limite (au plus tard). « until » = jusqu'à (durée continue)."
+    },
+    {
+     "prompt": "Mr. Ruiz has worked here ------- 2018.",
+     "options": [
+      "for",
+      "since",
+      "during",
+      "from"
+     ],
+     "answer": 1,
+     "explanation": "SINCE + point de départ (2018) ; FOR + durée (for eight years)."
+    },
+    {
+     "prompt": "The renovation will be completed ------- the next three weeks.",
+     "options": [
+      "within",
+      "since",
+      "by",
+      "until"
+     ],
+     "answer": 0,
+     "explanation": "WITHIN + durée = dans un délai de, d'ici (moins de) trois semaines."
     }
    ]
   }
