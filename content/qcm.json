@@ -2713,6 +2713,179 @@
      "explanation": "WITHIN + durée = dans un délai de, d'ici (moins de) trois semaines."
     }
    ]
+  },
+  {
+   "id": "2026-11-20-aprem",
+   "created": "2026-11-20T14:15:00+01:00",
+   "title": "Vendredi après-midi : priorités, Partie 6 et prépositions",
+   "theme": "Priorités + Partie 6 + thème 7 prépositions",
+   "questions": [
+    {
+     "prompt": "The auditors ------- a detailed review of our accounts every year.",
+     "options": [
+      "conduct",
+      "accompany",
+      "attend",
+      "assist"
+     ],
+     "answer": 0,
+     "explanation": "conduct a review / an audit = réaliser."
+    },
+    {
+     "prompt": "The bridge ------- in 1925 and renovated last year.",
+     "options": [
+      "built",
+      "was built",
+      "has built",
+      "is building"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit (in 1925) → was built."
+    },
+    {
+     "prompt": "Most of the luggage ------- already been loaded onto the plane.",
+     "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 1,
+     "explanation": "Most of + INDÉNOMBRABLE (luggage) → singulier : has."
+    },
+    {
+     "prompt": "Both the CEO and the CFO ------- the annual meeting.",
+     "options": [
+      "attends",
+      "will attend",
+      "is attending",
+      "has attended"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → pluriel ; seule « will attend » convient (les autres sont au singulier)."
+    },
+    {
+     "prompt": "The employees were ------- to hear about the new bonus scheme.",
+     "options": [
+      "exciting",
+      "excited",
+      "excite",
+      "excitement"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : excited."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Sales Staff. Subject: Annual Sales Conference. This year's conference will be held (1) ___ March 12 at the Grand Hotel in Nice. All sales representatives are expected to attend. (2) ___ Registration must be completed (3) ___ February 20. Travel expenses will be reimbursed upon submission of (4) ___ receipts. » — (1)",
+     "options": [
+      "in",
+      "at",
+      "on",
+      "by"
+     ],
+     "answer": 2,
+     "explanation": "ON + date précise (on March 12). IN + mois/année, AT + heure."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Sales Staff. Subject: Annual Sales Conference. This year's conference will be held (1) ___ March 12 at the Grand Hotel in Nice. All sales representatives are expected to attend. (2) ___ Registration must be completed (3) ___ February 20. Travel expenses will be reimbursed upon submission of (4) ___ receipts. » — (2)",
+     "options": [
+      "Each attendee will receive a copy of the new product catalog.",
+      "The hotel was built in 1920.",
+      "Our sales fell last quarter.",
+      "Please clean your desk before leaving."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle doit concerner la conférence et les participants. Seule (A) s'y rattache."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Sales Staff. Subject: Annual Sales Conference. This year's conference will be held (1) ___ March 12 at the Grand Hotel in Nice. All sales representatives are expected to attend. (2) ___ Registration must be completed (3) ___ February 20. Travel expenses will be reimbursed upon submission of (4) ___ receipts. » — (3)",
+     "options": [
+      "until",
+      "by",
+      "since",
+      "for"
+     ],
+     "answer": 1,
+     "explanation": "BY + date limite (au plus tard le 20 février)."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Sales Staff. Subject: Annual Sales Conference. This year's conference will be held (1) ___ March 12 at the Grand Hotel in Nice. All sales representatives are expected to attend. (2) ___ Registration must be completed (3) ___ February 20. Travel expenses will be reimbursed upon submission of (4) ___ receipts. » — (4)",
+     "options": [
+      "your",
+      "yours",
+      "you",
+      "yourself"
+     ],
+     "answer": 0,
+     "explanation": "Adjectif possessif + NOM : your receipts."
+    },
+    {
+     "prompt": "The museum is closed ------- the holiday period.",
+     "options": [
+      "during",
+      "while",
+      "since",
+      "within"
+     ],
+     "answer": 0,
+     "explanation": "DURING + NOM (pendant la période). « while » est suivi d'une phrase (while the museum is…)."
+    },
+    {
+     "prompt": "The new manager will start work ------- Monday morning.",
+     "options": [
+      "in",
+      "at",
+      "on",
+      "by"
+     ],
+     "answer": 2,
+     "explanation": "ON + jour (on Monday morning)."
+    },
+    {
+     "prompt": "The train leaves ------- 7:45 A.M.",
+     "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+     ],
+     "answer": 2,
+     "explanation": "AT + heure précise."
+    },
+    {
+     "prompt": "The prize money will be divided ------- the three winners.",
+     "options": [
+      "between",
+      "among",
+      "within",
+      "through"
+     ],
+     "answer": 1,
+     "explanation": "AMONG = entre (plus de deux) ; BETWEEN = entre deux (ou éléments distincts nommés)."
+    },
+    {
+     "prompt": "The new store is located ------- the bank and the post office.",
+     "options": [
+      "among",
+      "between",
+      "within",
+      "through"
+     ],
+     "answer": 1,
+     "explanation": "BETWEEN A AND B (entre deux éléments)."
+    },
+    {
+     "prompt": "Applications received ------- the deadline will not be considered.",
+     "options": [
+      "after",
+      "since",
+      "until",
+      "during"
+     ],
+     "answer": 0,
+     "explanation": "AFTER + moment : après la date limite. Seul choix logique (les candidatures en retard)."
+    }
+   ]
   }
  ]
 }
