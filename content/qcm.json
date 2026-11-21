@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -2884,6 +2884,179 @@
      ],
      "answer": 0,
      "explanation": "AFTER + moment : après la date limite. Seul choix logique (les candidatures en retard)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-matin",
+   "created": "2026-11-21T08:45:00+01:00",
+   "title": "Samedi matin : priorités, prépositions et connecteurs",
+   "theme": "Priorités + prépositions + thème 8 conjonctions et connecteurs",
+   "questions": [
+    {
+     "prompt": "The bank will ------- an internal investigation into the incident.",
+     "options": [
+      "conduct",
+      "accompany",
+      "attend",
+      "assist"
+     ],
+     "answer": 0,
+     "explanation": "conduct an investigation = mener une enquête."
+    },
+    {
+     "prompt": "The first version of the app ------- in 2021.",
+     "options": [
+      "launched",
+      "was launched",
+      "has launched",
+      "is launching"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit (in 2021) : l'appli a été lancée → was launched."
+    },
+    {
+     "prompt": "All of the furniture in the lobby ------- new.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "All of + INDÉNOMBRABLE (furniture) → singulier : is."
+    },
+    {
+     "prompt": "Both the hotel and the restaurant ------- fully booked this weekend.",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → PLURIEL : are."
+    },
+    {
+     "prompt": "The colleagues congratulated ------- on the successful launch.",
+     "options": [
+      "each other",
+      "themselves",
+      "them",
+      "theirs"
+     ],
+     "answer": 0,
+     "explanation": "Réciproque (ils se sont félicités mutuellement) : each other."
+    },
+    {
+     "prompt": "The visitors were ------- by the size of the factory.",
+     "options": [
+      "amazing",
+      "amazed",
+      "amaze",
+      "amazement"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : amazed."
+    },
+    {
+     "prompt": "The supervisor suggested ------- the deadline by one week.",
+     "options": [
+      "extend",
+      "to extend",
+      "extending",
+      "extended"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : suggest + -ING."
+    },
+    {
+     "prompt": "The seminar will take place ------- the morning of May 4.",
+     "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+     ],
+     "answer": 1,
+     "explanation": "ON + jour/date précise, même avec « morning » (on the morning of May 4)."
+    },
+    {
+     "prompt": "The contract is valid ------- December 31.",
+     "options": [
+      "since",
+      "until",
+      "during",
+      "within"
+     ],
+     "answer": 1,
+     "explanation": "UNTIL = jusqu'à (durée qui continue jusqu'à une date)."
+    },
+    {
+     "prompt": "Mr. Haddad has been the director ------- ten years.",
+     "options": [
+      "since",
+      "for",
+      "during",
+      "from"
+     ],
+     "answer": 1,
+     "explanation": "FOR + durée (ten years) ; SINCE + date de départ."
+    },
+    {
+     "prompt": "------- the weather was bad, the outdoor event was a success.",
+     "options": [
+      "Despite",
+      "Although",
+      "Because",
+      "Unless"
+     ],
+     "answer": 1,
+     "explanation": "CONCESSION + PHRASE (sujet + verbe) → Although. « Despite » + NOM (despite the bad weather)."
+    },
+    {
+     "prompt": "------- the heavy traffic, the shipment arrived on time.",
+     "options": [
+      "Although",
+      "Even though",
+      "Despite",
+      "While"
+     ],
+     "answer": 2,
+     "explanation": "Despite + NOM (the heavy traffic). Although / even though + phrase."
+    },
+    {
+     "prompt": "The offer is valid ------- you place your order before Friday.",
+     "options": [
+      "unless",
+      "provided that",
+      "despite",
+      "whereas"
+     ],
+     "answer": 1,
+     "explanation": "PROVIDED THAT = à condition que. « unless » = à moins que (sens inverse)."
+    },
+    {
+     "prompt": "You cannot enter the building ------- you show your badge.",
+     "options": [
+      "unless",
+      "although",
+      "whereas",
+      "so that"
+     ],
+     "answer": 0,
+     "explanation": "UNLESS = à moins que / sauf si."
+    },
+    {
+     "prompt": "Sales rose in Europe, ------- they fell in Asia.",
+     "options": [
+      "whereas",
+      "so that",
+      "unless",
+      "because of"
+     ],
+     "answer": 0,
+     "explanation": "WHEREAS = alors que (opposition entre deux faits)."
     }
    ]
   }

@@ -1,6 +1,130 @@
 {
  "days": [
   {
+   "date": "2026-11-21",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Shenzhen : une « déclaration de paix » sans cessez-le-feu",
+     "text": "Trump, Xi et Poutine ont publié une déclaration commune sur les risques nucléaires et les flux d'énergie, mais aucun cessez-le-feu pour l'Ukraine ou l'Iran. Friedrich Merz et Emmanuel Macron refusent tout règlement négocié par les grandes puissances sans les Européens.",
+     "why": "Les Européens craignent un « nouveau Yalta », où les grandes puissances décident sans eux.",
+     "source": "Open Chronicle",
+     "url": "https://openchronicle.org/2026/11/20/global-news-brief-key-developments-around-the-world-november-20-2026/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Guerre avec l'Iran : 48,3 milliards de dollars",
+     "text": "Le Pentagone chiffre le coût de la campagne à 48,3 milliards de dollars au 13 novembre. Le Sénat a rejeté (48 contre 51) une résolution pour limiter les pouvoirs de guerre du président. Trump dit qu'il ne décidera pas de la suite avant la nouvelle année.",
+     "why": "Le coût d'une guerre pèse sur le déficit public, et donc sur les taux d'intérêt.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-20-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole : troisième semaine de baisse",
+     "text": "Le Brent s'échange autour de 91 $ le baril, en route vers une troisième baisse hebdomadaire (environ -5 %). Les flux de brut à Ormuz sont revenus à peu près à leur niveau d'avant-guerre, même si une « prime de risque » demeure.",
+     "why": "La prime de risque géopolitique est la part du prix liée à la peur d'une coupure, pas à l'offre réelle.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-20-november-2026"
+    },
+    {
+     "cat": "Politique",
+     "title": "Sommet UE – Royaume-Uni à Bruxelles",
+     "text": "Deuxième sommet depuis le rapprochement : commerce, énergie, sécurité, migrations et mobilité des jeunes sont au programme.",
+     "why": "Le rapprochement post-Brexit peut rouvrir des programmes comme Erasmus pour les étudiants.",
+     "source": "Open Chronicle",
+     "url": "https://openchronicle.org/2026/11/20/global-news-brief-key-developments-around-the-world-november-20-2026/"
+    },
+    {
+     "cat": "Économie",
+     "title": "Japon : inflation à 2,2 %, Chine : taux inchangés",
+     "text": "L'inflation sous-jacente japonaise a atteint 2,2 % en octobre. La Chine laisse son taux directeur de référence inchangé pour le 18e mois consécutif.",
+     "why": "La Chine garde des taux bas pour soutenir une économie qui ralentit.",
+     "source": "Open Chronicle",
+     "url": "https://openchronicle.org/2026/11/20/global-news-brief-key-developments-around-the-world-november-20-2026/"
+    },
+    {
+     "cat": "Tech",
+     "title": "GTA VI : plus de 2 milliards de dollars de ventes",
+     "text": "Selon les premières estimations, Grand Theft Auto VI aurait généré plus de 2 milliards de dollars de revenus, en attente de confirmation de l'éditeur.",
+     "why": "L'industrie du jeu vidéo pèse plus lourd que le cinéma et la musique réunis.",
+     "source": "Open Chronicle",
+     "url": "https://openchronicle.org/2026/11/20/global-news-brief-key-developments-around-the-world-november-20-2026/"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : trois ponts de Kyiv touchés",
+     "text": "Une attaque de missiles russes a frappé trois ponts sur le Dniepr à Kyiv, faisant au moins 3 morts selon les premiers bilans.",
+     "why": "Les infrastructures (ponts, énergie) sont devenues des cibles centrales de la guerre.",
+     "source": "Open Chronicle",
+     "url": "https://openchronicle.org/2026/11/20/global-news-brief-key-developments-around-the-world-november-20-2026/"
+    }
+   ],
+   "history": [
+    {
+     "title": "21 novembre 1783 : premier vol habité en montgolfière",
+     "text": "À Paris, Pilâtre de Rozier et le marquis d'Arlandes s'envolent dans un ballon des frères Montgolfier et parcourent environ 9 km en 25 minutes : le premier vol humain de l'histoire."
+    },
+    {
+     "title": "21 novembre 1995 : les accords de Dayton",
+     "text": "Négociés aux États-Unis, ils mettent fin à la guerre de Bosnie-Herzégovine (près de 100 000 morts). Ils seront signés officiellement à Paris le 14 décembre 1995."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "23 nov.",
+     "t": "Ta lettre de reco : prof de finance d'entreprise"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Audition de Jensen Huang au Congrès"
+    },
+    {
+     "date": "Décembre",
+     "t": "Réunion de la Fed"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qui a réalisé le premier vol humain en montgolfière en 1783 ?",
+     "options": [
+      "Les frères Wright",
+      "Pilâtre de Rozier et le marquis d'Arlandes",
+      "Louis Blériot",
+      "Jules Verne"
+     ],
+     "answer": 1,
+     "explanation": "Le 21 novembre 1783 à Paris, dans un ballon des frères Montgolfier."
+    },
+    {
+     "prompt": "Qu'est-ce qu'une « prime de risque géopolitique » sur le pétrole ?",
+     "options": [
+      "Une taxe de l'OPEP",
+      "La part du prix liée à la peur d'une perturbation",
+      "Un bonus versé aux pétroliers",
+      "Le coût du transport"
+     ],
+     "answer": 1,
+     "explanation": "Même quand les flux sont normaux, les acheteurs paient plus cher par crainte d'une coupure."
+    },
+    {
+     "prompt": "Pourquoi Merz et Macron s'inquiètent-ils d'un « nouveau Yalta » ?",
+     "options": [
+      "Ils veulent une conférence en Crimée",
+      "Ils refusent que les grandes puissances décident de l'Europe sans les Européens",
+      "Ils veulent rejoindre l'APEC",
+      "Ils contestent le prix du pétrole"
+     ],
+     "answer": 1,
+     "explanation": "À Yalta (1945), les grandes puissances avaient partagé l'Europe : le terme désigne un règlement imposé sans les pays concernés."
+    }
+   ]
+  },
+  {
    "date": "2026-11-20",
    "items": [
     {
