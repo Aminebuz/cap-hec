@@ -2938,7 +2938,7 @@
      "explanation": "Both… and → PLURIEL : are."
     },
     {
-     "prompt": "The colleagues congratulated ------- on the successful launch.",
+     "prompt": "Ana and Leo sat next to ------- during the whole meeting.",
      "options": [
       "each other",
       "themselves",
@@ -2946,7 +2946,7 @@
       "theirs"
      ],
      "answer": 0,
-     "explanation": "Réciproque (ils se sont félicités mutuellement) : each other."
+     "explanation": "Réciproque : ils étaient assis l'un à côté de l'autre → next to each other. « themselves » n'a pas de sens ici."
     },
     {
      "prompt": "The visitors were ------- by the size of the factory.",
