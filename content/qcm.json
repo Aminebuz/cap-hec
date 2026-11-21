@@ -3059,6 +3059,179 @@
      "explanation": "WHEREAS = alors que (opposition entre deux faits)."
     }
    ]
+  },
+  {
+   "id": "2026-11-21-aprem",
+   "created": "2026-11-21T14:15:00+01:00",
+   "title": "Samedi après-midi : priorités, Partie 6 et connecteurs",
+   "theme": "Priorités + Partie 6 + thème 8 connecteurs",
+   "questions": [
+    {
+     "prompt": "The consulting firm will ------- interviews with all department heads.",
+     "options": [
+      "conduct",
+      "accompany",
+      "assist",
+      "attend"
+     ],
+     "answer": 0,
+     "explanation": "conduct interviews = mener des entretiens."
+    },
+    {
+     "prompt": "The original painting ------- in a private collection for decades.",
+     "options": [
+      "kept",
+      "was kept",
+      "has kept",
+      "keeps"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF : le tableau a été conservé → was kept."
+    },
+    {
+     "prompt": "Some of the information in the report ------- outdated.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Some of + INDÉNOMBRABLE (information) → singulier : is."
+    },
+    {
+     "prompt": "Both the speaker and the moderator ------- late.",
+     "options": [
+      "was",
+      "were",
+      "is",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → PLURIEL : were."
+    },
+    {
+     "prompt": "Several employees were ------- by the sudden policy change.",
+     "options": [
+      "confusing",
+      "confused",
+      "confuse",
+      "confusion"
+     ],
+     "answer": 1,
+     "explanation": "Les personnes ressentent → -ED : confused."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Valued Customer, Thank you for shopping at Brightline Electronics. (1) ___ your purchase was made more than 30 days ago, we are unable to offer a full refund. However, we would be happy to (2) ___ the item for a similar product. (3) ___ Simply bring the item and your receipt to any of our stores (4) ___ December 15. Sincerely, Customer Service » — (1)",
+     "options": [
+      "Despite",
+      "Because",
+      "Unless",
+      "So that"
+     ],
+     "answer": 1,
+     "explanation": "Cause + PHRASE (your purchase was made…) → Because. « Despite » + nom."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Valued Customer, Thank you for shopping at Brightline Electronics. (1) ___ your purchase was made more than 30 days ago, we are unable to offer a full refund. However, we would be happy to (2) ___ the item for a similar product. (3) ___ Simply bring the item and your receipt to any of our stores (4) ___ December 15. Sincerely, Customer Service » — (2)",
+     "options": [
+      "exchange",
+      "exchanging",
+      "exchanged",
+      "exchanges"
+     ],
+     "answer": 0,
+     "explanation": "would be happy TO + base verbale : to exchange."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Valued Customer, Thank you for shopping at Brightline Electronics. (1) ___ your purchase was made more than 30 days ago, we are unable to offer a full refund. However, we would be happy to (2) ___ the item for a similar product. (3) ___ Simply bring the item and your receipt to any of our stores (4) ___ December 15. Sincerely, Customer Service » — (3)",
+     "options": [
+      "This offer applies to all items in good condition.",
+      "Our stores will close early on Sunday.",
+      "We have hired new staff this year.",
+      "Please pay by credit card only."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle précise les conditions de l'échange proposé juste avant. Seule (A) fait le lien."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Valued Customer, Thank you for shopping at Brightline Electronics. (1) ___ your purchase was made more than 30 days ago, we are unable to offer a full refund. However, we would be happy to (2) ___ the item for a similar product. (3) ___ Simply bring the item and your receipt to any of our stores (4) ___ December 15. Sincerely, Customer Service » — (4)",
+     "options": [
+      "since",
+      "by",
+      "during",
+      "for"
+     ],
+     "answer": 1,
+     "explanation": "BY + date limite (au plus tard le 15 décembre)."
+    },
+    {
+     "prompt": "We will hold the meeting outdoors ------- it rains.",
+     "options": [
+      "unless",
+      "whereas",
+      "so that",
+      "because of"
+     ],
+     "answer": 0,
+     "explanation": "UNLESS = sauf si (à moins qu'il ne pleuve)."
+    },
+    {
+     "prompt": "The event was cancelled ------- the storm.",
+     "options": [
+      "because",
+      "because of",
+      "although",
+      "so that"
+     ],
+     "answer": 1,
+     "explanation": "BECAUSE OF + NOM (the storm). « because » + phrase."
+    },
+    {
+     "prompt": "She took notes ------- she would remember every detail.",
+     "options": [
+      "so that",
+      "unless",
+      "whereas",
+      "despite"
+     ],
+     "answer": 0,
+     "explanation": "SO THAT + phrase = afin que (but)."
+    },
+    {
+     "prompt": "You may leave early ------- your work is finished.",
+     "options": [
+      "as long as",
+      "despite",
+      "in spite",
+      "whereas"
+     ],
+     "answer": 0,
+     "explanation": "AS LONG AS = du moment que / à condition que."
+    },
+    {
+     "prompt": "------- his lack of experience, Mr. Ito was hired.",
+     "options": [
+      "Although",
+      "In spite of",
+      "Even though",
+      "Because"
+     ],
+     "answer": 1,
+     "explanation": "IN SPITE OF + NOM (= despite). Although / even though + phrase."
+    },
+    {
+     "prompt": "The company cut costs ------- avoid layoffs.",
+     "options": [
+      "so that",
+      "in order to",
+      "because",
+      "unless"
+     ],
+     "answer": 1,
+     "explanation": "IN ORDER TO + BASE VERBALE (but). « so that » est suivi d'une phrase avec sujet."
+    }
+   ]
   }
  ]
 }
