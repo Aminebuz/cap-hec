@@ -3405,6 +3405,179 @@
      "explanation": "FINISH + -ING."
     }
    ]
+  },
+  {
+   "id": "2026-11-22-aprem",
+   "created": "2026-11-22T14:15:00+01:00",
+   "title": "Dimanche après-midi : priorités, Partie 6 et gérondif/infinitif",
+   "theme": "Priorités + Partie 6 + thème 9 gérondif vs infinitif",
+   "questions": [
+    {
+     "prompt": "The charity strives ------- clean water to rural communities.",
+     "options": [
+      "bringing",
+      "to bring",
+      "brought",
+      "bring"
+     ],
+     "answer": 1,
+     "explanation": "STRIVE TO + verbe."
+    },
+    {
+     "prompt": "Prices increased by more ------- 15 percent.",
+     "options": [
+      "to",
+      "as",
+      "than",
+      "of"
+     ],
+     "answer": 2,
+     "explanation": "more THAN + chiffre."
+    },
+    {
+     "prompt": "The staff were ------- by the excellent sales results.",
+     "options": [
+      "pleasing",
+      "pleased",
+      "please",
+      "pleasure"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : pleased."
+    },
+    {
+     "prompt": "Mr. Diallo will ------- the role of team leader next month.",
+     "options": [
+      "take in",
+      "take over",
+      "take off",
+      "take back"
+     ],
+     "answer": 1,
+     "explanation": "take over a role = reprendre un rôle."
+    },
+    {
+     "prompt": "The concert will go ahead ------- the forecast predicts rain.",
+     "options": [
+      "even though",
+      "because of",
+      "despite",
+      "as a result of"
+     ],
+     "answer": 0,
+     "explanation": "EVEN THOUGH + phrase (même si / bien que)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Benali, We are writing to remind you that your annual membership at FitLine Gym will expire on December 1. To keep (1) ___ our facilities, please renew your membership before that date. (2) ___ Members who renew early will receive a 10 percent discount. We hope (3) ___ you again next year. If you have any questions, do not hesitate (4) ___ us. Best regards, FitLine Member Services » — (1)",
+     "options": [
+      "use",
+      "using",
+      "to use",
+      "used"
+     ],
+     "answer": 1,
+     "explanation": "KEEP + -ING (continuer à) : keep using. Attention : « continue » accepte -ing ET to, mais « keep » n'accepte que -ing."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Benali, We are writing to remind you that your annual membership at FitLine Gym will expire on December 1. To keep (1) ___ our facilities, please renew your membership before that date. (2) ___ Members who renew early will receive a 10 percent discount. We hope (3) ___ you again next year. If you have any questions, do not hesitate (4) ___ us. Best regards, FitLine Member Services » — (2)",
+     "options": [
+      "You can renew online or at the front desk.",
+      "The gym was built in 2010.",
+      "Our yoga teacher is on vacation.",
+      "Parking is not allowed on the street."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle explique COMMENT renouveler, juste après la demande de renouvellement."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Benali, We are writing to remind you that your annual membership at FitLine Gym will expire on December 1. To keep (1) ___ our facilities, please renew your membership before that date. (2) ___ Members who renew early will receive a 10 percent discount. We hope (3) ___ you again next year. If you have any questions, do not hesitate (4) ___ us. Best regards, FitLine Member Services » — (3)",
+     "options": [
+      "seeing",
+      "to see",
+      "see",
+      "seen"
+     ],
+     "answer": 1,
+     "explanation": "HOPE TO + verbe : we hope to see you."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Benali, We are writing to remind you that your annual membership at FitLine Gym will expire on December 1. To keep (1) ___ our facilities, please renew your membership before that date. (2) ___ Members who renew early will receive a 10 percent discount. We hope (3) ___ you again next year. If you have any questions, do not hesitate (4) ___ us. Best regards, FitLine Member Services » — (4)",
+     "options": [
+      "contacting",
+      "to contact",
+      "contact",
+      "contacted"
+     ],
+     "answer": 1,
+     "explanation": "do not hesitate TO + verbe."
+    },
+    {
+     "prompt": "The manager agreed ------- the budget for the project.",
+     "options": [
+      "increasing",
+      "to increase",
+      "increase",
+      "increased"
+     ],
+     "answer": 1,
+     "explanation": "AGREE TO + verbe."
+    },
+    {
+     "prompt": "Customers should avoid ------- their passwords with anyone.",
+     "options": [
+      "to share",
+      "sharing",
+      "share",
+      "shared"
+     ],
+     "answer": 1,
+     "explanation": "AVOID + -ING."
+    },
+    {
+     "prompt": "We are considering ------- a second office in Toulouse.",
+     "options": [
+      "to open",
+      "opening",
+      "open",
+      "opened"
+     ],
+     "answer": 1,
+     "explanation": "CONSIDER + -ING."
+    },
+    {
+     "prompt": "The firm cannot afford ------- more staff this year.",
+     "options": [
+      "hiring",
+      "to hire",
+      "hire",
+      "hired"
+     ],
+     "answer": 1,
+     "explanation": "AFFORD TO + verbe (avoir les moyens de)."
+    },
+    {
+     "prompt": "Mr. Lopez is used to ------- long hours.",
+     "options": [
+      "work",
+      "working",
+      "worked",
+      "works"
+     ],
+     "answer": 1,
+     "explanation": "BE USED TO + -ING = être habitué à (to = préposition)."
+    },
+    {
+     "prompt": "The supplier promised ------- the goods by Monday.",
+     "options": [
+      "delivering",
+      "to deliver",
+      "deliver",
+      "delivered"
+     ],
+     "answer": 1,
+     "explanation": "PROMISE TO + verbe."
+    }
+   ]
   }
  ]
 }
