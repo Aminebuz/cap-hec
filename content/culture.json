@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-22",
+   "items": [
+    {
+     "cat": "Marchés",
+     "title": "Wall Street plonge : le Nasdaq efface ses gains de 2026",
+     "text": "Vendredi, le Nasdaq a chuté de 5,28 % et le S&P 500 de 3,7 %, qui entre en « correction ». Le S&P 500 signe sa pire semaine depuis avril 2025 (-8,6 %). Nvidia a perdu environ 14 %, sur fond d'enquête comptable de la SEC.",
+     "why": "Une « correction », c'est une baisse d'au moins 10 % depuis un sommet ; au-delà de 20 %, on parle de marché baissier (bear market).",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-21-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Des missiles russes tombent en Pologne",
+     "text": "Deux missiles russes, dont un missile de croisière Kh-101, et un drone présumé sont tombés dans le sud-est de la Pologne. L'OTAN dénonce une violation ; son secrétaire général Mark Rutte est attendu sur place.",
+     "why": "La Pologne est membre de l'OTAN : tout incident sur son sol pose la question de l'article 5 (défense collective).",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-21-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : plus de 400 drones et 110 missiles en une nuit",
+     "text": "L'attaque russe a fait huit morts et touché trois ponts sur le Dniepr à Kyiv.",
+     "why": "L'intensité des frappes montre que la guerre continue malgré les discussions diplomatiques.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-21-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Le Danemark expulse l'attaché militaire russe",
+     "text": "Selon les renseignements danois, la Russie est derrière un projet déjoué d'assassinat d'un rappeur ukraino-américain. Moscou dément.",
+     "why": "Expulser un diplomate est l'un des signaux de protestation les plus forts entre États.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-21-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole : troisième baisse hebdomadaire",
+     "text": "Le Brent a clôturé vendredi à 92,57 $ (-3,4 % sur la semaine), le WTI à 83,98 $ (-5,2 %). Les incidents maritimes à Ormuz sont pourtant au plus haut depuis mi-octobre.",
+     "why": "Le marché regarde surtout les flux réels, revenus à la normale, plus que les incidents isolés.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-21-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Rachats et levées de fonds dans la tech",
+     "text": "Databricks a levé des fonds sur une valorisation de 225 milliards de dollars ; Mailchimp a été vendu 3,68 milliards ; CrowdStrike discute avec Zscaler. Par ailleurs, des auteurs poursuivent six grands laboratoires d'IA pour l'utilisation de leurs livres.",
+     "why": "Les droits d'auteur sont l'un des grands risques juridiques des entreprises d'IA.",
+     "source": "Deep Gains",
+     "url": "https://deepgains.substack.com/p/morning-brief-saturday-november-21-9a7ed03f"
+    }
+   ],
+   "history": [
+    {
+     "title": "22 novembre 1963 : assassinat de John F. Kennedy",
+     "text": "Le 35e président des États-Unis est tué à Dallas, au Texas. Lyndon B. Johnson lui succède le jour même, à bord d'Air Force One."
+    },
+    {
+     "title": "22 novembre 1990 : Margaret Thatcher démissionne",
+     "text": "Après 11 ans au pouvoir, la « Dame de fer », première femme Première ministre britannique, quitte Downing Street après une fronde dans son propre parti. John Major lui succède."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "23 nov.",
+     "t": "Ta lettre de reco : prof de finance d'entreprise"
+    },
+    {
+     "date": "25 nov.",
+     "t": "Ton oral de gestion des risques"
+    },
+    {
+     "date": "26 nov.",
+     "t": "Inscription au TOEIC"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Que signifie « correction » sur un marché boursier ?",
+     "options": [
+      "Une hausse de 10 %",
+      "Une baisse d'au moins 10 % depuis un sommet",
+      "Une erreur de cotation",
+      "Une baisse de 50 %"
+     ],
+     "answer": 1,
+     "explanation": "Correction = -10 % ou plus ; marché baissier (bear market) = -20 % ou plus."
+    },
+    {
+     "prompt": "Pourquoi des missiles en Pologne inquiètent-ils autant ?",
+     "options": [
+      "La Pologne est dans l'UE mais pas dans l'OTAN",
+      "La Pologne est membre de l'OTAN (article 5 de défense collective)",
+      "La Pologne est neutre",
+      "La Pologne produit les missiles"
+     ],
+     "answer": 1,
+     "explanation": "Une attaque contre un membre de l'OTAN peut déclencher l'article 5 : une attaque contre l'un est une attaque contre tous."
+    },
+    {
+     "prompt": "Qui a succédé à Margaret Thatcher en 1990 ?",
+     "options": [
+      "Tony Blair",
+      "John Major",
+      "David Cameron",
+      "Gordon Brown"
+     ],
+     "answer": 1,
+     "explanation": "John Major, conservateur, Premier ministre de 1990 à 1997."
+    }
+   ]
+  },
+  {
    "date": "2026-11-21",
    "items": [
     {

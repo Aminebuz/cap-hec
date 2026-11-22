@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -3230,6 +3230,179 @@
      ],
      "answer": 1,
      "explanation": "IN ORDER TO + BASE VERBALE (but). « so that » est suivi d'une phrase avec sujet."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-matin",
+   "created": "2026-11-22T08:45:00+01:00",
+   "title": "Dimanche matin : erreurs du test blanc, connecteurs et gérondif/infinitif",
+   "theme": "Priorités + connecteurs + thème 9 gérondif vs infinitif",
+   "questions": [
+    {
+     "prompt": "Our customer service team strives ------- every request within 24 hours.",
+     "options": [
+      "answering",
+      "to answer",
+      "answered",
+      "answer"
+     ],
+     "answer": 1,
+     "explanation": "STRIVE TO + verbe (erreur du test blanc)."
+    },
+    {
+     "prompt": "Ms. Ferrari will ------- the Paris office when Mr. Blanc retires.",
+     "options": [
+      "take in",
+      "take over",
+      "take off",
+      "take after"
+     ],
+     "answer": 1,
+     "explanation": "take over = reprendre (la direction)."
+    },
+    {
+     "prompt": "The repairs cost more ------- we had expected.",
+     "options": [
+      "to",
+      "as",
+      "than",
+      "that"
+     ],
+     "answer": 2,
+     "explanation": "more THAN (comparatif)."
+    },
+    {
+     "prompt": "The ceremony will continue ------- it starts to rain.",
+     "options": [
+      "even if",
+      "as though",
+      "as a result of",
+      "despite"
+     ],
+     "answer": 0,
+     "explanation": "EVEN IF + phrase = même si."
+    },
+    {
+     "prompt": "Many students are ------- in the new data science program.",
+     "options": [
+      "interesting",
+      "interested",
+      "interest",
+      "interestingly"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : interested in."
+    },
+    {
+     "prompt": "Both the invoice and the receipt ------- attached to this email.",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → pluriel : are."
+    },
+    {
+     "prompt": "The manager recommended ------- the project into three phases.",
+     "options": [
+      "divide",
+      "to divide",
+      "dividing",
+      "divided"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : recommend + -ING."
+    },
+    {
+     "prompt": "The flight was delayed ------- the fog.",
+     "options": [
+      "because",
+      "because of",
+      "although",
+      "unless"
+     ],
+     "answer": 1,
+     "explanation": "BECAUSE OF + nom."
+    },
+    {
+     "prompt": "------- the price is high, the product sells well.",
+     "options": [
+      "Despite",
+      "Although",
+      "Because of",
+      "In spite of"
+     ],
+     "answer": 1,
+     "explanation": "ALTHOUGH + phrase. Despite / in spite of + nom."
+    },
+    {
+     "prompt": "She saved money ------- buy a new car.",
+     "options": [
+      "so that",
+      "in order to",
+      "because",
+      "unless"
+     ],
+     "answer": 1,
+     "explanation": "IN ORDER TO + base verbale."
+    },
+    {
+     "prompt": "The company decided ------- a new branch in Lille.",
+     "options": [
+      "opening",
+      "to open",
+      "open",
+      "opened"
+     ],
+     "answer": 1,
+     "explanation": "GÉRONDIF / INFINITIF : decide TO + verbe. Même famille : plan, agree, hope, expect, want, refuse, afford, offer, promise."
+    },
+    {
+     "prompt": "Would you mind ------- the window?",
+     "options": [
+      "to close",
+      "closing",
+      "close",
+      "closed"
+     ],
+     "answer": 1,
+     "explanation": "MIND + -ING. Même famille : avoid, consider, finish, suggest, recommend, enjoy, keep, postpone."
+    },
+    {
+     "prompt": "The client refused ------- the extra fees.",
+     "options": [
+      "paying",
+      "to pay",
+      "pay",
+      "paid"
+     ],
+     "answer": 1,
+     "explanation": "REFUSE TO + verbe."
+    },
+    {
+     "prompt": "We look forward to ------- you at the trade fair.",
+     "options": [
+      "see",
+      "seeing",
+      "seen",
+      "be seeing"
+     ],
+     "answer": 1,
+     "explanation": "look forward TO + -ING (to = préposition). Même chose : be used to -ing, object to -ing, be committed to -ing."
+    },
+    {
+     "prompt": "The team finished ------- the report late last night.",
+     "options": [
+      "to write",
+      "writing",
+      "write",
+      "written"
+     ],
+     "answer": 1,
+     "explanation": "FINISH + -ING."
     }
    ]
   }
