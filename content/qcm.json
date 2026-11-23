@@ -3597,15 +3597,15 @@
      "explanation": "conduct a survey = réaliser une enquête."
     },
     {
-     "prompt": "The headquarters ------- to Lyon three years ago.",
+     "prompt": "The new software ------- by our IT team last week.",
      "options": [
-      "moved",
-      "was moved",
-      "has moved",
-      "is moving"
+      "installed",
+      "was installed",
+      "has installed",
+      "is installing"
      ],
      "answer": 1,
-     "explanation": "PASSIF prétérit : le siège a été déménagé (par l'entreprise) → was moved. « moved » seul serait possible à l'oral, mais ici « three years ago » + un sujet qui ne se déplace pas tout seul → passif attendu au TOEIC."
+     "explanation": "PASSIF prétérit : le logiciel est installé PAR l'équipe (by + agent) ; last week → was installed."
     },
     {
      "prompt": "Most of the money ------- spent on marketing last year.",
