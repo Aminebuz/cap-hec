@@ -3751,6 +3751,179 @@
      "explanation": "AS + adjectif + AS (aussi … que)."
     }
    ]
+  },
+  {
+   "id": "2026-11-23-aprem",
+   "created": "2026-11-23T14:15:00+01:00",
+   "title": "Lundi après-midi : priorités, Partie 6 et comparatifs",
+   "theme": "Priorités + Partie 6 + thème 10 comparatifs",
+   "questions": [
+    {
+     "prompt": "The museum ------- in 1850 by a wealthy collector.",
+     "options": [
+      "founded",
+      "was founded",
+      "has founded",
+      "founds"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit : le musée a été fondé par… → was founded by."
+    },
+    {
+     "prompt": "All of the luggage ------- checked at the gate.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "All of + INDÉNOMBRABLE (luggage) → singulier : is."
+    },
+    {
+     "prompt": "The investors were ------- by the CEO's long-term plan.",
+     "options": [
+      "convincing",
+      "convinced",
+      "convince",
+      "conviction"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : convinced."
+    },
+    {
+     "prompt": "Our team will ------- a study on customer habits.",
+     "options": [
+      "conduct",
+      "accompany",
+      "attend",
+      "assist"
+     ],
+     "answer": 0,
+     "explanation": "conduct a study = mener une étude."
+    },
+    {
+     "prompt": "The company plans ------- 50 new employees next year.",
+     "options": [
+      "hiring",
+      "to hire",
+      "hire",
+      "hired"
+     ],
+     "answer": 1,
+     "explanation": "PLAN TO + verbe."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Employees. From: Facilities Department. Starting Monday, the third-floor kitchen will be closed (1) ___ two weeks for renovation. During this period, please use the kitchen on the second floor, which is (2) ___ than the one on the fourth floor. (3) ___ The renovated kitchen will include a new coffee machine and (4) ___ seating. Thank you for your understanding. » — (1)",
+     "options": [
+      "since",
+      "for",
+      "during",
+      "by"
+     ],
+     "answer": 1,
+     "explanation": "FOR + durée (for two weeks)."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Employees. From: Facilities Department. Starting Monday, the third-floor kitchen will be closed (1) ___ two weeks for renovation. During this period, please use the kitchen on the second floor, which is (2) ___ than the one on the fourth floor. (3) ___ The renovated kitchen will include a new coffee machine and (4) ___ seating. Thank you for your understanding. » — (2)",
+     "options": [
+      "close",
+      "closer",
+      "closest",
+      "more close"
+     ],
+     "answer": 1,
+     "explanation": "COMPARATIF court : close → closer than (plus proche)."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Employees. From: Facilities Department. Starting Monday, the third-floor kitchen will be closed (1) ___ two weeks for renovation. During this period, please use the kitchen on the second floor, which is (2) ___ than the one on the fourth floor. (3) ___ The renovated kitchen will include a new coffee machine and (4) ___ seating. Thank you for your understanding. » — (3)",
+     "options": [
+      "We apologize for any inconvenience this may cause.",
+      "The fourth floor is reserved for visitors.",
+      "Our profits increased last year.",
+      "Please submit your timesheets on Friday."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle suit l'annonce de fermeture (excuses pour la gêne). Formule classique de Partie 6."
+    },
+    {
+     "prompt": "[Partie 6] « To: All Employees. From: Facilities Department. Starting Monday, the third-floor kitchen will be closed (1) ___ two weeks for renovation. During this period, please use the kitchen on the second floor, which is (2) ___ than the one on the fourth floor. (3) ___ The renovated kitchen will include a new coffee machine and (4) ___ seating. Thank you for your understanding. » — (4)",
+     "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+     ],
+     "answer": 0,
+     "explanation": "Comparatif : more seating = plus de places (seating est indénombrable → more, pas many)."
+    },
+    {
+     "prompt": "This is the ------- report I have ever read.",
+     "options": [
+      "more detailed",
+      "most detailed",
+      "detailed most",
+      "detaileder"
+     ],
+     "answer": 1,
+     "explanation": "SUPERLATIF + ever : the most detailed … I have ever read."
+    },
+    {
+     "prompt": "The new office is ------- larger than the old one.",
+     "options": [
+      "very",
+      "much",
+      "most",
+      "more"
+     ],
+     "answer": 1,
+     "explanation": "MUCH / FAR + comparatif (beaucoup plus grand). Jamais « very » + comparatif."
+    },
+    {
+     "prompt": "The ------- you practice, the better your score will be.",
+     "options": [
+      "much",
+      "more",
+      "most",
+      "many"
+     ],
+     "answer": 1,
+     "explanation": "THE MORE…, THE + comparatif (plus tu t'entraînes, meilleur sera ton score)."
+    },
+    {
+     "prompt": "Ms. Grant is the ------- of the two candidates.",
+     "options": [
+      "more qualified",
+      "most qualified",
+      "qualifiest",
+      "much qualified"
+     ],
+     "answer": 0,
+     "explanation": "Entre DEUX éléments, l'anglais soutenu utilise le comparatif : the more qualified of the two."
+    },
+    {
+     "prompt": "This year we received ------- complaints than last year.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "few"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + nom dénombrable pluriel (complaints) ; LESS + indénombrable (less time)."
+    },
+    {
+     "prompt": "The train is not ------- fast as the plane.",
+     "options": [
+      "as",
+      "more",
+      "than",
+      "so much"
+     ],
+     "answer": 0,
+     "explanation": "not as + adjectif + as (pas aussi … que)."
+    }
+   ]
   }
  ]
 }
