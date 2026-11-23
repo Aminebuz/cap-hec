@@ -3891,15 +3891,15 @@
      "explanation": "THE MORE…, THE + comparatif (plus tu t'entraînes, meilleur sera ton score)."
     },
     {
-     "prompt": "Ms. Grant is the ------- of the two candidates.",
+     "prompt": "Ms. Grant is ------- qualified than the other candidates.",
      "options": [
-      "more qualified",
-      "most qualified",
-      "qualifiest",
-      "much qualified"
+      "more",
+      "most",
+      "much",
+      "the most"
      ],
      "answer": 0,
-     "explanation": "Entre DEUX éléments, l'anglais soutenu utilise le comparatif : the more qualified of the two."
+     "explanation": "« than » → COMPARATIF : more qualified than."
     },
     {
      "prompt": "This year we received ------- complaints than last year.",
