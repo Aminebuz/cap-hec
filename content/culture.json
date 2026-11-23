@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-23",
+   "items": [
+    {
+     "cat": "Marchés",
+     "title": "Wall Street : la pire semaine depuis avril 2025",
+     "text": "Le S&P 500 a perdu 8,6 % et le Nasdaq 10 % sur la semaine. Le S&P 500 et le Dow sont en correction, à plus de 10 % sous leurs records, et le Nasdaq a effacé ses gains de 2026.",
+     "why": "Une correction rappelle que les marchés montent rarement en ligne droite : la diversification sert à amortir ces chocs.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    },
+    {
+     "cat": "Finance",
+     "title": "Fed : une hausse de taux quasi certaine le 9 décembre",
+     "text": "Les contrats à terme sur les taux donnent plus de 90 % de probabilité d'une hausse d'un quart de point. Mercredi, publication de l'inflation PCE d'octobre (attendue à 3,2 % sur un an pour le PCE sous-jacent).",
+     "why": "Le PCE est l'indicateur d'inflation préféré de la Fed, plus que l'indice des prix à la consommation (CPI).",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Bahreïn : nouvelle attaque iranienne",
+     "text": "Les Gardiens de la révolution disent avoir frappé deux radars de défense antiaérienne Patriot américains. Bahreïn dit avoir intercepté plusieurs projectiles, mais un site industriel a pris feu (deux blessés). Les Émirats, le Koweït et l'Arabie saoudite condamnent l'attaque.",
+     "why": "Les monarchies du Golfe, qui accueillent des bases américaines, sont en première ligne.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Groenland : un filtre sur les investissements étrangers",
+     "text": "L'accord de sécurité entre les États-Unis, le Danemark et le Groenland interdit aux investisseurs hors OTAN et hors UE de prendre le contrôle de secteurs sensibles (infrastructures, mines). Le Groenland possède d'importants gisements de terres rares.",
+     "why": "Les terres rares sont indispensables aux batteries, aux éoliennes et à l'armement : la Chine en domine aujourd'hui la production.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Mer de Chine méridionale : une île artificielle géante",
+     "text": "Selon le centre d'analyse AMTI, les constructions chinoises sur le récif d'Antelope, dans les Paracels, pourraient en faire la plus grande île de la mer de Chine méridionale.",
+     "why": "Construire des îles permet à la Chine d'étendre ses revendications maritimes et militaires.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Dell, baromètre de la demande en serveurs IA",
+     "text": "Après une semaine noire pour les puces et l'infrastructure IA, les résultats de Dell, mardi soir, serviront de test de la demande réelle en serveurs.",
+     "why": "Les marchés cherchent à savoir si les investissements massifs dans l'IA vont se poursuivre.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-22-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "23 novembre 2005 : Ellen Johnson Sirleaf élue au Liberia",
+     "text": "Elle devient la première femme élue cheffe d'État en Afrique. Elle recevra le prix Nobel de la paix en 2011."
+    },
+    {
+     "title": "23 novembre 1889 : le premier « juke-box »",
+     "text": "À San Francisco, un phonographe à pièces est installé dans un bar : pour 5 cents, on écoute un morceau avec des tubes en guise d'écouteurs. L'ancêtre du streaming payant."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "25 nov.",
+     "t": "Ton oral de gestion des risques + inflation PCE aux États-Unis"
+    },
+    {
+     "date": "26 nov.",
+     "t": "Inscription au TOEIC ; Wall Street fermée (Thanksgiving)"
+    },
+    {
+     "date": "27 nov.",
+     "t": "Fin de la certification HEC"
+    },
+    {
+     "date": "9 déc.",
+     "t": "Décision de la Fed sur les taux"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Quel est l'indicateur d'inflation préféré de la Fed ?",
+     "options": [
+      "Le CAC 40",
+      "Le PCE",
+      "Le PIB",
+      "Le VIX"
+     ],
+     "answer": 1,
+     "explanation": "Le PCE (Personal Consumption Expenditures) ; le CPI est l'autre grand indice d'inflation."
+    },
+    {
+     "prompt": "À quoi servent principalement les terres rares ?",
+     "options": [
+      "À l'agriculture",
+      "Aux batteries, aimants d'éoliennes et à l'électronique",
+      "Au béton",
+      "Au textile"
+     ],
+     "answer": 1,
+     "explanation": "Elles sont indispensables à la transition énergétique et à la défense, d'où leur importance stratégique."
+    },
+    {
+     "prompt": "Qui fut la première femme élue cheffe d'État en Afrique ?",
+     "options": [
+      "Wangari Maathai",
+      "Ellen Johnson Sirleaf",
+      "Joyce Banda",
+      "Ngozi Okonjo-Iweala"
+     ],
+     "answer": 1,
+     "explanation": "Ellen Johnson Sirleaf, au Liberia (2005), prix Nobel de la paix 2011."
+    }
+   ]
+  },
+  {
    "date": "2026-11-22",
    "items": [
     {

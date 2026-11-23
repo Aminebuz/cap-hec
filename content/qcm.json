@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -3576,6 +3576,179 @@
      ],
      "answer": 1,
      "explanation": "PROMISE TO + verbe."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-matin",
+   "created": "2026-11-23T08:45:00+01:00",
+   "title": "Lundi matin : priorités, gérondif/infinitif et comparatifs",
+   "theme": "Priorités + thème 9 gérondif/infinitif + thème 10 comparatifs",
+   "questions": [
+    {
+     "prompt": "The hotel staff will ------- a satisfaction survey among guests this month.",
+     "options": [
+      "conduct",
+      "accompany",
+      "assist",
+      "attend"
+     ],
+     "answer": 0,
+     "explanation": "conduct a survey = réaliser une enquête."
+    },
+    {
+     "prompt": "The headquarters ------- to Lyon three years ago.",
+     "options": [
+      "moved",
+      "was moved",
+      "has moved",
+      "is moving"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit : le siège a été déménagé (par l'entreprise) → was moved. « moved » seul serait possible à l'oral, mais ici « three years ago » + un sujet qui ne se déplace pas tout seul → passif attendu au TOEIC."
+    },
+    {
+     "prompt": "Most of the money ------- spent on marketing last year.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Most of + INDÉNOMBRABLE (money) → singulier : was."
+    },
+    {
+     "prompt": "The modular homes are fully ------- before shipping.",
+     "options": [
+      "established",
+      "assembled",
+      "accompanied",
+      "attended"
+     ],
+     "answer": 1,
+     "explanation": "assemble = monter, assembler (erreur du test blanc 127)."
+    },
+    {
+     "prompt": "The audience was ------- by the speaker's story.",
+     "options": [
+      "touching",
+      "touched",
+      "touch",
+      "touchingly"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : touched (ému)."
+    },
+    {
+     "prompt": "Neither the director nor the assistants ------- the memo.",
+     "options": [
+      "has read",
+      "have read",
+      "reads",
+      "is reading"
+     ],
+     "answer": 1,
+     "explanation": "Neither… nor : accord avec le plus proche (the assistants, pluriel) → have read."
+    },
+    {
+     "prompt": "The supervisor recommended ------- the documents twice.",
+     "options": [
+      "check",
+      "to check",
+      "checking",
+      "checked"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : recommend + -ING."
+    },
+    {
+     "prompt": "The team expects ------- the project by March.",
+     "options": [
+      "completing",
+      "to complete",
+      "complete",
+      "completed"
+     ],
+     "answer": 1,
+     "explanation": "EXPECT TO + verbe."
+    },
+    {
+     "prompt": "Ms. Ryan enjoys ------- with international clients.",
+     "options": [
+      "to work",
+      "working",
+      "work",
+      "worked"
+     ],
+     "answer": 1,
+     "explanation": "ENJOY + -ING."
+    },
+    {
+     "prompt": "The board postponed ------- a decision until next month.",
+     "options": [
+      "to make",
+      "making",
+      "make",
+      "made"
+     ],
+     "answer": 1,
+     "explanation": "POSTPONE + -ING."
+    },
+    {
+     "prompt": "We hope ------- the new branch before summer.",
+     "options": [
+      "opening",
+      "to open",
+      "open",
+      "opened"
+     ],
+     "answer": 1,
+     "explanation": "HOPE TO + verbe."
+    },
+    {
+     "prompt": "This year's sales are ------- than last year's.",
+     "options": [
+      "high",
+      "higher",
+      "highest",
+      "more high"
+     ],
+     "answer": 1,
+     "explanation": "COMPARATIF court (1 syllabe) : high → higher than."
+    },
+    {
+     "prompt": "This is the ------- hotel in the city.",
+     "options": [
+      "more expensive",
+      "most expensive",
+      "expensiver",
+      "expensive most"
+     ],
+     "answer": 1,
+     "explanation": "SUPERLATIF long : the most expensive."
+    },
+    {
+     "prompt": "The new model is ------- efficient than the old one.",
+     "options": [
+      "more",
+      "most",
+      "much",
+      "many"
+     ],
+     "answer": 0,
+     "explanation": "COMPARATIF long : more efficient than."
+    },
+    {
+     "prompt": "Our results are ------- good as last year's.",
+     "options": [
+      "as",
+      "so",
+      "more",
+      "than"
+     ],
+     "answer": 0,
+     "explanation": "AS + adjectif + AS (aussi … que)."
     }
    ]
   }
