@@ -4097,6 +4097,179 @@
      "explanation": "INVERSION : Should you need… = If you need… (très fréquent au TOEIC)."
     }
    ]
+  },
+  {
+   "id": "2026-11-24-aprem",
+   "created": "2026-11-24T14:15:00+01:00",
+   "title": "Mardi après-midi : priorités, Partie 6 et conditionnels/subjonctif",
+   "theme": "Priorités + Partie 6 + thème 11 conditionnels et subjonctif",
+   "questions": [
+    {
+     "prompt": "The quarterly results ------- to the board next Monday.",
+     "options": [
+      "will present",
+      "will be presented",
+      "presents",
+      "are presenting"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF futur : les résultats sont présentés → will be presented."
+    },
+    {
+     "prompt": "The renovation took more ------- a year.",
+     "options": [
+      "to",
+      "as",
+      "than",
+      "of"
+     ],
+     "answer": 2,
+     "explanation": "more THAN."
+    },
+    {
+     "prompt": "Customers were ------- by the long delivery delays.",
+     "options": [
+      "annoying",
+      "annoyed",
+      "annoy",
+      "annoyance"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : annoyed."
+    },
+    {
+     "prompt": "------- prices rose sharply, sales continued to grow.",
+     "options": [
+      "Even though",
+      "Despite",
+      "Because of",
+      "As a result of"
+     ],
+     "answer": 0,
+     "explanation": "EVEN THOUGH + phrase (bien que)."
+    },
+    {
+     "prompt": "The new manager will ------- the department in January.",
+     "options": [
+      "take over",
+      "take in",
+      "take off",
+      "take up with"
+     ],
+     "answer": 0,
+     "explanation": "take over = reprendre la direction."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Moreau, Thank you for your interest in our internship program. If you (1) ___ to apply, please submit your résumé and a cover letter by December 10. (2) ___ Shortlisted candidates will be invited to an interview in January. We recommend that each applicant (3) ___ the job description carefully before applying. Should you have any questions, please (4) ___ our recruitment team. Kind regards, Lena Hoffmann » — (1)",
+     "options": [
+      "wish",
+      "will wish",
+      "wished",
+      "wishing"
+     ],
+     "answer": 0,
+     "explanation": "Type 1 : If + PRÉSENT (wish), jamais « will » après if."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Moreau, Thank you for your interest in our internship program. If you (1) ___ to apply, please submit your résumé and a cover letter by December 10. (2) ___ Shortlisted candidates will be invited to an interview in January. We recommend that each applicant (3) ___ the job description carefully before applying. Should you have any questions, please (4) ___ our recruitment team. Kind regards, Lena Hoffmann » — (2)",
+     "options": [
+      "Incomplete applications will not be considered.",
+      "Our offices are located in Berlin.",
+      "The company was founded in 1990.",
+      "Lunch is served in the cafeteria."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle complète les consignes de candidature, juste après la date limite."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Moreau, Thank you for your interest in our internship program. If you (1) ___ to apply, please submit your résumé and a cover letter by December 10. (2) ___ Shortlisted candidates will be invited to an interview in January. We recommend that each applicant (3) ___ the job description carefully before applying. Should you have any questions, please (4) ___ our recruitment team. Kind regards, Lena Hoffmann » — (3)",
+     "options": [
+      "reads",
+      "read",
+      "will read",
+      "reading"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : recommend that + sujet + BASE VERBALE (read, sans -s)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Ms. Moreau, Thank you for your interest in our internship program. If you (1) ___ to apply, please submit your résumé and a cover letter by December 10. (2) ___ Shortlisted candidates will be invited to an interview in January. We recommend that each applicant (3) ___ the job description carefully before applying. Should you have any questions, please (4) ___ our recruitment team. Kind regards, Lena Hoffmann » — (4)",
+     "options": [
+      "contact",
+      "contacting",
+      "to contact",
+      "contacted"
+     ],
+     "answer": 0,
+     "explanation": "Impératif : please + base verbale → please contact."
+    },
+    {
+     "prompt": "If the company ------- more staff, it could open on Sundays.",
+     "options": [
+      "has",
+      "had",
+      "will have",
+      "would have"
+     ],
+     "answer": 1,
+     "explanation": "Type 2 : If + PRÉTÉRIT (had), … could/would + verbe."
+    },
+    {
+     "prompt": "Had we known about the strike, we ------- the trip.",
+     "options": [
+      "will cancel",
+      "would cancel",
+      "would have cancelled",
+      "cancelled"
+     ],
+     "answer": 2,
+     "explanation": "Inversion de type 3 : Had we known = If we had known → would have + pp."
+    },
+    {
+     "prompt": "It is essential that every employee ------- the safety training.",
+     "options": [
+      "completes",
+      "complete",
+      "completed",
+      "will complete"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : It is essential that + sujet + BASE VERBALE (complete)."
+    },
+    {
+     "prompt": "The manager insisted that the report ------- by Friday.",
+     "options": [
+      "is submitted",
+      "be submitted",
+      "was submitting",
+      "submits"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : insist that + be + pp → be submitted."
+    },
+    {
+     "prompt": "We will not ship the order ------- we receive payment.",
+     "options": [
+      "unless",
+      "if",
+      "whereas",
+      "so that"
+     ],
+     "answer": 0,
+     "explanation": "UNLESS = à moins que / tant que… ne… pas."
+    },
+    {
+     "prompt": "If you ------- any problems, call our help desk.",
+     "options": [
+      "will have",
+      "have",
+      "had had",
+      "would have"
+     ],
+     "answer": 1,
+     "explanation": "Type 1 : If + PRÉSENT → have."
+    }
+   ]
   }
  ]
 }
