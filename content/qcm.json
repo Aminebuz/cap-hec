@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -3922,6 +3922,179 @@
      ],
      "answer": 0,
      "explanation": "not as + adjectif + as (pas aussi … que)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-matin",
+   "created": "2026-11-24T08:45:00+01:00",
+   "title": "Mardi matin : test blanc, comparatifs et conditionnels",
+   "theme": "Priorités + thème 10 comparatifs + thème 11 conditionnels",
+   "questions": [
+    {
+     "prompt": "The agency will ------- a market analysis before the product launch.",
+     "options": [
+      "conduct",
+      "accompany",
+      "assist",
+      "attend"
+     ],
+     "answer": 0,
+     "explanation": "conduct an analysis = réaliser une analyse."
+    },
+    {
+     "prompt": "The winners of the contest ------- by email yesterday.",
+     "options": [
+      "notified",
+      "were notified",
+      "have notified",
+      "notify"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit : les gagnants ont été prévenus → were notified."
+    },
+    {
+     "prompt": "------- newspapers reported the merger, the shares were already rising.",
+     "options": [
+      "As a result of",
+      "Even as",
+      "Despite",
+      "Because of"
+     ],
+     "answer": 1,
+     "explanation": "EVEN AS + phrase = au moment même où / alors que (test blanc Q126)."
+    },
+    {
+     "prompt": "The device turns off ------- the battery is full, so it must be defective.",
+     "options": [
+      "as though",
+      "even if",
+      "as a result",
+      "in spite of"
+     ],
+     "answer": 1,
+     "explanation": "EVEN IF = même si (test blanc Q130)."
+    },
+    {
+     "prompt": "Mr. Hobbes is ------- in applying for a business loan.",
+     "options": [
+      "interesting",
+      "interested",
+      "interest",
+      "interestingly"
+     ],
+     "answer": 1,
+     "explanation": "Personne → -ED : interested in (test blanc Q101)."
+    },
+    {
+     "prompt": "Both the brochure and the website ------- updated last week.",
+     "options": [
+      "was",
+      "were",
+      "has been",
+      "is"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → pluriel : were."
+    },
+    {
+     "prompt": "The consultant suggested ------- the meeting online.",
+     "options": [
+      "hold",
+      "to hold",
+      "holding",
+      "held"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : suggest + -ING."
+    },
+    {
+     "prompt": "The new laptop is ------- lighter than the previous model.",
+     "options": [
+      "very",
+      "far",
+      "most",
+      "more"
+     ],
+     "answer": 1,
+     "explanation": "FAR / MUCH + comparatif. Jamais « very » + comparatif."
+    },
+    {
+     "prompt": "This is the ------- efficient process we have tested so far.",
+     "options": [
+      "more",
+      "most",
+      "much",
+      "very"
+     ],
+     "answer": 1,
+     "explanation": "SUPERLATIF : the most efficient."
+    },
+    {
+     "prompt": "The ------- the order, the larger the discount.",
+     "options": [
+      "big",
+      "bigger",
+      "biggest",
+      "more big"
+     ],
+     "answer": 1,
+     "explanation": "THE + comparatif…, THE + comparatif : the bigger…, the larger."
+    },
+    {
+     "prompt": "We had ------- problems this year than last year.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + nom dénombrable pluriel (problems)."
+    },
+    {
+     "prompt": "If the shipment ------- late, we will contact the supplier.",
+     "options": [
+      "arrive",
+      "arrives",
+      "will arrive",
+      "arrived"
+     ],
+     "answer": 1,
+     "explanation": "CONDITIONNEL type 1 : If + PRÉSENT, … will + verbe. Jamais « will » après if."
+    },
+    {
+     "prompt": "If I ------- more time, I would join the volunteer program.",
+     "options": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+     ],
+     "answer": 1,
+     "explanation": "Type 2 (hypothèse) : If + PRÉTÉRIT, … would + verbe."
+    },
+    {
+     "prompt": "If the team had started earlier, it ------- the deadline.",
+     "options": [
+      "will meet",
+      "would meet",
+      "would have met",
+      "meets"
+     ],
+     "answer": 2,
+     "explanation": "Type 3 (passé irréel) : If + had + pp, … would have + pp."
+    },
+    {
+     "prompt": "------- you need further information, please call our office.",
+     "options": [
+      "Should",
+      "Would",
+      "Could",
+      "Had"
+     ],
+     "answer": 0,
+     "explanation": "INVERSION : Should you need… = If you need… (très fréquent au TOEIC)."
     }
    ]
   }

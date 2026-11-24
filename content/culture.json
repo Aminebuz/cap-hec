@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-24",
+   "items": [
+    {
+     "cat": "Marchés",
+     "title": "Rebond spectaculaire à Wall Street",
+     "text": "Après une semaine de correction, le Nasdaq a bondi d'environ 7 % à l'ouverture lundi, le S&P 500 de 4,7 % et le Dow de 2,5 %.",
+     "why": "Les marchés surréagissent souvent dans les deux sens : vendre en panique après une chute fait souvent rater le rebond.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    },
+    {
+     "cat": "Finance",
+     "title": "Jensen Huang reprend la tête de Nvidia, l'action +30 %",
+     "text": "Le conseil d'administration a réintégré Jensen Huang comme directeur général, moins de deux semaines après sa démission. Nvidia affirme que son retour ne pose « aucun risque pour la sécurité nationale ». L'action a bondi d'environ 30 %.",
+     "why": "La gouvernance (qui dirige, qui contrôle) pèse directement sur la valeur d'une entreprise.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ormuz : l'Iran veut forcer le blocus américain",
+     "text": "Téhéran dit vouloir utiliser « tous les moyens disponibles » contre le blocus et préparerait 14 pétroliers pour le briser. Son plan de réouverture du détroit exige que Washington lève d'abord le blocus.",
+     "why": "Chaque camp attend que l'autre fasse le premier pas : un classique des négociations bloquées.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : frappes meurtrières près de Kyiv",
+     "text": "Le bilan d'une frappe sur un immeuble à Dymer, au nord de Kyiv, est monté à 11 morts. Russie a lancé 153 drones dans la nuit, dont 134 neutralisés selon l'Ukraine.",
+     "why": "Le taux d'interception est élevé, mais les drones qui passent suffisent à faire des victimes.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Taïwan : 24 sorties d'avions chinois en 24 h",
+     "text": "17 appareils ont franchi la ligne médiane du détroit et pénétré la zone d'identification de défense aérienne taïwanaise.",
+     "why": "Ces incursions répétées sont une pression permanente, sans exercice officiellement annoncé.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Une famille de protéines pour fabriquer des médicaments",
+     "text": "Des chercheurs de l'université du Michigan décrivent dans Science une famille de protéines (REACT) qui aide bactéries et champignons à fabriquer des molécules proches de médicaments ; plus de 40 000 protéines apparentées ont été identifiées.",
+     "why": "La biologie synthétique peut accélérer la découverte de nouveaux médicaments.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-23-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "24 novembre 1859 : « De l'origine des espèces »",
+     "text": "Charles Darwin publie sa théorie de l'évolution par la sélection naturelle. Les 1 250 exemplaires de la première édition sont vendus en une journée."
+    },
+    {
+     "title": "24 novembre 1642 : Abel Tasman aperçoit la Tasmanie",
+     "text": "Le navigateur néerlandais de la Compagnie des Indes orientales est le premier Européen à atteindre l'île, qui porte aujourd'hui son nom."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "24 nov.",
+     "t": "Résultats de Dell"
+    },
+    {
+     "date": "25 nov.",
+     "t": "Ton oral de gestion des risques ; inflation PCE aux États-Unis"
+    },
+    {
+     "date": "26 nov.",
+     "t": "Inscription au TOEIC ; Wall Street fermée (Thanksgiving)"
+    },
+    {
+     "date": "27 nov.",
+     "t": "Fin de la certification HEC"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Pourquoi l'action Nvidia a-t-elle bondi de 30 % lundi ?",
+     "options": [
+      "Un nouveau produit",
+      "Le retour de Jensen Huang comme directeur général",
+      "Une baisse des taux de la Fed",
+      "Un rachat par Apple"
+     ],
+     "answer": 1,
+     "explanation": "Le conseil d'administration l'a réintégré moins de deux semaines après sa démission."
+    },
+    {
+     "prompt": "Qui a publié « De l'origine des espèces » en 1859 ?",
+     "options": [
+      "Isaac Newton",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Gregor Mendel"
+     ],
+     "answer": 1,
+     "explanation": "Charles Darwin, théorie de l'évolution par sélection naturelle."
+    },
+    {
+     "prompt": "Après une forte baisse, le marché rebondit fortement. Quelle leçon d'investissement ?",
+     "options": [
+      "Toujours vendre après une baisse",
+      "Vendre en panique fait souvent rater le rebond",
+      "Les marchés ne remontent jamais",
+      "Il faut tout mettre sur une seule action"
+     ],
+     "answer": 1,
+     "explanation": "Les meilleurs jours de Bourse suivent souvent les pires : rester investi et diversifié est la stratégie de long terme classique."
+    }
+   ]
+  },
+  {
    "date": "2026-11-23",
    "items": [
     {
