@@ -1,6 +1,21 @@
 {
  "rules": [
   {
+   "rule": "SUBJONCTIF : recommend / request / suggest / insist / it is essential that + sujet + BASE VERBALE (sans -s, sans to)",
+   "example": "requested that Ms. Lee present ; essential that every employee complete ; that each applicant read",
+   "status": "priorité"
+  },
+  {
+   "rule": "FEWER + pluriel / LESS + indénombrable ; FEW / LITTLE ; SO MANY + pluriel / SO MUCH + indénombrable",
+   "example": "fewer complaints, very little time, so many applications",
+   "status": "priorité"
+  },
+  {
+   "rule": "EVEN THOUGH / although + phrase (≠ despite + nom)",
+   "example": "Even though prices rose sharply, sales grew",
+   "status": "priorité"
+  },
+  {
    "rule": "Some of / most of / all of + INDÉNOMBRABLE → singulier ; + pluriel → pluriel",
    "example": "Some of the furniture was damaged / some of the chairs were",
    "status": "priorité"
