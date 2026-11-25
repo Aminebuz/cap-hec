@@ -4443,6 +4443,179 @@
      "explanation": "SO MANY + pluriel dénombrable (applications) … that = tellement de… que."
     }
    ]
+  },
+  {
+   "id": "2026-11-25-aprem",
+   "created": "2026-11-25T14:15:00+01:00",
+   "title": "Mercredi après-midi : subjonctif, Partie 6 et quantifieurs",
+   "theme": "Priorités subjonctif + Partie 6 + thème 12 quantifieurs",
+   "questions": [
+    {
+     "prompt": "The director recommended that Mr. Silva ------- the contract before Friday.",
+     "options": [
+      "signs",
+      "sign",
+      "signed",
+      "will sign"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : recommend that + BASE VERBALE → sign (pas de -s, même avec Mr. Silva)."
+    },
+    {
+     "prompt": "It is important that each visitor ------- a badge at the entrance.",
+     "options": [
+      "wears",
+      "wear",
+      "wore",
+      "wearing"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : it is important / essential that + BASE VERBALE → wear."
+    },
+    {
+     "prompt": "The client insisted that the delivery ------- before noon.",
+     "options": [
+      "is made",
+      "be made",
+      "was making",
+      "makes"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : insist that + BE + participe passé → be made."
+    },
+    {
+     "prompt": "Our lawyer suggested that the company ------- its privacy policy.",
+     "options": [
+      "updates",
+      "update",
+      "updated",
+      "updating"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : suggest THAT + sujet + BASE VERBALE → update. (Sans that : suggest updating.)"
+    },
+    {
+     "prompt": "------- the meeting ran late, everyone stayed until the end.",
+     "options": [
+      "Despite",
+      "Even though",
+      "Because of",
+      "In spite of"
+     ],
+     "answer": 1,
+     "explanation": "EVEN THOUGH + phrase. Despite / in spite of + nom."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: Due to the high (1) ___ of requests we received last month, the IT department will now process tickets in order of priority. (2) ___ We ask that every employee (3) ___ a clear description of the problem when opening a ticket. This will help us resolve issues with (4) ___ delays. Thank you, IT Support » — (1)",
+     "options": [
+      "amount",
+      "number",
+      "deal",
+      "quantity of"
+     ],
+     "answer": 1,
+     "explanation": "A high NUMBER of + pluriel dénombrable (requests)."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: Due to the high (1) ___ of requests we received last month, the IT department will now process tickets in order of priority. (2) ___ We ask that every employee (3) ___ a clear description of the problem when opening a ticket. This will help us resolve issues with (4) ___ delays. Thank you, IT Support » — (2)",
+     "options": [
+      "Urgent issues will be handled first.",
+      "The cafeteria will close at 3 P.M.",
+      "Our sales grew by 5 percent.",
+      "The parking lot is being repaved."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle explique la conséquence de « traiter par ordre de priorité »."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: Due to the high (1) ___ of requests we received last month, the IT department will now process tickets in order of priority. (2) ___ We ask that every employee (3) ___ a clear description of the problem when opening a ticket. This will help us resolve issues with (4) ___ delays. Thank you, IT Support » — (3)",
+     "options": [
+      "provides",
+      "provide",
+      "provided",
+      "providing"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : We ask that every employee + BASE VERBALE → provide."
+    },
+    {
+     "prompt": "[Partie 6] « To all staff: Due to the high (1) ___ of requests we received last month, the IT department will now process tickets in order of priority. (2) ___ We ask that every employee (3) ___ a clear description of the problem when opening a ticket. This will help us resolve issues with (4) ___ delays. Thank you, IT Support » — (4)",
+     "options": [
+      "fewer",
+      "less",
+      "little",
+      "much"
+     ],
+     "answer": 0,
+     "explanation": "FEWER + pluriel dénombrable (delays). « less » + indénombrable."
+    },
+    {
+     "prompt": "We have very ------- information about the new supplier.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "a few"
+     ],
+     "answer": 1,
+     "explanation": "LITTLE + INDÉNOMBRABLE (information)."
+    },
+    {
+     "prompt": "Only a ------- customers complained about the new design.",
+     "options": [
+      "little",
+      "few",
+      "less",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "A FEW + pluriel dénombrable (customers) = quelques."
+    },
+    {
+     "prompt": "The project required so ------- work that we hired two interns.",
+     "options": [
+      "many",
+      "much",
+      "few",
+      "more"
+     ],
+     "answer": 1,
+     "explanation": "SO MUCH + indénombrable (work)… that."
+    },
+    {
+     "prompt": "There were ------- people at the seminar than we expected.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + pluriel (people)."
+    },
+    {
+     "prompt": "How ------- money do we have left in the budget?",
+     "options": [
+      "many",
+      "much",
+      "few",
+      "number"
+     ],
+     "answer": 1,
+     "explanation": "HOW MUCH + indénombrable (money)."
+    },
+    {
+     "prompt": "------- of the employees have completed the survey.",
+     "options": [
+      "Most",
+      "Much",
+      "Every",
+      "Each one"
+     ],
+     "answer": 0,
+     "explanation": "MOST OF + pluriel → verbe pluriel (have). « Every » ne s'emploie jamais avec of."
+    }
+   ]
   }
  ]
 }
