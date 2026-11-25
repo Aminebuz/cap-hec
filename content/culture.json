@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-25",
+   "items": [
+    {
+     "cat": "Planète",
+     "title": "La COP31 se termine sans accord",
+     "text": "Le sommet climatique d'Antalya (Turquie) s'est achevé sans accord, l'Union européenne ayant rejeté le projet de « Pacte d'Antalya ».",
+     "why": "Sans consensus, les engagements de réduction des émissions avancent pays par pays, plus lentement.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-24-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Iran : 7 conditions avant toute négociation",
+     "text": "Le président du Parlement iranien exige notamment la fin du blocus, la levée des sanctions et le déblocage des avoirs gelés. Le Qatar tente une médiation après une rencontre avec JD Vance et Marco Rubio. Le Trésor américain a sanctionné une vingtaine de réseaux bancaires parallèles iraniens.",
+     "why": "Les avoirs gelés et les sanctions financières sont une arme économique majeure.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-24-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Europe : prête à négocier directement avec la Russie",
+     "text": "Friedrich Merz et Mark Rutte (OTAN) affirment que l'Europe est prête à des négociations directes avec Moscou, sans proposition formelle à ce stade. L'Ukraine dit avoir coulé une corvette russe au large de la Libye (non confirmé).",
+     "why": "Après le sommet de Shenzhen, l'Europe veut retrouver une place à la table.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-24-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "L'Estonie ferme ses 5 postes-frontières routiers avec la Russie",
+     "text": "À partir du 1er décembre ; le fret ferroviaire reste possible sous contrôle douanier.",
+     "why": "Les pays baltes renforcent leurs frontières face aux menaces hybrides (sabotage, migrations instrumentalisées).",
+     "source": "The Day Watch",
+     "url": "https://thedaywatch.substack.com/p/the-day-watch-morning-brief-24-november"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole au plus bas depuis trois mois",
+     "text": "Le Brent tourne autour de 88-89 $, plus de 20 % sous les sommets de fin octobre ; le WTI autour de 79-80 $.",
+     "why": "Un pétrole moins cher réduit l'inflation importée, une bonne nouvelle pour les pays consommateurs comme la France.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-24-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Nvidia : un comité « sécurité nationale » au conseil",
+     "text": "Après le retour de Jensen Huang, le conseil crée un comité de sécurité nationale et de contrôle des exportations ; l'action a clôturé en hausse de 31 % lundi. Washington ajoute 7 entreprises d'Asie du Sud-Est, dont un client de Nvidia à Singapour, à sa liste noire commerciale.",
+     "why": "Les puces d'IA sont devenues un enjeu de sécurité nationale, pas seulement commercial.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-24-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "25 novembre 1867 : Alfred Nobel et la dynamite",
+     "text": "Le chimiste suédois fait breveter sa dynamite aux États-Unis. Sa fortune financera plus tard les prix Nobel, créés par son testament en 1895."
+    },
+    {
+     "title": "25 novembre 1952 : « La Souricière » d'Agatha Christie",
+     "text": "La pièce est créée à Londres. Elle sera jouée sans interruption pendant des décennies : c'est la pièce restée le plus longtemps à l'affiche de l'histoire du théâtre."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "25 nov.",
+     "t": "Ton oral de gestion des risques ; inflation PCE aux États-Unis"
+    },
+    {
+     "date": "26 nov.",
+     "t": "Inscription au TOEIC ; Wall Street fermée (Thanksgiving)"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "L'Estonie ferme sa frontière routière avec la Russie"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qu'a financé la fortune d'Alfred Nobel ?",
+     "options": [
+      "La tour Eiffel",
+      "Les prix Nobel",
+      "L'ONU",
+      "Les Jeux olympiques"
+     ],
+     "answer": 1,
+     "explanation": "Son testament de 1895 crée les prix Nobel, décernés depuis 1901."
+    },
+    {
+     "prompt": "Pourquoi un pétrole moins cher est-il plutôt une bonne nouvelle pour la France ?",
+     "options": [
+      "Elle exporte beaucoup de pétrole",
+      "Il réduit l'inflation importée et la facture énergétique",
+      "Il augmente les recettes de TVA",
+      "Il n'a aucun effet"
+     ],
+     "answer": 1,
+     "explanation": "La France importe presque tout son pétrole : un baril moins cher allège les coûts des entreprises et des ménages."
+    },
+    {
+     "prompt": "Comment s'est terminée la COP31 ?",
+     "options": [
+      "Par un accord historique",
+      "Sans accord, l'UE ayant rejeté le projet",
+      "Par la sortie de la Chine",
+      "Elle a été reportée"
+     ],
+     "answer": 1,
+     "explanation": "L'UE a rejeté le projet de « Pacte d'Antalya », jugé insuffisant."
+    }
+   ]
+  },
+  {
    "date": "2026-11-24",
    "items": [
     {

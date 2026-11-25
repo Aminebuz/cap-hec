@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -4268,6 +4268,179 @@
      ],
      "answer": 1,
      "explanation": "Type 1 : If + PRÉSENT → have."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-25-matin",
+   "created": "2026-11-25T08:45:00+01:00",
+   "title": "Mercredi matin : priorités, conditionnels et quantifieurs",
+   "theme": "Priorités + thème 11 conditionnels/subjonctif + thème 12 quantifieurs",
+   "questions": [
+    {
+     "prompt": "Some of the equipment in the lab ------- outdated.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "explanation": "Some of + INDÉNOMBRABLE (equipment) → singulier : is."
+    },
+    {
+     "prompt": "Both the manager and the accountant ------- the budget meeting yesterday.",
+     "options": [
+      "attends",
+      "attended",
+      "is attending",
+      "has attended"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → pluriel ; yesterday → prétérit : attended (même forme au pluriel)."
+    },
+    {
+     "prompt": "The two teams helped ------- to meet the deadline.",
+     "options": [
+      "each other",
+      "themselves",
+      "theirs",
+      "them"
+     ],
+     "answer": 0,
+     "explanation": "Réciproque : les équipes se sont aidées mutuellement → each other."
+    },
+    {
+     "prompt": "The quarterly report ------- by the finance team last week.",
+     "options": [
+      "prepared",
+      "was prepared",
+      "has prepared",
+      "prepares"
+     ],
+     "answer": 1,
+     "explanation": "PASSIF prétérit + by + agent → was prepared."
+    },
+    {
+     "prompt": "The participants were ------- by the quality of the presentation.",
+     "options": [
+      "impressing",
+      "impressed",
+      "impress",
+      "impression"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : impressed."
+    },
+    {
+     "prompt": "The bank strives ------- its customers' data at all times.",
+     "options": [
+      "protecting",
+      "to protect",
+      "protected",
+      "protection"
+     ],
+     "answer": 1,
+     "explanation": "STRIVE TO + verbe."
+    },
+    {
+     "prompt": "The CEO recommended ------- the launch to January.",
+     "options": [
+      "postpone",
+      "to postpone",
+      "postponing",
+      "postponed"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : recommend + -ING."
+    },
+    {
+     "prompt": "If the weather ------- good tomorrow, the event will take place outdoors.",
+     "options": [
+      "is",
+      "will be",
+      "would be",
+      "was"
+     ],
+     "answer": 0,
+     "explanation": "Type 1 : If + PRÉSENT → is."
+    },
+    {
+     "prompt": "The board requested that Ms. Lee ------- the new policy at the meeting.",
+     "options": [
+      "presents",
+      "present",
+      "presented",
+      "will present"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : request that + BASE VERBALE (present, sans -s)."
+    },
+    {
+     "prompt": "------- you require assistance, please contact the front desk.",
+     "options": [
+      "Should",
+      "Would",
+      "Had",
+      "Were"
+     ],
+     "answer": 0,
+     "explanation": "INVERSION : Should you require = If you require."
+    },
+    {
+     "prompt": "If we had booked earlier, we ------- a better price.",
+     "options": [
+      "will get",
+      "would get",
+      "would have got",
+      "got"
+     ],
+     "answer": 2,
+     "explanation": "Type 3 : If + had + pp → would have + pp."
+    },
+    {
+     "prompt": "------- employee must wear a badge in the building.",
+     "options": [
+      "All",
+      "Every",
+      "Many",
+      "Several"
+     ],
+     "answer": 1,
+     "explanation": "QUANTIFIEURS : EVERY + nom SINGULIER (employee). All/many/several + pluriel."
+    },
+    {
+     "prompt": "There is very ------- time left before the deadline.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "a few"
+     ],
+     "answer": 1,
+     "explanation": "LITTLE + INDÉNOMBRABLE (time) ; few + dénombrable pluriel."
+    },
+    {
+     "prompt": "A large ------- of customers prefer online payment.",
+     "options": [
+      "amount",
+      "number",
+      "deal",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "A NUMBER OF + pluriel dénombrable ; an AMOUNT OF + indénombrable (an amount of money)."
+    },
+    {
+     "prompt": "We received ------- applications that we had to extend the review period.",
+     "options": [
+      "so much",
+      "so many",
+      "too much",
+      "such much"
+     ],
+     "answer": 1,
+     "explanation": "SO MANY + pluriel dénombrable (applications) … that = tellement de… que."
     }
    ]
   }
