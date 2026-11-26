@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-26",
+   "items": [
+    {
+     "cat": "Tech",
+     "title": "Huawei reconnu coupable aux États-Unis",
+     "text": "Un jury fédéral de Brooklyn a déclaré Huawei et trois filiales coupables de 10 chefs d'accusation sur 12, dont vol de secrets industriels, fraude bancaire, violation des sanctions contre l'Iran et blanchiment. La peine sera prononcée en septembre prochain ; Huawei fera appel.",
+     "why": "La rivalité technologique sino-américaine se joue aussi devant les tribunaux.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ormuz : l'Iran durcit la fermeture du détroit",
+     "text": "L'Iran affirme que des navires ont heurté des mines dans les eaux qu'il contrôle et annonce fermer le détroit « un peu plus chaque jour ». Ces informations ne sont pas confirmées de façon indépendante.",
+     "why": "Ormuz est le principal point de passage du pétrole du Golfe : chaque menace pèse sur l'économie mondiale.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Arabie saoudite : frappes houthies sur Riyad",
+     "text": "Un missile houthi a touché la tour du fonds souverain saoudien (PIF) à Riyad, sans blessés. Une raffinerie de Ras Tanura aurait aussi été visée par un drone ; les forces saoudiennes ont frappé Hodeïda, au Yémen.",
+     "why": "Le PIF est le bras financier de la diversification saoudienne (Vision 2030) : le viser est symbolique.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Irak : Bagdad veut reprendre le pétrole kurde",
+     "text": "Le Premier ministre irakien ordonne que le ministère fédéral du Pétrole gère les champs pétroliers de quatre provinces sous contrôle sécuritaire kurde ; les dirigeants kurdes dénoncent une violation de leur autonomie.",
+     "why": "Le partage des revenus pétroliers est au cœur des tensions entre Bagdad et le Kurdistan.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole : l'excédent l'emporte sur Ormuz",
+     "text": "Le Brent recule vers 91 $ et le WTI vers 81,60 $ : les marchés regardent l'excédent d'offre prévu par l'AIE jusqu'en 2027 plus que les incidents dans le Golfe. Réunion de l'OPEP+ le 29 novembre.",
+     "why": "L'OPEP+ peut décider de réduire sa production pour soutenir les prix.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "Piratage d'un réseau de la CIA",
+     "text": "Selon le New York Times, des pirates ont pénétré un réseau non classifié servant à analyser des informations publiques ; les systèmes classifiés n'auraient pas été touchés.",
+     "why": "Même les agences de renseignement sont des cibles : la cybersécurité est l'affaire de tous.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-25-november-2026"
+    }
+   ],
+   "history": [
+    {
+     "title": "26 novembre 1922 : la tombe de Toutânkhamon",
+     "text": "L'archéologue Howard Carter ouvre une brèche dans la tombe et, à la lueur d'une bougie, découvre « des choses merveilleuses » : un trésor intact depuis plus de 3 000 ans."
+    },
+    {
+     "title": "26 novembre 1789 : le premier Thanksgiving national",
+     "text": "George Washington proclame une journée nationale d'action de grâce aux États-Unis. Aujourd'hui, Thanksgiving tombe le 4e jeudi de novembre : c'est aujourd'hui, et Wall Street est fermée."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "26 nov.",
+     "t": "Ton inscription au TOEIC + test blanc n°2"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Point candidatures (calendriers)"
+    },
+    {
+     "date": "9 déc.",
+     "t": "Décision de la Fed sur les taux"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Qui a découvert la tombe de Toutânkhamon en 1922 ?",
+     "options": [
+      "Jean-François Champollion",
+      "Howard Carter",
+      "Indiana Jones",
+      "Napoléon"
+     ],
+     "answer": 1,
+     "explanation": "Howard Carter, financé par Lord Carnarvon, dans la Vallée des Rois."
+    },
+    {
+     "prompt": "Qu'est-ce que le PIF saoudien ?",
+     "options": [
+      "Une compagnie pétrolière",
+      "Le fonds souverain d'Arabie saoudite",
+      "Une banque centrale",
+      "Un parti politique"
+     ],
+     "answer": 1,
+     "explanation": "Le Public Investment Fund, fonds souverain qui investit les revenus pétroliers pour diversifier l'économie."
+    },
+    {
+     "prompt": "Pourquoi Wall Street est-elle fermée aujourd'hui ?",
+     "options": [
+      "Une grève",
+      "Thanksgiving",
+      "Une panne",
+      "Les élections"
+     ],
+     "answer": 1,
+     "explanation": "Thanksgiving, 4e jeudi de novembre, est un jour férié aux États-Unis."
+    }
+   ]
+  },
+  {
    "date": "2026-11-25",
    "items": [
     {
@@ -1565,134 +1681,6 @@
      ],
      "answer": 2,
      "explanation": "La souche Bundibugyo : c'est la deuxième plus grande épidémie d'Ebola jamais enregistrée."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "items": [
-    {
-     "cat": "Géopolitique",
-     "title": "Iran et États-Unis : le détroit d'Ormuz reste sous tension",
-     "text": "Malgré les efforts diplomatiques, aucun accord n'est en vue. Après des frappes américaines sur l'île iranienne de Qeshm et des représailles contre des drones américains, Donald Trump affirme que les États-Unis ont « déjà gagné » et veulent une « victoire totale ». Téhéran refuse de laisser sortir son uranium enrichi du pays.",
-     "why": "Le détroit d'Ormuz est le principal passage du pétrole du Golfe : chaque tension y fait bouger le prix du baril et l'inflation mondiale.",
-     "source": "Crédit Agricole Études économiques, Profile News, Times of Israel",
-     "url": "https://etudes-economiques.credit-agricole.com/fr/monde-lactualite-de-la-semaine-6-novembre-2026"
-    },
-    {
-     "cat": "Géopolitique",
-     "title": "Russie et Ukraine se reparlent à Abu Dhabi",
-     "text": "Premiers pourparlers de paix depuis neuf mois, sous médiation américaine, sans Volodymyr Zelensky. Les deux camps se sont mis d'accord sur le principe d'un grand échange de prisonniers, mais les questions des territoires et des garanties de sécurité restent ouvertes. En parallèle, des frappes attribuées à la Russie ont visé des navires au large de la Roumanie et de la Bulgarie, deux pays de l'OTAN.",
-     "why": "La mer Noire devient un front maritime qui concerne directement l'OTAN, et donc l'Europe.",
-     "source": "Democracy Now, Profile News, Crédit Agricole",
-     "url": "https://www.democracynow.org/2026/11/11/headlines"
-    },
-    {
-     "cat": "Politique",
-     "title": "États-Unis : après les midterms, le Congrès change de visage",
-     "text": "Aux élections de mi-mandat du 3 novembre, selon le décompte de l'Associated Press au 12 novembre (17 h 34), les démocrates ont remporté 255 sièges à la Chambre des représentants et les républicains 168. Les républicains ont choisi Jim Jordan comme chef à la Chambre et reconduit John Thune au Sénat. Donald Trump garde son droit de veto, mais les commissions d'enquête devraient se multiplier.",
-     "why": "Un président qui perd la Chambre gouverne plus difficilement : budget, enquêtes et lois passent désormais par des compromis.",
-     "source": "Associated Press, Democracy Now",
-     "url": "https://www.democracynow.org/2026/11/11/headlines"
-    },
-    {
-     "cat": "Économie",
-     "title": "Zone euro : l'inflation remonte à 4 %",
-     "text": "En octobre, les prix ont augmenté de 4,0 % sur un an dans la zone euro, le plus haut niveau depuis trois ans, tirés par l'énergie (+20,8 %). L'inflation hors énergie et alimentation reste stable à 2,5 %. La croissance est faible : +0,2 % au troisième trimestre.",
-     "why": "Inflation haute et croissance faible, c'est le risque de « stagflation », le pire scénario pour une banque centrale.",
-     "source": "Crédit Agricole Études économiques",
-     "url": "https://etudes-economiques.credit-agricole.com/fr/monde-lactualite-de-la-semaine-6-novembre-2026"
-    },
-    {
-     "cat": "Finance",
-     "title": "Banques centrales : le retour des hausses de taux",
-     "text": "La BCE a laissé son taux de dépôt à 2,50 % le 29 octobre, après deux hausses en juin et septembre ; les marchés parient à 88 % sur une nouvelle hausse en décembre. La Fed, présidée par Kevin Warsh, a maintenu ses taux entre 3,75 % et 4 %. La Banque d'Angleterre a monté son taux de 3,75 % à 4 %, une première depuis août 2023.",
-     "why": "Quand les taux montent, le crédit coûte plus cher, les obligations rapportent plus et les actions de croissance baissent : c'est le cœur de ton cours de finance de marché.",
-     "source": "Ecofi via L'info durable, Crédit Agricole",
-     "url": "https://www.linfodurable.fr/partenaires/ecofi/fed-bce-boj-quel-cap-pour-les-taux-dinteret-apres-les-comites-doctobre-2026-59664"
-    },
-    {
-     "cat": "Marchés",
-     "title": "Tech et IA : la Bourse doute, le pétrole recule",
-     "text": "Sur la semaine du 6 novembre, le Nasdaq 100 a perdu plus de 6 % et le Nikkei environ 9 %, sur des doutes autour de la rentabilité des investissements dans l'IA. Le Brent est repassé sous 100 dollars (-17 % sur la semaine) et clôturait à 92,76 dollars le 11 novembre.",
-     "why": "La valorisation des géants de la tech repose sur les profits futurs de l'IA : si ces profits sont remis en doute, ce sont les plus grosses capitalisations du monde qui baissent.",
-     "source": "Crédit Agricole, Profile News",
-     "url": "https://profilenews.com/en/november-11-2026-world-news"
-    },
-    {
-     "cat": "Planète",
-     "title": "COP31 à Antalya, en Turquie",
-     "text": "La conférence de l'ONU sur le climat se tient du 9 au 20 novembre. La sécurité énergétique est devenue un thème majeur, et Recep Tayyip Erdoğan a mis en avant de nouvelles découvertes de pétrole turc.",
-     "why": "Les COP fixent le cadre des politiques climatiques, qui pèsent sur l'énergie, l'industrie et la finance verte.",
-     "source": "Democracy Now, Profile News",
-     "url": "https://www.democracynow.org/2026/11/11/headlines"
-    }
-   ],
-   "history": [
-    {
-     "title": "11 novembre 1918 : l'armistice",
-     "text": "Signé à 5 h 15 dans un wagon, à Rethondes (forêt de Compiègne), il entre en vigueur à 11 h et met fin aux combats de la Première Guerre mondiale. Le traité de Versailles suit en juin 1919."
-    },
-    {
-     "title": "9 novembre 1989 : la chute du mur de Berlin",
-     "text": "Après 28 ans, le mur tombe et ouvre la voie à la réunification allemande (3 octobre 1990) puis à la fin de l'URSS (décembre 1991)."
-    },
-    {
-     "title": "Octobre 1929 : le krach de Wall Street",
-     "text": "Le « jeudi noir » du 24 octobre 1929 marque le début de la Grande Dépression. C'est l'exemple classique de bulle spéculative financée à crédit."
-    }
-   ],
-   "agenda": [
-    {
-     "date": "15 nov.",
-     "t": "Chine : hausse à 6 % du taux de réserves obligatoires sur les dépôts en devises"
-    },
-    {
-     "date": "20 nov.",
-     "t": "Fin de la COP31 à Antalya"
-    },
-    {
-     "date": "Décembre",
-     "t": "Réunions de la BCE et de la Fed : une hausse de taux est attendue"
-    },
-    {
-     "date": "Janvier",
-     "t": "Le nouveau Congrès américain entre en fonction"
-    }
-   ],
-   "quiz": [
-    {
-     "prompt": "À combien s'élevait l'inflation de la zone euro en octobre 2026 ?",
-     "options": [
-      "2,5 %",
-      "3,1 %",
-      "4,0 %",
-      "5,2 %"
-     ],
-     "answer": 2,
-     "explanation": "4,0 % sur un an, tirée par l'énergie (+20,8 %). Le 2,5 % correspond à l'inflation sous-jacente."
-    },
-    {
-     "prompt": "Quelle banque centrale a relevé son taux pour la première fois depuis août 2023 ?",
-     "options": [
-      "La Fed",
-      "La Banque d'Angleterre",
-      "La BCE",
-      "La Banque du Japon"
-     ],
-     "answer": 1,
-     "explanation": "La Banque d'Angleterre est passée de 3,75 % à 4 %."
-    },
-    {
-     "prompt": "Où se tiennent les nouveaux pourparlers entre la Russie et l'Ukraine ?",
-     "options": [
-      "Genève",
-      "Istanbul",
-      "Abu Dhabi",
-      "Riyad"
-     ],
-     "answer": 2,
-     "explanation": "À Abu Dhabi, sous médiation américaine, pour la première fois en neuf mois."
     }
    ]
   }

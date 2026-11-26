@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -4614,6 +4614,179 @@
      ],
      "answer": 0,
      "explanation": "MOST OF + pluriel → verbe pluriel (have). « Every » ne s'emploie jamais avec of."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-matin",
+   "created": "2026-11-26T08:45:00+01:00",
+   "title": "Jeudi matin : subjonctif et quantifieurs",
+   "theme": "Priorités subjonctif + thème 12 quantifieurs",
+   "questions": [
+    {
+     "prompt": "The committee recommended that the hotel ------- its prices during the off-season.",
+     "options": [
+      "lowers",
+      "lower",
+      "lowered",
+      "lowering"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : recommend that + BASE VERBALE → lower."
+    },
+    {
+     "prompt": "It is necessary that each participant ------- the form before the workshop.",
+     "options": [
+      "signs",
+      "sign",
+      "signed",
+      "will sign"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : it is necessary that + BASE VERBALE → sign."
+    },
+    {
+     "prompt": "The manager asked that the report ------- to her by noon.",
+     "options": [
+      "is sent",
+      "be sent",
+      "was sending",
+      "sends"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : ask that + BE + pp → be sent."
+    },
+    {
+     "prompt": "------- the train was delayed, we arrived on time for the meeting.",
+     "options": [
+      "Despite",
+      "Although",
+      "Because of",
+      "In spite of"
+     ],
+     "answer": 1,
+     "explanation": "ALTHOUGH + phrase."
+    },
+    {
+     "prompt": "Both the invitation and the program ------- printed yesterday.",
+     "options": [
+      "was",
+      "were",
+      "is",
+      "has been"
+     ],
+     "answer": 1,
+     "explanation": "Both… and → pluriel : were."
+    },
+    {
+     "prompt": "The guests were ------- by the warm welcome.",
+     "options": [
+      "touching",
+      "touched",
+      "touch",
+      "touchingly"
+     ],
+     "answer": 1,
+     "explanation": "Personnes → -ED : touched."
+    },
+    {
+     "prompt": "Ms. Klein's ------- to detail impressed the clients.",
+     "options": [
+      "attentive",
+      "attention",
+      "attend",
+      "attentively"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL : possessif + NOM → attention."
+    },
+    {
+     "prompt": "We have ------- time to prepare the presentation, so let's start now.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "a few"
+     ],
+     "answer": 1,
+     "explanation": "LITTLE + indénombrable (time)."
+    },
+    {
+     "prompt": "------- of the staff members were invited to the dinner.",
+     "options": [
+      "Much",
+      "Many",
+      "Every",
+      "A little"
+     ],
+     "answer": 1,
+     "explanation": "MANY OF + pluriel dénombrable (staff members). Much of + indénombrable."
+    },
+    {
+     "prompt": "There is ------- of parking space behind the building.",
+     "options": [
+      "many",
+      "plenty",
+      "few",
+      "a number"
+     ],
+     "answer": 1,
+     "explanation": "PLENTY OF = beaucoup de (dénombrable ou non) → plenty of parking space."
+    },
+    {
+     "prompt": "The ------- of money spent on advertising doubled last year.",
+     "options": [
+      "number",
+      "amount",
+      "many",
+      "few"
+     ],
+     "answer": 1,
+     "explanation": "AN/THE AMOUNT OF + indénombrable (money)."
+    },
+    {
+     "prompt": "------- branch has its own manager.",
+     "options": [
+      "All",
+      "Each",
+      "Many",
+      "Both"
+     ],
+     "answer": 1,
+     "explanation": "EACH + nom SINGULIER (branch) + verbe singulier (has)."
+    },
+    {
+     "prompt": "She spent the ------- weekend preparing for the interview.",
+     "options": [
+      "all",
+      "whole",
+      "every",
+      "each"
+     ],
+     "answer": 1,
+     "explanation": "the WHOLE + nom singulier = tout le / toute la (the whole weekend). « all the weekend » existe mais n'est pas proposé ainsi."
+    },
+    {
+     "prompt": "Only a ------- of the participants asked questions.",
+     "options": [
+      "few",
+      "little",
+      "number",
+      "much"
+     ],
+     "answer": 0,
+     "explanation": "A FEW OF + pluriel (participants)."
+    },
+    {
+     "prompt": "We need a ------- more time to finish the report.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "number"
+     ],
+     "answer": 1,
+     "explanation": "A LITTLE + indénombrable (time) = un peu de."
     }
    ]
   }
