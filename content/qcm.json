@@ -4789,6 +4789,179 @@
      "explanation": "A LITTLE + indénombrable (time) = un peu de."
     }
    ]
+  },
+  {
+   "id": "2026-11-26-aprem",
+   "created": "2026-11-26T14:15:00+01:00",
+   "title": "Jeudi après-midi : subjonctif, quantifieurs, Partie 6 et participes",
+   "theme": "Priorités + Partie 6 + thème 13 participes -ed/-ing",
+   "questions": [
+    {
+     "prompt": "The auditor suggested that the firm ------- its accounting software.",
+     "options": [
+      "replaces",
+      "replace",
+      "replaced",
+      "replacing"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : suggest that + BASE VERBALE → replace."
+    },
+    {
+     "prompt": "It is vital that the shipment ------- inspected before departure.",
+     "options": [
+      "is",
+      "be",
+      "was",
+      "will be"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : it is vital that + BE + pp → be inspected."
+    },
+    {
+     "prompt": "We received ------- complaints this month than last month.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "few"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + pluriel (complaints) … than."
+    },
+    {
+     "prompt": "There is still a ------- coffee left in the pot.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "number"
+     ],
+     "answer": 1,
+     "explanation": "A LITTLE + indénombrable (coffee)."
+    },
+    {
+     "prompt": "The board insisted that every manager ------- the training.",
+     "options": [
+      "attends",
+      "attend",
+      "attended",
+      "attending"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : insist that + BASE VERBALE → attend."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Okafor, Thank you for attending our open day last week. As requested, we have (1) ___ a copy of our brochure with this letter. We suggest that you (2) ___ the online application form by January 15. (3) ___ Only a (4) ___ places remain for the spring session, so we encourage you to apply soon. Best regards, Admissions Office » — (1)",
+     "options": [
+      "enclose",
+      "enclosed",
+      "enclosing",
+      "enclosure"
+     ],
+     "answer": 1,
+     "explanation": "have + PARTICIPE PASSÉ : have enclosed (enclosed = ci-joint)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Okafor, Thank you for attending our open day last week. As requested, we have (1) ___ a copy of our brochure with this letter. We suggest that you (2) ___ the online application form by January 15. (3) ___ Only a (4) ___ places remain for the spring session, so we encourage you to apply soon. Best regards, Admissions Office » — (2)",
+     "options": [
+      "complete",
+      "completes",
+      "completed",
+      "completing"
+     ],
+     "answer": 0,
+     "explanation": "SUBJONCTIF : suggest that you + BASE VERBALE → complete."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Okafor, Thank you for attending our open day last week. As requested, we have (1) ___ a copy of our brochure with this letter. We suggest that you (2) ___ the online application form by January 15. (3) ___ Only a (4) ___ places remain for the spring session, so we encourage you to apply soon. Best regards, Admissions Office » — (3)",
+     "options": [
+      "Applications received after this date will not be considered.",
+      "Our campus has a large library.",
+      "The open day was held on a Saturday.",
+      "Parking is free on weekends."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle suit la date limite et précise sa conséquence."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Mr. Okafor, Thank you for attending our open day last week. As requested, we have (1) ___ a copy of our brochure with this letter. We suggest that you (2) ___ the online application form by January 15. (3) ___ Only a (4) ___ places remain for the spring session, so we encourage you to apply soon. Best regards, Admissions Office » — (4)",
+     "options": [
+      "little",
+      "few",
+      "much",
+      "less"
+     ],
+     "answer": 1,
+     "explanation": "A FEW + pluriel (places) = quelques places."
+    },
+    {
+     "prompt": "The ------- documents must be signed and returned by Friday.",
+     "options": [
+      "attach",
+      "attaching",
+      "attached",
+      "attachment"
+     ],
+     "answer": 2,
+     "explanation": "PARTICIPE EN ADJECTIF : the attached documents (les documents joints) → -ED, sens passif."
+    },
+    {
+     "prompt": "The company reported ------- results for the third quarter.",
+     "options": [
+      "disappointing",
+      "disappointed",
+      "disappoint",
+      "disappointment"
+     ],
+     "answer": 0,
+     "explanation": "Une chose qui provoque la déception → -ING : disappointing results."
+    },
+    {
+     "prompt": "The ------- schedule will be sent to all participants tomorrow.",
+     "options": [
+      "revise",
+      "revising",
+      "revised",
+      "revision"
+     ],
+     "answer": 2,
+     "explanation": "the REVISED schedule (le programme modifié) → -ED."
+    },
+    {
+     "prompt": "There is a ------- demand for electric vehicles in Europe.",
+     "options": [
+      "grow",
+      "grown",
+      "growing",
+      "growth"
+     ],
+     "answer": 2,
+     "explanation": "-ING = action en cours : a growing demand (une demande croissante)."
+    },
+    {
+     "prompt": "Ms. Tan is one of the ------- experts in renewable energy.",
+     "options": [
+      "lead",
+      "led",
+      "leading",
+      "leader"
+     ],
+     "answer": 2,
+     "explanation": "leading = de premier plan (a leading expert / company)."
+    },
+    {
+     "prompt": "The ------- price includes breakfast and parking.",
+     "options": [
+      "quote",
+      "quoting",
+      "quoted",
+      "quotation"
+     ],
+     "answer": 2,
+     "explanation": "the QUOTED price (le prix indiqué) → -ED, sens passif."
+    }
+   ]
   }
  ]
 }
