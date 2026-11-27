@@ -1,16 +1,8 @@
 {
  "deadlines": [
   {
-   "date": "2026-11-19",
-   "t": "Relancer les profs pour les lettres de recommandation"
-  },
-  {
-   "date": "2026-11-23",
+   "date": "2026-12-04",
    "t": "Finir la certification HEC × AXA IM"
-  },
-  {
-   "date": "2026-12-15",
-   "t": "S'inscrire à une session TOEIC"
   },
   {
    "date": "2026-12-16",
@@ -21,8 +13,8 @@
    "t": "Valider le dossier Sciences Po"
   },
   {
-   "date": "2027-01-31",
-   "t": "Passer le TOEIC L&R (900+)"
+   "date": "2027-01-26",
+   "t": "TOEIC L&R à Aix-en-Provence, 14h30 (objectif 900+)"
   }
  ],
  "limits": {
