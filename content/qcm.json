@@ -5135,6 +5135,179 @@
      "explanation": "COLLOCATION : make a decision (prendre une décision). Jamais « do a decision »."
     }
    ]
+  },
+  {
+   "id": "2026-11-27-aprem",
+   "created": "2026-11-27T14:15:00+01:00",
+   "title": "Vendredi après-midi : subjonctif, Partie 6 et collocations",
+   "theme": "Priorités + Partie 6 + thème 14 collocations",
+   "questions": [
+    {
+     "prompt": "The architect suggested that the city ------- more green spaces.",
+     "options": [
+      "creates",
+      "create",
+      "created",
+      "creating"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : suggest that + BASE VERBALE."
+    },
+    {
+     "prompt": "It is crucial that the contract ------- by both parties.",
+     "options": [
+      "is signed",
+      "be signed",
+      "was signed",
+      "signs"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : crucial that + BE + pp."
+    },
+    {
+     "prompt": "The store had ------- customers on Monday than on Saturday.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + pluriel (customers)."
+    },
+    {
+     "prompt": "There is very ------- demand for this product in winter.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "a few"
+     ],
+     "answer": 1,
+     "explanation": "LITTLE + indénombrable (demand)."
+    },
+    {
+     "prompt": "The results were ------- than expected.",
+     "options": [
+      "disappointing",
+      "more disappointing",
+      "most disappointing",
+      "disappointed"
+     ],
+     "answer": 1,
+     "explanation": "Comparatif + participe en -ING : more disappointing than (les résultats déçoivent)."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Customer, Thank you for your recent purchase. Our records show that your order was (1) ___ on November 20. Unfortunately, one item is currently out of stock. We recommend that you (2) ___ an alternative product from our catalog. (3) ___ If you prefer, we can also issue a full refund in accordance (4) ___ our return policy. Sincerely, Customer Service » — (1)",
+     "options": [
+      "ship",
+      "shipping",
+      "shipped",
+      "shipment"
+     ],
+     "answer": 2,
+     "explanation": "PASSIF : was + participe passé → was shipped."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Customer, Thank you for your recent purchase. Our records show that your order was (1) ___ on November 20. Unfortunately, one item is currently out of stock. We recommend that you (2) ___ an alternative product from our catalog. (3) ___ If you prefer, we can also issue a full refund in accordance (4) ___ our return policy. Sincerely, Customer Service » — (2)",
+     "options": [
+      "chooses",
+      "choose",
+      "chose",
+      "choosing"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : recommend that you + BASE VERBALE → choose."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Customer, Thank you for your recent purchase. Our records show that your order was (1) ___ on November 20. Unfortunately, one item is currently out of stock. We recommend that you (2) ___ an alternative product from our catalog. (3) ___ If you prefer, we can also issue a full refund in accordance (4) ___ our return policy. Sincerely, Customer Service » — (3)",
+     "options": [
+      "A list of similar items is attached to this email.",
+      "Our store opened in 1998.",
+      "We are hiring new sales staff.",
+      "The weather has been unusually cold."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle aide à choisir un produit de remplacement, juste après la recommandation."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Customer, Thank you for your recent purchase. Our records show that your order was (1) ___ on November 20. Unfortunately, one item is currently out of stock. We recommend that you (2) ___ an alternative product from our catalog. (3) ___ If you prefer, we can also issue a full refund in accordance (4) ___ our return policy. Sincerely, Customer Service » — (4)",
+     "options": [
+      "to",
+      "with",
+      "for",
+      "by"
+     ],
+     "answer": 1,
+     "explanation": "COLLOCATION : in accordance WITH."
+    },
+    {
+     "prompt": "All employees must ------- to the company's code of conduct.",
+     "options": [
+      "comply",
+      "adhere",
+      "follow",
+      "respect"
+     ],
+     "answer": 1,
+     "explanation": "COLLOCATION : adhere TO (respecter, se conformer à). comply WITH."
+    },
+    {
+     "prompt": "We need to ------- an order for new printers.",
+     "options": [
+      "do",
+      "make",
+      "place",
+      "take"
+     ],
+     "answer": 2,
+     "explanation": "COLLOCATION : place an order (passer une commande)."
+    },
+    {
+     "prompt": "The team worked late to ------- the deadline.",
+     "options": [
+      "meet",
+      "make",
+      "reach",
+      "do"
+     ],
+     "answer": 0,
+     "explanation": "COLLOCATION : meet a deadline (respecter un délai). « reach a deadline » ne s'emploie pas en ce sens."
+    },
+    {
+     "prompt": "The customer decided to ------- a complaint with the manager.",
+     "options": [
+      "do",
+      "file",
+      "put",
+      "take"
+     ],
+     "answer": 1,
+     "explanation": "COLLOCATION : file a complaint (déposer une plainte / réclamation)."
+    },
+    {
+     "prompt": "The company plans to ------- its prices by 5 percent next year.",
+     "options": [
+      "raise",
+      "rise",
+      "grow",
+      "arise"
+     ],
+     "answer": 0,
+     "explanation": "RAISE (transitif, + complément) : raise prices. RISE (intransitif) : prices rise."
+    },
+    {
+     "prompt": "Interns are not ------- for paid vacation.",
+     "options": [
+      "eligible",
+      "entitled",
+      "able",
+      "allowed"
+     ],
+     "answer": 0,
+     "explanation": "COLLOCATION : eligible FOR. (« entitled TO », « allowed TO » : prépositions différentes.)"
+    }
+   ]
   }
  ]
 }
