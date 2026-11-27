@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -4960,6 +4960,179 @@
      ],
      "answer": 2,
      "explanation": "the QUOTED price (le prix indiqué) → -ED, sens passif."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-matin",
+   "created": "2026-11-27T08:45:00+01:00",
+   "title": "Vendredi matin : subjonctif, quantifieurs, participes et collocations",
+   "theme": "Priorités + thème 13 participes + thème 14 collocations",
+   "questions": [
+    {
+     "prompt": "The consultant recommended that the bank ------- its online services.",
+     "options": [
+      "expands",
+      "expand",
+      "expanded",
+      "expanding"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : recommend that + BASE VERBALE."
+    },
+    {
+     "prompt": "It is essential that all passwords ------- changed every three months.",
+     "options": [
+      "are",
+      "be",
+      "were",
+      "being"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF passif : essential that + BE + pp."
+    },
+    {
+     "prompt": "The CEO requested that each department ------- its budget by Monday.",
+     "options": [
+      "submits",
+      "submit",
+      "submitted",
+      "to submit"
+     ],
+     "answer": 1,
+     "explanation": "SUBJONCTIF : request that + BASE VERBALE."
+    },
+    {
+     "prompt": "We have ------- information about the new regulations.",
+     "options": [
+      "few",
+      "little",
+      "many",
+      "a number of"
+     ],
+     "answer": 1,
+     "explanation": "LITTLE + indénombrable (information)."
+    },
+    {
+     "prompt": "There were ------- applicants than expected for the position.",
+     "options": [
+      "less",
+      "fewer",
+      "little",
+      "much"
+     ],
+     "answer": 1,
+     "explanation": "FEWER + pluriel (applicants)."
+    },
+    {
+     "prompt": "The renovation took so ------- time that the opening was postponed.",
+     "options": [
+      "many",
+      "much",
+      "few",
+      "more"
+     ],
+     "answer": 1,
+     "explanation": "SO MUCH + indénombrable (time)."
+    },
+    {
+     "prompt": "Ms. Ruiz's ------- to the project was praised by the board.",
+     "options": [
+      "contribute",
+      "contributed",
+      "contribution",
+      "contributing"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : possessif + NOM."
+    },
+    {
+     "prompt": "Please review the ------- invoice and confirm the amount.",
+     "options": [
+      "enclose",
+      "enclosing",
+      "enclosed",
+      "enclosure"
+     ],
+     "answer": 2,
+     "explanation": "the ENCLOSED invoice = la facture ci-jointe (-ED)."
+    },
+    {
+     "prompt": "The results of the survey were ------- for the marketing team.",
+     "options": [
+      "encouraging",
+      "encouraged",
+      "encourage",
+      "encouragement"
+     ],
+     "answer": 0,
+     "explanation": "Les résultats PROVOQUENT l'encouragement → -ING : encouraging."
+    },
+    {
+     "prompt": "A ------- number of companies are adopting remote work.",
+     "options": [
+      "grow",
+      "grown",
+      "growing",
+      "growth"
+     ],
+     "answer": 2,
+     "explanation": "a GROWING number of (un nombre croissant de)."
+    },
+    {
+     "prompt": "The ------- candidates will be contacted next week.",
+     "options": [
+      "select",
+      "selecting",
+      "selected",
+      "selection"
+     ],
+     "answer": 2,
+     "explanation": "the SELECTED candidates (sélectionnés) → -ED."
+    },
+    {
+     "prompt": "Employees must ------- with the new safety regulations.",
+     "options": [
+      "comply",
+      "adhere",
+      "respect",
+      "follow"
+     ],
+     "answer": 0,
+     "explanation": "COLLOCATION : comply WITH (respecter). adhere TO, respect / follow sans préposition."
+    },
+    {
+     "prompt": "Only staff members are ------- for the annual bonus.",
+     "options": [
+      "eligible",
+      "able",
+      "capable",
+      "possible"
+     ],
+     "answer": 0,
+     "explanation": "COLLOCATION : be eligible FOR (avoir droit à)."
+    },
+    {
+     "prompt": "The product was designed in ------- with European standards.",
+     "options": [
+      "accordance",
+      "respect",
+      "regard",
+      "order"
+     ],
+     "answer": 0,
+     "explanation": "COLLOCATION : in accordance WITH (conformément à). À retenir aussi : with regard TO, in order TO."
+    },
+    {
+     "prompt": "The company will ------- a decision by the end of the month.",
+     "options": [
+      "do",
+      "make",
+      "take part",
+      "give"
+     ],
+     "answer": 1,
+     "explanation": "COLLOCATION : make a decision (prendre une décision). Jamais « do a decision »."
     }
    ]
   }

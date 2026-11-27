@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-27",
+   "items": [
+    {
+     "cat": "Géopolitique",
+     "title": "Koweït : deux techniciens italiens tués par des drones iraniens",
+     "text": "Selon le ministre italien des Affaires étrangères, Antonio Tajani, deux civils italiens, techniciens de défense antiaérienne, ont été tués ; un Koweïtien et un Pakistanais ont été blessés.",
+     "why": "La guerre dans le Golfe touche désormais directement des ressortissants européens.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-26-november-2026"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Le pétrole remonte au-dessus de 95 $",
+     "text": "Le Brent a clôturé mercredi à 94,61 $ (+3,5 %) et dépassait 96 $ jeudi, après la frappe revendiquée par les Houthis sur la raffinerie saoudienne de Ras Tanura, où les chargements auraient été suspendus. L'OPEP+ se réunit dimanche pour fixer les quotas 2027.",
+     "why": "Quand l'offre physique est menacée (raffinerie, terminal), le prix réagit immédiatement, même en période d'excédent.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-26-november-2026"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Iran – États-Unis : contacts via Jared Kushner",
+     "text": "L'envoyé américain dit avoir rencontré des responsables iraniens et que « toutes les options » restent ouvertes ; Téhéran maintient ses sept conditions, dont la levée du blocus. Le Qatar joue les médiateurs.",
+     "why": "Les canaux discrets précèdent souvent les négociations officielles.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-26-november-2026"
+    },
+    {
+     "cat": "France",
+     "title": "Grève surprise à l'Eurostar",
+     "text": "Des trains Eurostar entre Paris et Londres ont été annulés à cause d'une grève inattendue.",
+     "why": "Le lien ferroviaire transmanche est vital pour le tourisme et les affaires entre la France et le Royaume-Uni.",
+     "source": "Morning Star",
+     "url": "https://morningstaronline.co.uk/article/world-brief-67"
+    },
+    {
+     "cat": "Géopolitique",
+     "title": "Ukraine : missiles et drones dans la nuit",
+     "text": "La Russie a tiré des missiles balistiques et 113 drones ; l'armée de l'air ukrainienne dit en avoir neutralisé 87.",
+     "why": "La guerre d'usure continue malgré les contacts diplomatiques.",
+     "source": "AND Magazine",
+     "url": "https://andmagazine.substack.com/p/morning-brief-26-november-2026"
+    },
+    {
+     "cat": "Tech",
+     "title": "La Chine envoie un astronaute pakistanais dans l'espace",
+     "text": "Le vaisseau Shenzhou 24 transporte deux astronautes chinois et un Pakistanais.",
+     "why": "Le spatial est aussi un outil diplomatique : la Chine ouvre sa station à ses partenaires.",
+     "source": "Morning Star",
+     "url": "https://morningstaronline.co.uk/article/world-brief-67"
+    }
+   ],
+   "history": [
+    {
+     "title": "27 novembre 1942 : sabordage de la flotte à Toulon",
+     "text": "Pour empêcher les Allemands de s'en emparer, la marine française saborde près de 90 navires dans la rade de Toulon."
+    },
+    {
+     "title": "27 novembre 1967 : le « non » de De Gaulle au Royaume-Uni",
+     "text": "Lors d'une conférence de presse, le général de Gaulle s'oppose pour la deuxième fois à l'entrée du Royaume-Uni dans la Communauté économique européenne. Le pays n'y entrera qu'en 1973."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "28 nov.",
+     "t": "Élections locales à Taïwan"
+    },
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+ (quotas 2027)"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Point candidatures (calendriers Dauphine, ESCP, PGE)"
+    },
+    {
+     "date": "9 déc.",
+     "t": "Décision de la Fed sur les taux"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Pourquoi la flotte française s'est-elle sabordée à Toulon en 1942 ?",
+     "options": [
+      "Pour éviter qu'elle tombe aux mains des Allemands",
+      "À cause d'une tempête",
+      "Pour rejoindre les Alliés",
+      "À la suite d'une mutinerie"
+     ],
+     "answer": 0,
+     "explanation": "Les marins ont coulé leurs propres navires plutôt que de les livrer à l'Allemagne."
+    },
+    {
+     "prompt": "En quelle année le Royaume-Uni a-t-il finalement rejoint la CEE ?",
+     "options": [
+      "1957",
+      "1967",
+      "1973",
+      "1992"
+     ],
+     "answer": 2,
+     "explanation": "En 1973, après deux refus du général de Gaulle (1963 et 1967)."
+    },
+    {
+     "prompt": "Qu'est-ce que l'OPEP+ va décider dimanche ?",
+     "options": [
+      "Le prix de l'essence en France",
+      "Les quotas de production de pétrole pour 2027",
+      "Le taux de la Fed",
+      "Le budget européen"
+     ],
+     "answer": 1,
+     "explanation": "Les pays producteurs fixent combien ils produisent, ce qui influence le prix du baril."
+    }
+   ]
+  },
+  {
    "date": "2026-11-26",
    "items": [
     {
@@ -1561,126 +1677,6 @@
      ],
      "answer": 1,
      "explanation": "Contagion sectorielle : l'incertitude sur Nvidia a entraîné AMD et Intel."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-13",
-   "items": [
-    {
-     "cat": "Géopolitique",
-     "title": "Ormuz : trois pétroliers en feu après des mines",
-     "text": "Les Gardiens de la révolution iraniens affirment que trois pétroliers ont pris feu après avoir heurté des mines navales. Des sociétés de surveillance comptent au moins 37 attaques contre des navires dans et autour du détroit en novembre, un record mensuel depuis le début de la guerre. Téhéran dit que le détroit restera fermé tant que ses sept conditions ne sont pas remplies, et Donald Trump a déclaré que les États-Unis n'avaient « plus besoin d'un accord avec l'Iran ».",
-     "why": "Moins de pétrole qui passe par Ormuz, c'est un baril plus cher, donc plus d'inflation et des banques centrales qui montent leurs taux.",
-     "source": "View Storys, The Rio Times",
-     "url": "https://www.viewstorys.com/2026/11/top-world-news-november-12-2026-ukraine.html"
-    },
-    {
-     "cat": "Géopolitique",
-     "title": "Ukraine : un grand échange de prisonniers, puis Moscou et Dublin",
-     "text": "Les pourparlers à trois (Ukraine, Russie, États-Unis) d'Abu Dhabi se sont terminés sur un accord pour un « grand » échange de prisonniers de guerre, sans cessez-le-feu. Les émissaires américains Steve Witkoff et Jared Kushner sont allés voir Vladimir Poutine à Moscou, avant de rencontrer Volodymyr Zelensky à Dublin. Des drones égarés sont entrés dans l'espace aérien des pays baltes, et l'OTAN a fait décoller des avions.",
-     "why": "La diplomatie avance par petites étapes humanitaires avant de toucher aux sujets durs : territoires et garanties de sécurité.",
-     "source": "View Storys, Presse Évasion",
-     "url": "https://www.presse-evasion.fr/article/revue-presse-12-11-2026"
-    },
-    {
-     "cat": "Marchés",
-     "title": "Nvidia : le patron Jensen Huang démissionne",
-     "text": "Selon la lettre de marché Capp Notes, Jensen Huang a quitté la direction de Nvidia avec effet immédiat, après des articles sur sa conduite personnelle ; la directrice financière Colette Kress assure l'intérim. Une enquête antitrust du ministère de la Justice américain a aussi été évoquée. L'action a perdu 4,34 %, tandis que ses concurrents AMD (+5,86 %) et Broadcom (+5,54 %) ont progressé.",
-     "why": "Nvidia est l'une des plus grosses capitalisations du monde et le symbole de l'IA : un choc sur sa gouvernance fait bouger tout le secteur des semi-conducteurs.",
-     "source": "Capp Notes (Substack)",
-     "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12"
-    },
-    {
-     "cat": "Finance",
-     "title": "Le taux américain à 10 ans repasse au-dessus de 5 %",
-     "text": "Le rendement des obligations d'État américaines à 10 ans a grimpé d'environ 0,12 point, à 5,10 %. Les marchés considèrent désormais une hausse des taux de la Fed en décembre comme quasi certaine. L'or a reculé de 2,88 %, à 3 885 dollars l'once, au plus bas depuis octobre 2025.",
-     "why": "Quand le taux sans risque monte, toutes les autres valeurs baissent mécaniquement : c'est la logique de l'actualisation des flux futurs, au cœur de ton cours de finance de marché.",
-     "source": "Capp Notes (Substack)",
-     "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-12"
-    },
-    {
-     "cat": "Marchés",
-     "title": "Le pétrole rebondit de 3 %",
-     "text": "Le Brent est remonté vers 95 à 96 dollars le baril, après la phrase de Donald Trump sur l'Iran et des attaques houthies contre des installations énergétiques saoudiennes. La hausse a été freinée par les stocks américains, en hausse de 4,7 millions de barils alors qu'une baisse était attendue.",
-     "why": "Le prix du pétrole réagit à deux forces : le risque géopolitique (qui le fait monter) et l'offre disponible (les stocks, qui le font baisser).",
-     "source": "The Rio Times, Capp Notes",
-     "url": "https://www.riotimesonline.com/oil-markets-latam-thursday-november-12-2026/"
-    },
-    {
-     "cat": "Monde",
-     "title": "Ebola en RD Congo : une épidémie historique",
-     "text": "Selon les données du gouvernement congolais, l'épidémie compte 11 042 cas confirmés et au moins 5 387 morts. Due à la souche Bundibugyo, c'est désormais la deuxième plus grande et la deuxième plus meurtrière épidémie d'Ebola jamais enregistrée.",
-     "why": "Une épidémie de cette taille pèse sur toute l'Afrique centrale : santé, commerce et déplacements de population.",
-     "source": "View Storys",
-     "url": "https://www.viewstorys.com/2026/11/top-world-news-november-12-2026-ukraine.html"
-    },
-    {
-     "cat": "Politique",
-     "title": "Israël : un Parlement, mais pas de gouvernement",
-     "text": "Le nouveau Parlement israélien a prêté serment sans qu'un gouvernement soit formé. Benyamin Netanyahou a perdu sa majorité, mais ses rivaux n'ont pas non plus de majorité claire. Le mandat pour former un gouvernement a été confié à Gadi Eisenkot.",
-     "why": "La politique intérieure israélienne pèse directement sur les négociations au Moyen-Orient.",
-     "source": "View Storys",
-     "url": "https://www.viewstorys.com/2026/11/top-world-news-november-12-2026-ukraine.html"
-    }
-   ],
-   "history": [
-    {
-     "title": "13 novembre 2015 : les attentats de Paris et Saint-Denis",
-     "text": "Il y a 11 ans, des attaques terroristes visaient le Stade de France, des terrasses parisiennes et la salle du Bataclan, faisant 130 morts. C'est l'attentat le plus meurtrier commis en France depuis la Seconde Guerre mondiale."
-    },
-    {
-     "title": "15 août 1971 : la fin de l'étalon-or",
-     "text": "Richard Nixon suspend la convertibilité du dollar en or, ce qui met fin au système de Bretton Woods (1944). Depuis, les grandes monnaies flottent et l'or est un actif qui varie avec les taux d'intérêt, comme on le voit cette semaine."
-    }
-   ],
-   "agenda": [
-    {
-     "date": "Cette semaine",
-     "t": "Rencontre des émissaires américains avec Volodymyr Zelensky à Dublin"
-    },
-    {
-     "date": "20 nov.",
-     "t": "Fin de la COP31 à Antalya"
-    },
-    {
-     "date": "Décembre",
-     "t": "Réunion de la Fed : les marchés attendent une hausse de taux"
-    }
-   ],
-   "quiz": [
-    {
-     "prompt": "Qui assure l'intérim à la tête de Nvidia après le départ de Jensen Huang ?",
-     "options": [
-      "Lisa Su",
-      "Colette Kress",
-      "Satya Nadella",
-      "Tim Cook"
-     ],
-     "answer": 1,
-     "explanation": "Colette Kress, la directrice financière de Nvidia. Lisa Su dirige AMD."
-    },
-    {
-     "prompt": "À quel niveau est remonté le taux américain à 10 ans le 12 novembre ?",
-     "options": [
-      "3,75 %",
-      "4,50 %",
-      "5,10 %",
-      "6,00 %"
-     ],
-     "answer": 2,
-     "explanation": "5,10 %, au-dessus de 5 % : les marchés anticipent une hausse de la Fed en décembre."
-    },
-    {
-     "prompt": "Quelle souche d'Ebola est en cause en RD Congo ?",
-     "options": [
-      "Zaïre",
-      "Soudan",
-      "Bundibugyo",
-      "Reston"
-     ],
-     "answer": 2,
-     "explanation": "La souche Bundibugyo : c'est la deuxième plus grande épidémie d'Ebola jamais enregistrée."
     }
    ]
   }
