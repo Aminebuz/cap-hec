@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "items": [
   {
    "created": "2026-11-12T16:30:00",
@@ -5306,6 +5306,179 @@
      ],
      "answer": 0,
      "explanation": "COLLOCATION : eligible FOR. (« entitled TO », « allowed TO » : prépositions différentes.)"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-matin",
+   "created": "2026-11-28T08:45:00+01:00",
+   "title": "Samedi matin : participes, collocations et inversions",
+   "theme": "Priorités + thème 14 collocations + thème 15 inversions",
+   "questions": [
+    {
+     "prompt": "Please check the ------- figures before the meeting.",
+     "options": [
+      "update",
+      "updating",
+      "updated",
+      "updates"
+     ],
+     "answer": 2,
+     "explanation": "-ED (sens passif) : les chiffres ONT ÉTÉ mis à jour → the updated figures."
+    },
+    {
+     "prompt": "The CEO gave an ------- speech at the conference.",
+     "options": [
+      "inspired",
+      "inspiring",
+      "inspire",
+      "inspiration"
+     ],
+     "answer": 1,
+     "explanation": "-ING : le discours PROVOQUE l'inspiration → an inspiring speech."
+    },
+    {
+     "prompt": "The ------- items will be delivered within three days.",
+     "options": [
+      "order",
+      "ordering",
+      "ordered",
+      "orders"
+     ],
+     "answer": 2,
+     "explanation": "-ED : les articles commandés (ils ont été commandés)."
+    },
+    {
+     "prompt": "All suppliers must ------- with our environmental standards.",
+     "options": [
+      "comply",
+      "adhere",
+      "respect",
+      "follow"
+     ],
+     "answer": 0,
+     "explanation": "comply WITH. (adhere TO, respect/follow sans préposition)."
+    },
+    {
+     "prompt": "The building was renovated in ------- with local regulations.",
+     "options": [
+      "accordance",
+      "respect",
+      "regard",
+      "order"
+     ],
+     "answer": 0,
+     "explanation": "in accordance WITH."
+    },
+    {
+     "prompt": "------- the budget was limited, the event was a success.",
+     "options": [
+      "Despite",
+      "Although",
+      "Because of",
+      "In spite of"
+     ],
+     "answer": 1,
+     "explanation": "ALTHOUGH + phrase."
+    },
+    {
+     "prompt": "The manager praised the team's ------- during the crisis.",
+     "options": [
+      "flexible",
+      "flexibly",
+      "flexibility",
+      "flex"
+     ],
+     "answer": 2,
+     "explanation": "RAPPEL : possessif + NOM → flexibility."
+    },
+    {
+     "prompt": "It is important that the client ------- the final version.",
+     "options": [
+      "approves",
+      "approve",
+      "approved",
+      "approving"
+     ],
+     "answer": 1,
+     "explanation": "RAPPEL (maîtrisé) : subjonctif → approve."
+    },
+    {
+     "prompt": "Customers who wish to ------- a complaint should contact this office.",
+     "options": [
+      "do",
+      "file",
+      "make up",
+      "take"
+     ],
+     "answer": 1,
+     "explanation": "file a complaint."
+    },
+    {
+     "prompt": "Our sales team must ------- its quarterly targets.",
+     "options": [
+      "meet",
+      "make",
+      "do",
+      "reach to"
+     ],
+     "answer": 0,
+     "explanation": "meet targets / a deadline."
+    },
+    {
+     "prompt": "Employees are ------- to two weeks of paid leave.",
+     "options": [
+      "eligible",
+      "entitled",
+      "able",
+      "allowed"
+     ],
+     "answer": 1,
+     "explanation": "be ENTITLED TO = avoir droit à (+ nom). be eligible FOR."
+    },
+    {
+     "prompt": "The board will ------- a final decision next week.",
+     "options": [
+      "do",
+      "make",
+      "give",
+      "put"
+     ],
+     "answer": 1,
+     "explanation": "make a decision."
+    },
+    {
+     "prompt": "Not only ------- the project on time, but it also stayed under budget.",
+     "options": [
+      "the team finished",
+      "did the team finish",
+      "the team did finish",
+      "finished the team"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION : Not only + AUXILIAIRE + sujet (did the team finish)."
+    },
+    {
+     "prompt": "Rarely ------- such a strong increase in sales.",
+     "options": [
+      "we have seen",
+      "have we seen",
+      "we saw",
+      "seen we have"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION après un adverbe négatif (Rarely, Never, Seldom) : have we seen."
+    },
+    {
+     "prompt": "Only after the contract was signed ------- the payment.",
+     "options": [
+      "the client sent",
+      "did the client send",
+      "the client did send",
+      "sent the client"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION : Only after + proposition → auxiliaire + sujet (did the client send)."
     }
    ]
   }

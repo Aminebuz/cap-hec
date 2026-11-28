@@ -1,6 +1,122 @@
 {
  "days": [
   {
+   "date": "2026-11-28",
+   "items": [
+    {
+     "cat": "Économie",
+     "title": "Washington propose de nouveaux droits de douane sur 14 économies",
+     "text": "Après des enquêtes sur les surcapacités industrielles, le représentant américain au Commerce propose jusqu'à 20 % sur la Chine, 15 % sur l'UE, le Japon, la Corée du Sud et Taïwan, 18 % sur plusieurs pays d'Asie du Sud-Est, et jusqu'à 25 % sur l'Inde. Ce sont des propositions, pas encore des droits en vigueur.",
+     "why": "Des droits de douane renchérissent les exportations européennes vers les États-Unis : ils pèsent sur les entreprises exportatrices françaises.",
+     "source": "TMGM",
+     "url": "https://tmgm.com/en-eu/analysis/market-insight/morning-brief-2026-11-26"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Bourses en hausse, Séoul +4,8 %",
+     "text": "L'indice européen STOXX 600 a gagné 1,75 %. En Asie, le KOSPI coréen a bondi de 4,81 %, le Nikkei de 1,99 % et Shanghai de près de 3 %, Pékin annonçant un soutien accru aux marchés actions. Les contrats à terme américains montaient fortement avant la réouverture post-Thanksgiving.",
+     "why": "Quand un État soutient sa Bourse (fonds publics, incitations aux dividendes), les investisseurs anticipent une hausse.",
+     "source": "TMGM",
+     "url": "https://tmgm.com/en-eu/analysis/market-insight/morning-brief-2026-11-26"
+    },
+    {
+     "cat": "Finance",
+     "title": "La Corée du Sud relève ses taux",
+     "text": "La Banque de Corée a monté son taux de 0,25 point, à 3,25 % (+0,75 point en 2026), et relevé fortement ses prévisions de croissance (3,9 % en 2026). Au Japon, l'inflation de Tokyo ralentit à 2,8 %.",
+     "why": "Une banque centrale relève ses taux pour freiner l'inflation quand l'économie tourne fort.",
+     "source": "TMGM",
+     "url": "https://tmgm.com/en-eu/analysis/market-insight/morning-brief-2026-11-26"
+    },
+    {
+     "cat": "Marchés",
+     "title": "Pétrole : +8 % en trois séances",
+     "text": "Le Brent dépasse 96 $ après une attaque qui a perturbé la raffinerie saoudienne de Jazan (un mort). L'OPEP+ se réunit dimanche et pourrait maintenir ses quotas jusqu'au 1er trimestre 2027.",
+     "why": "Les prix du pétrole restent très sensibles aux attaques sur les infrastructures du Golfe.",
+     "source": "TMGM",
+     "url": "https://tmgm.com/en-eu/analysis/market-insight/morning-brief-2026-11-26"
+    },
+    {
+     "cat": "Politique",
+     "title": "BCE : un Espagnol en route pour la présidence",
+     "text": "Selon Reuters, les dirigeants européens s'apprêtaient à soutenir l'Espagnol Pablo Hernández de Cos pour la présidence de la Banque centrale européenne. Ce n'est pas encore une nomination officielle.",
+     "why": "La BCE fixe les taux d'intérêt de la zone euro : son président influence le coût du crédit en France.",
+     "source": "TMGM",
+     "url": "https://tmgm.com/en-eu/analysis/market-insight/morning-brief-2026-11-26"
+    },
+    {
+     "cat": "Politique",
+     "title": "Serbie : un professeur candidat du mouvement étudiant",
+     "text": "Le mouvement étudiant serbe présente le professeur de chimie Radomir Saicic à l'élection présidentielle du 27 décembre, après sa victoire aux législatives d'octobre.",
+     "why": "Un mouvement né dans les universités devenu force politique : un cas rare en Europe.",
+     "source": "Morning Star",
+     "url": "https://morningstaronline.co.uk/article/world-brief-68"
+    }
+   ],
+   "history": [
+    {
+     "title": "28 novembre 1520 : Magellan entre dans le Pacifique",
+     "text": "Après avoir franchi le détroit qui porte aujourd'hui son nom, au sud de l'Amérique, Magellan atteint un océan si calme qu'il le baptise « Pacifique »."
+    },
+    {
+     "title": "28 novembre 1893 : les Néo-Zélandaises votent",
+     "text": "La Nouvelle-Zélande est le premier pays au monde où les femmes votent à une élection nationale. En France, il faudra attendre 1945."
+    }
+   ],
+   "agenda": [
+    {
+     "date": "29 nov.",
+     "t": "Réunion de l'OPEP+ (quotas 2027)"
+    },
+    {
+     "date": "1er déc.",
+     "t": "Point candidatures (Dauphine, ESCP, PGE)"
+    },
+    {
+     "date": "9 déc.",
+     "t": "Décision de la Fed"
+    },
+    {
+     "date": "18 déc.",
+     "t": "Décision de la Banque du Japon"
+    }
+   ],
+   "quiz": [
+    {
+     "prompt": "Quel droit de douane Washington propose-t-il sur l'Union européenne ?",
+     "options": [
+      "5 %",
+      "15 %",
+      "25 %",
+      "50 %"
+     ],
+     "answer": 1,
+     "explanation": "15 %, comme pour le Japon, la Corée du Sud et Taïwan ; ce n'est qu'une proposition à ce stade."
+    },
+    {
+     "prompt": "Pourquoi une banque centrale relève-t-elle ses taux ?",
+     "options": [
+      "Pour relancer l'économie",
+      "Pour freiner l'inflation",
+      "Pour baisser le chômage immédiatement",
+      "Pour dévaluer sa monnaie"
+     ],
+     "answer": 1,
+     "explanation": "Un crédit plus cher ralentit la demande, donc la hausse des prix."
+    },
+    {
+     "prompt": "Quel a été le premier pays où les femmes ont voté à une élection nationale ?",
+     "options": [
+      "La France",
+      "Le Royaume-Uni",
+      "La Nouvelle-Zélande",
+      "Les États-Unis"
+     ],
+     "answer": 2,
+     "explanation": "La Nouvelle-Zélande, en 1893. En France, en 1945."
+    }
+   ]
+  },
+  {
    "date": "2026-11-27",
    "items": [
     {
@@ -1553,130 +1669,6 @@
      ],
      "answer": 2,
      "explanation": "Harvey Jones devient le premier président du conseil ; Colette Kress est directrice générale par intérim."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-14",
-   "items": [
-    {
-     "cat": "Tech",
-     "title": "Nvidia sans Jensen Huang",
-     "text": "Jensen Huang a démissionné de la direction de Nvidia ; Colette Kress, la directrice financière, assure l'intérim. Il doit témoigner à huis clos devant la Chambre des représentants, et le président de la commission bancaire du Sénat veut l'entendre aussi. Nvidia a perdu près de 2 000 milliards de dollars de valeur boursière depuis début octobre.",
-     "why": "Le risque « homme-clé » : quand un dirigeant incarne l'entreprise, son départ pèse directement sur le cours.",
-     "source": "Havana Times",
-     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
-    },
-    {
-     "cat": "Marchés",
-     "title": "Wall Street recule, les puces IA plongent",
-     "text": "Vendredi, le S&P 500 a cédé 0,40 % et le Nasdaq 0,91 %. AMD a chuté de 8,75 % dans une vague de prises de bénéfices sur les fabricants de puces IA (Nvidia -2 %, Intel -2,5 %), alors que l'action avait bondi de 30 % plus tôt dans la semaine après de bons résultats.",
-     "why": "Exemple de contagion sectorielle : une incertitude sur le leader fait baisser tout le secteur.",
-     "source": "The Motley Fool",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/"
-    },
-    {
-     "cat": "Géopolitique",
-     "title": "Iran : escalade dans le Golfe",
-     "text": "Les Gardiens de la révolution disent avoir détruit un radar américain à Bahreïn, en riposte à une frappe américaine. Quatre attaques contre des pétroliers ont eu lieu jeudi et un méthanier a sauté sur une mine dans le détroit d'Ormuz. Un rapport confidentiel de l'AIEA s'inquiète du site d'enrichissement d'Ispahan, inaccessible aux inspecteurs.",
-     "why": "Ormuz voit passer environ un cinquième du pétrole mondial : chaque incident fait réagir le prix du baril.",
-     "source": "Havana Times",
-     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
-    },
-    {
-     "cat": "Géopolitique",
-     "title": "Ukraine : diplomatie et échange de prisonniers",
-     "text": "Les émissaires américains Witkoff et Kushner ont rencontré Vladimir Poutine à Moscou puis Volodymyr Zelensky à Dublin. Zelensky annonce le plus grand échange de prisonniers depuis l'invasion à grande échelle, mais les attaques de drones et de missiles continuent.",
-     "why": "Montre la diplomatie « parallèle » : on négocie tout en continuant à combattre.",
-     "source": "Havana Times",
-     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
-    },
-    {
-     "cat": "Géopolitique",
-     "title": "Gaza : appel de 49 pays avant l'hiver",
-     "text": "49 pays, menés par le Royaume-Uni, le Qatar et la Jordanie, demandent à Israël de laisser entrer l'aide d'hiver ; les États-Unis n'ont pas signé. Selon l'ONU, 150 000 tentes sont bloquées aux frontières et 350 000 déplacés sont exposés aux inondations et au froid.",
-     "why": "Illustre le poids et les limites de la pression diplomatique multilatérale.",
-     "source": "Times of Israel",
-     "url": "https://www.timesofisrael.com/liveblog-november-13-2026/"
-    },
-    {
-     "cat": "France",
-     "title": "Israël refuse l'entrée à Jean-Luc Mélenchon",
-     "text": "Israël a interdit l'entrée de son territoire au leader de La France insoumise ; le gouvernement français a qualifié la décision de « démagogique ».",
-     "why": "Un dossier où politique intérieure et relations diplomatiques se croisent.",
-     "source": "Presse Évasion",
-     "url": "https://www.presse-evasion.fr/article/revue-presse-13-11-2026"
-    },
-    {
-     "cat": "Tech",
-     "title": "Panne Microsoft mondiale",
-     "text": "Outlook, Teams et Copilot ont été perturbés dans au moins 74 pays.",
-     "why": "Rappelle la dépendance des entreprises à quelques fournisseurs de cloud (risque de concentration).",
-     "source": "Havana Times",
-     "url": "https://havanatimes.org/news/international-news-briefs-for-friday-november-13-2026/"
-    }
-   ],
-   "history": [
-    {
-     "title": "14 novembre 1940 : Coventry bombardée",
-     "text": "La Luftwaffe rase le centre de Coventry en une nuit. Le verbe allemand « coventrieren » désignera ensuite la destruction totale d'une ville."
-    },
-    {
-     "title": "14 novembre 1889 : le tour du monde de Nellie Bly",
-     "text": "La journaliste américaine part pour battre le record fictif du « Tour du monde en 80 jours » de Jules Verne. Elle boucle le voyage en 72 jours."
-    },
-    {
-     "title": "14 novembre 1969 : Apollo 12",
-     "text": "La fusée est frappée deux fois par la foudre au décollage, mais la mission atteint la Lune : deuxième alunissage habité de l'histoire."
-    }
-   ],
-   "agenda": [
-    {
-     "date": "Semaine prochaine",
-     "t": "Résultats trimestriels de Nvidia, très attendus après le départ de Huang"
-    },
-    {
-     "date": "20 nov.",
-     "t": "Fin de la COP31"
-    },
-    {
-     "date": "Décembre",
-     "t": "Dernière réunion de l'année de la Fed sur les taux"
-    }
-   ],
-   "quiz": [
-    {
-     "prompt": "Qui assure l'intérim à la tête de Nvidia après la démission de Jensen Huang ?",
-     "options": [
-      "Lisa Su",
-      "Colette Kress",
-      "Satya Nadella",
-      "Pat Gelsinger"
-     ],
-     "answer": 1,
-     "explanation": "Colette Kress, directrice financière de Nvidia, est PDG par intérim. (Lisa Su dirige AMD.)"
-    },
-    {
-     "prompt": "Pourquoi le détroit d'Ormuz compte autant pour les marchés ?",
-     "options": [
-      "C'est le principal passage du gaz russe",
-      "Environ un cinquième du pétrole mondial y transite",
-      "Il relie la mer Rouge à la Méditerranée",
-      "Il abrite les plus grandes réserves d'or"
-     ],
-     "answer": 1,
-     "explanation": "Ormuz relie le golfe Persique à l'océan Indien ; une grande part du pétrole exporté par le Golfe y passe."
-    },
-    {
-     "prompt": "Une baisse de tout un secteur après une mauvaise nouvelle sur son leader s'appelle :",
-     "options": [
-      "Un short squeeze",
-      "Une contagion sectorielle",
-      "Un dividende exceptionnel",
-      "Une OPA"
-     ],
-     "answer": 1,
-     "explanation": "Contagion sectorielle : l'incertitude sur Nvidia a entraîné AMD et Intel."
     }
    ]
   }
