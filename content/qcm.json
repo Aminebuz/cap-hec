@@ -5481,6 +5481,179 @@
      "explanation": "INVERSION : Only after + proposition → auxiliaire + sujet (did the client send)."
     }
    ]
+  },
+  {
+   "id": "2026-11-28-aprem",
+   "created": "2026-11-28T14:15:00+01:00",
+   "title": "Samedi après-midi : participes, Partie 6 et inversions",
+   "theme": "Priorités + Partie 6 + thème 15 inversions",
+   "questions": [
+    {
+     "prompt": "The ------- schedule was sent to all participants yesterday.",
+     "options": [
+      "revise",
+      "revising",
+      "revised",
+      "revision"
+     ],
+     "answer": 2,
+     "explanation": "-ED (sens passif) : le programme a été modifié → the revised schedule."
+    },
+    {
+     "prompt": "The sales figures for this quarter are very -------.",
+     "options": [
+      "promised",
+      "promising",
+      "promise",
+      "promisingly"
+     ],
+     "answer": 1,
+     "explanation": "-ING : les chiffres PROMETTENT (sont prometteurs) → promising."
+    },
+    {
+     "prompt": "All products must ------- with international safety standards.",
+     "options": [
+      "comply",
+      "adhere",
+      "respect",
+      "follow"
+     ],
+     "answer": 0,
+     "explanation": "comply WITH."
+    },
+    {
+     "prompt": "------- the high cost, the company decided to upgrade its servers.",
+     "options": [
+      "Although",
+      "Despite",
+      "Even though",
+      "Because"
+     ],
+     "answer": 1,
+     "explanation": "DESPITE + NOM (the high cost). Although + phrase."
+    },
+    {
+     "prompt": "The investors appreciated the founder's ------- about the risks.",
+     "options": [
+      "honest",
+      "honestly",
+      "honesty",
+      "honestness"
+     ],
+     "answer": 2,
+     "explanation": "Possessif + NOM : honesty."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Members, We are pleased to announce that the (1) ___ fitness center will reopen on Monday, December 7. All members are (2) ___ to one free session with a personal trainer. (3) ___ Should you (4) ___ any questions, please contact the front desk. We look forward to welcoming you back. The Management » — (1)",
+     "options": [
+      "renovate",
+      "renovating",
+      "renovated",
+      "renovation"
+     ],
+     "answer": 2,
+     "explanation": "the RENOVATED fitness center (rénové) → -ED, sens passif."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Members, We are pleased to announce that the (1) ___ fitness center will reopen on Monday, December 7. All members are (2) ___ to one free session with a personal trainer. (3) ___ Should you (4) ___ any questions, please contact the front desk. We look forward to welcoming you back. The Management » — (2)",
+     "options": [
+      "eligible",
+      "entitled",
+      "able",
+      "capable"
+     ],
+     "answer": 1,
+     "explanation": "be ENTITLED TO + nom (avoir droit à). eligible FOR."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Members, We are pleased to announce that the (1) ___ fitness center will reopen on Monday, December 7. All members are (2) ___ to one free session with a personal trainer. (3) ___ Should you (4) ___ any questions, please contact the front desk. We look forward to welcoming you back. The Management » — (3)",
+     "options": [
+      "Sessions can be booked online or at the front desk.",
+      "The center was built in 2005.",
+      "Membership fees will rise next year.",
+      "Our café serves breakfast."
+     ],
+     "answer": 0,
+     "explanation": "Phrase à insérer : elle explique comment profiter de la séance gratuite annoncée juste avant."
+    },
+    {
+     "prompt": "[Partie 6] « Dear Members, We are pleased to announce that the (1) ___ fitness center will reopen on Monday, December 7. All members are (2) ___ to one free session with a personal trainer. (3) ___ Should you (4) ___ any questions, please contact the front desk. We look forward to welcoming you back. The Management » — (4)",
+     "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+     ],
+     "answer": 0,
+     "explanation": "INVERSION : Should you + BASE VERBALE (have) = If you have."
+    },
+    {
+     "prompt": "Never ------- such a large order from a single client.",
+     "options": [
+      "we have received",
+      "have we received",
+      "we received",
+      "received we"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION après Never : auxiliaire + sujet → have we received."
+    },
+    {
+     "prompt": "Not only ------- the deadline, but they also reduced costs.",
+     "options": [
+      "they met",
+      "did they meet",
+      "they did meet",
+      "met they"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION : Not only + did + sujet + base verbale."
+    },
+    {
+     "prompt": "------- you need assistance, our staff will be happy to help.",
+     "options": [
+      "Should",
+      "Had",
+      "Were",
+      "Would"
+     ],
+     "answer": 0,
+     "explanation": "Should you need = If you need."
+    },
+    {
+     "prompt": "------- we known about the delay, we would have changed our plans.",
+     "options": [
+      "Should",
+      "Had",
+      "Were",
+      "Did"
+     ],
+     "answer": 1,
+     "explanation": "Had we known = If we had known (conditionnel type 3)."
+    },
+    {
+     "prompt": "Seldom ------- the CEO attend these meetings.",
+     "options": [
+      "does",
+      "do",
+      "is",
+      "has"
+     ],
+     "answer": 0,
+     "explanation": "INVERSION après Seldom (rarement) : does + sujet singulier + base verbale."
+    },
+    {
+     "prompt": "Only when the report is finished ------- leave the office.",
+     "options": [
+      "you can",
+      "can you",
+      "you could",
+      "could you can"
+     ],
+     "answer": 1,
+     "explanation": "INVERSION : Only when… → auxiliaire + sujet (can you)."
+    }
+   ]
   }
  ]
 }
